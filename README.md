@@ -21,3 +21,11 @@ To enable GitHub Pages, choose **Settings → Pages → Deploy from a branch →
 The dashboard deliberately shows no made-up data if the collector has not run or the feed is unavailable. The collector is best-effort; it never claims to show every cyberattack. If both feeds fail, it preserves the last successful saved data without changing the timestamp.
 
 © Useless Instruments LLC.
+
+## Version 002 and history
+
+The primary view is a source-backed ongoing record list, with a secondary map and sector filters. **All sectors** includes general observations and vulnerability advisories; sector-specific filters intentionally remain empty until a trusted incident feed explicitly documents affected infrastructure sectors. No industry is inferred from an IP address, country, or vendor.
+
+The collector writes `data/activity.json` and appends one timestamped sample per successful run to `data/history.json`. These observations are permanent repository history, but are **not** counts of cyberattacks or a continuous risk score. Missing collection periods are not interpolated. The chart displays the latest 40 saved samples while the JSON retains older snapshots.
+
+If the site shows “Feed unavailable,” open **Actions → Refresh public cyber feeds → Run workflow** once and check whether the `data` files were committed. Scheduled runs occur every three hours; your web host must publish the new data files when the bot commits. GitHub Pages configured to deploy from a branch may not publish changes committed with the default `GITHUB_TOKEN`; use a GitHub Pages Actions-based deployment workflow or an external host that redeploys on the data commit.
