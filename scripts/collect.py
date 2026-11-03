@@ -60,7 +60,10 @@ except Exception as ex:
     print("SANS:",repr(ex))
 
 try:
-    raw = get("https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json")
+    try:
+        raw = get("https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json")
+    except Exception:
+        raw = get("https://raw.githubusercontent.com/cisagov/kev-data/main/known_exploited_vulnerabilities.json")
     vulns = json.loads(raw)["vulnerabilities"]
     vulns.sort(key=lambda v: (v.get("dateAdded",""),v.get("cveID","")), reverse=True)
     for v in vulns[:60]:
