@@ -1,0 +1,15 @@
+{
+  "description": "Recorded feed snapshots; not attack totals or threat magnitudes.",
+  "snapshots": [
+    {
+      "at": "2026-11-03T14:07:31.894229+00:00",
+      "network_records": 15,
+      "advisory_records": 60,
+      "mapped_sources": 15,
+      "sources_available": {
+        "sans": true,
+        "cisa": true
+      }
+    }
+  ]
+}
