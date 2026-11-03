@@ -66,17 +66,39 @@ function historyChart(snaps){
  svg.innerHTML=elements;
  $('historyLegend').textContent=data.length+' recent snapshots displayed · Orange: SANS records · Teal: CISA records';
 }
+async function fetchVerifiedCisaFallback(){
+ const urls=[
+  'https://raw.githubusercontent.com/cisagov/kev-data/develop/known_exploited_vulnerabilities.json',
+  'https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json'
+ ];
+ let last;
+ for(const url of urls){
+  try{
+   const response=await fetch(url,{cache:'no-store'});
+   if(!response.ok)throw Error('Source HTTP '+response.status);
+   const feed=await response.json();
+   if(!Array.isArray(feed.vulnerabilities)||!feed.vulnerabilities.length)throw Error('Invalid CISA catalog');
+   const sorted=[...feed.vulnerabilities].sort((a,b)=>String(b.dateAdded||'').localeCompare(String(a.dateAdded||''))).slice(0,60);
+   return {updated_at:new Date().toISOString(),points:[],events:sorted.map(v=>({
+     type:'advisory', title:(v.cveID||'')+' · '+(v.vendorProject||'Unknown vendor')+' / '+(v.product||'Unknown product'),
+     note:v.vulnerabilityName||v.shortDescription||'Known exploited vulnerability',date:v.dateAdded||'',
+     url:'https://www.cve.org/CVERecord?id='+encodeURIComponent(v.cveID||''), source:'CISA KEV (direct)',
+     sector:'unclassified',importance:'unrated'
+   })),errors:['GitHub collector has not published network data. Showing verified CISA catalog directly.'],direct:true};
+  }catch(e){last=e;}
+ }
+ throw Error('CISA direct fallback unavailable: '+(last?.message||'unknown error'));
+}
 async function load(){
  try{
  const [a,h]=await Promise.all([fetch('./data/activity.json?t='+Date.now(),{cache:'no-store'}),fetch('./data/history.json?t='+Date.now(),{cache:'no-store'}).catch(()=>null)]);
- if(!a.ok)throw Error('Activity dataset not published (HTTP '+a.status+')');
- const d=await a.json();records=Array.isArray(d.events)?d.events:[];const pts=Array.isArray(d.points)?d.points:[];
+ const d=a.ok?await a.json():await fetchVerifiedCisaFallback();records=Array.isArray(d.events)?d.events:[];const pts=Array.isArray(d.points)?d.points:[];
  const hist=h&&h.ok?await h.json():{snapshots:[]};const snaps=Array.isArray(hist.snapshots)?hist.snapshots:[];
  $('networkCount').textContent=records.filter(x=>x.type==='network').length;
  $('advisoryCount').textContent=records.filter(x=>x.type==='advisory').length;
  $('mapCount').textContent=pts.length;$('historyCount').textContent=snaps.length;
- const t=new Date(d.updated_at);$('updated').textContent='Last collection: '+(isNaN(t)?'unknown':t.toLocaleString());
- $('status').textContent='Public sources '+(isNaN(t)?'loaded':(Date.now()-t.getTime()>6*3600000?'stale':'loaded'));
+ const t=new Date(d.updated_at);$('updated').textContent=d.direct?'Direct CISA catalog · retrieved '+t.toLocaleString():'Last collection: '+(isNaN(t)?'unknown':t.toLocaleString());
+ $('status').textContent=d.direct?'CISA catalog online · network feed pending':'Public sources '+(isNaN(t)?'loaded':(Date.now()-t.getTime()>6*3600000?'stale':'loaded'));
  $('status').classList.toggle('ok',!isNaN(t)&&Date.now()-t.getTime()<=6*3600000);
  layer.clearLayers();pts.forEach(p=>{if(!Number.isFinite(p.lat)||!Number.isFinite(p.lon))return;L.circleMarker([p.lat,p.lon],{radius:5,color:'#ffba95',fillColor:'#ff886c',fillOpacity:.75,weight:1}).addTo(layer).bindPopup('<b>Reported source infrastructure</b><br>'+esc(p.ip)+'<br>'+esc(p.country||'')+'<br>Approximate location only')});
  historyChart(snaps);display();
