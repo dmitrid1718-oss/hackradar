@@ -92,8 +92,8 @@ async function fetchVerifiedCisaFallback(){
 async function load(){
  try{
  const [a,h]=await Promise.all([fetch('./data/activity.json?t='+Date.now(),{cache:'no-store'}),fetch('./data/history.json?t='+Date.now(),{cache:'no-store'}).catch(()=>null)]);
- const d=a.ok?await a.json():await fetchVerifiedCisaFallback();records=Array.isArray(d.events)?d.events:[];const pts=Array.isArray(d.points)?d.points:[];
- const hist=h&&h.ok?await h.json():{snapshots:[]};const snaps=Array.isArray(hist.snapshots)?hist.snapshots:[];
+ let d;try{if(!a.ok)throw Error('No local data');d=await a.json();if(!Array.isArray(d.events))throw Error('Invalid local feed')}catch{d=await fetchVerifiedCisaFallback()};records=Array.isArray(d.events)?d.events:[];const pts=Array.isArray(d.points)?d.points:[];
+ let hist={snapshots:[]};try{if(h&&h.ok)hist=await h.json()}catch{}const snaps=Array.isArray(hist.snapshots)?hist.snapshots:[];
  $('networkCount').textContent=records.filter(x=>x.type==='network').length;
  $('advisoryCount').textContent=records.filter(x=>x.type==='advisory').length;
  $('mapCount').textContent=pts.length;$('historyCount').textContent=snaps.length;
