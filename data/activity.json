@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T17:35:18.274833+00:00",
+  "updated_at": "2026-11-03T23:28:57.325913+00:00",
   "points": [
     {
       "ip": "23.94.68.19",
@@ -240,6 +240,16 @@
       "date": "2026-11-03",
       "url": "https://www.dshield.org/ipinfo.html?ip=194.180.49.217",
       "source": "SANS ISC DShield",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-119977 · WordPress / WordPress Core",
+      "note": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+      "date": "2026-11-03",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-119977",
+      "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
     },
@@ -829,16 +839,6 @@
       "note": "ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
       "date": "2026-09-11",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-84869",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-42018 · JFrog / Artifactory",
-      "note": "JFrog Artifactory Improper Authentication Vulnerability",
-      "date": "2026-09-11",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-42018",
       "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
