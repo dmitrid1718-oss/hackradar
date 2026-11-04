@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "HackRadar — Cyber Activity Observatory",
+  "short_name": "HackRadar",
+  "description": "Source-backed public cyber observations, regional radar views, and recorded history.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#07121a",
+  "theme_color": "#07121a",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
