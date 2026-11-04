@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T15:30:30.357527+00:00",
+  "updated_at": "2026-11-04T21:56:37.958124+00:00",
   "points": [
     {
       "ip": "23.94.68.19",
@@ -240,6 +240,16 @@
       "date": "2026-11-04",
       "url": "https://www.dshield.org/ipinfo.html?ip=194.180.49.217",
       "source": "SANS ISC DShield",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2024-27834 · Apple / Multiple Products",
+      "note": "Apple Multiple Products Improper Authentication Vulnerability",
+      "date": "2026-11-04",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2024-27834",
+      "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
     },
@@ -829,16 +839,6 @@
       "note": "GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
       "date": "2026-09-11",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-85706",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-84869 · ConnectWise / ScreenConnect",
-      "note": "ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
-      "date": "2026-09-11",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-84869",
       "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
