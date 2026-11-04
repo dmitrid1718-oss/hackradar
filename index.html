@@ -31,23 +31,57 @@
 <button class="btn" aria-pressed="false" data-sector="industrial">Industrial</button>
 <button class="btn" aria-pressed="false" data-sector="food">Food & agriculture</button>
 </div><p class="small" id="sectorNotice">All sectors includes unclassified general cyber observations. Individual sectors require verified target-sector evidence.</p></section>
+<section class="panel filters" aria-label="Geographic source radars">
+<div class="eyebrow">GEOGRAPHIC SOURCE RADARS · OBSERVED IP LOCATIONS</div>
+<div id="regions" class="filterset">
+<button class="btn active" aria-pressed="true" data-region="world">◎ Global</button>
+<button class="btn" aria-pressed="false" data-region="ua">🇺🇦 Ukraine Radar</button>
+<button class="btn" aria-pressed="false" data-region="ru">🇷🇺 Russia Radar</button>
+<button class="btn" aria-pressed="false" data-region="both">🇺🇦 + 🇷🇺 Both</button>
+</div><p class="small" id="regionNotice">Global source observations. Geography is an approximate IP location, not an attack target or verified attacker origin.</p>
+</section>
 <div class="layout">
 <section class="panel"><div class="head"><div><h2>Latest recorded activity</h2><div class="small" id="listSubtitle">Source-backed records · no estimated severity scores</div></div><div class="typefilters"><button class="btn active" data-kind="all" aria-pressed="true">All types</button><button class="btn" data-kind="network" aria-pressed="false">Network</button><button class="btn" data-kind="advisory" aria-pressed="false">Advisories</button></div></div><div class="records" id="activity" aria-live="polite"><div class="empty">Loading public data…</div></div></section>
 <div class="right-col">
 <section class="panel chartpanel"><div class="head"><div><h2>Observation history</h2><div class="small">Saved snapshots · NOT attack counts</div></div></div><div class="chartbox"><svg id="historyChart" viewBox="0 0 340 155" role="img" aria-label="Historical recorded observation counts"></svg><div id="historyLegend">No archived collections yet.</div></div></section>
 <section class="panel"><div class="head"><div><h2>Global source map</h2><div class="small">Approximate IP location · secondary view</div></div><button class="btn" id="resetMap">Reset</button></div><div id="map" aria-label="Map of publicly reported source IPs"></div><div class="map-note">Dots show reported source infrastructure, not attackers or destinations. Map points are not assigned a critical-infrastructure sector.</div></section>
 </div></div>
-<section class="panel notes"><h2>Reading HackRadar responsibly</h2><p><strong>Network observations</strong> are suspicious-source IPs from <a href="https://www.dshield.org/feeds_doc.html" target="_blank" rel="noopener">SANS Internet Storm Center / DShield</a>. They are not confirmed breaches. <strong>CISA advisories</strong> are known exploited vulnerabilities from <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener">CISA KEV</a>, not individual incidents. Their catalog addition dates are not attack timestamps.</p><p>Sector filters only show incidents explicitly classified by trusted sources; we will not guess targets from IPs, countries, or product names. An empty sector does not mean that sector is safe. Historical trends are counts of records visible in our snapshots, not global attack volume. No data is invented to fill gaps.</p><p id="errors" style="color:#ffc09b" hidden></p></section>
+<section class="panel notes"><h2>Reading HackRadar responsibly</h2><p><strong>Network observations</strong> are suspicious-source IPs from <a href="https://www.dshield.org/feeds_doc.html" target="_blank" rel="noopener">SANS Internet Storm Center / DShield</a>. They are not confirmed breaches. <strong>CISA advisories</strong> are known exploited vulnerabilities from <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener">CISA KEV</a>, not individual incidents. Their catalog addition dates are not attack timestamps.</p><p>Regional radars filter geographically located source IPs in the limited global feed, not verified attacks against those countries. An empty regional radar is not evidence of safety. Sector filters only show incidents explicitly classified by trusted sources; we will not guess targets from IPs, countries, or product names. An empty sector does not mean that sector is safe. Historical trends are counts of records visible in our snapshots, not global attack volume. No data is invented to fill gaps.</p><p id="errors" style="color:#ffc09b" hidden></p></section>
 <footer><span>© <span id="year"></span> Useless Instruments LLC · HackRadar™</span><span><a href="https://uselessinstruments.com/">Useless Instruments</a> · <a href="https://readyenough.org/">ReadyEnough</a> · Information only</span></footer></main>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 const $=id=>document.getElementById(id);$('year').textContent=new Date().getFullYear();
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let records=[],sector='all',kind='all';const map=L.map('map',{worldCopyJump:true}).setView([20,5],2);
+let records=[],points=[],sector='all',kind='all',region='world';const map=L.map('map',{worldCopyJump:true}).setView([20,5],2);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap contributors',maxZoom:10,className:'base-tiles'}).addTo(map);
-const layer=L.layerGroup().addTo(map);$('resetMap').onclick=()=>map.setView([20,5],2);
+const layer=L.layerGroup().addTo(map);
+const regionCenters={world:[20,5,2],ua:[49,32,6],ru:[59,85,3],both:[53,49,4]};
+const normalizeCountry=s=>String(s||'').trim().toLowerCase();
+function regionMatches(p){
+ if(region==='world')return true;
+ const c=normalizeCountry(p.country),code=normalizeCountry(p.country_code);
+ return region==='ua'?(c==='ukraine'||code==='ua'):region==='ru'?(c==='russia'||c==='russian federation'||code==='ru'):(c==='ukraine'||code==='ua'||c==='russia'||c==='russian federation'||code==='ru');
+}
+function setMapRegion(){const [lat,lon,z]=regionCenters[region];map.setView([lat,lon],z);}
+function renderMap(){
+ layer.clearLayers();
+ points.filter(regionMatches).forEach(p=>{if(!Number.isFinite(p.lat)||!Number.isFinite(p.lon))return;
+ L.circleMarker([p.lat,p.lon],{radius:5,color:'#ffba95',fillColor:'#ff886c',fillOpacity:.75,weight:1}).addTo(layer)
+ .bindPopup('<b>Reported source infrastructure</b><br>'+esc(p.ip)+'<br>'+esc(p.country||'')+'<br>Approximate IP location only')});
+}
+$('resetMap').onclick=setMapRegion;
+document.querySelectorAll('[data-region]').forEach(b=>b.onclick=()=>{
+ region=b.dataset.region;
+ document.querySelectorAll('[data-region]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b));});
+ setMapRegion();renderMap();display();
+});
 function display(){
- const filtered=records.filter(r=>(sector==='all'||r.sector===sector)&&(kind==='all'||r.type===kind));
+ const locatedIPs=new Set(points.filter(regionMatches).map(p=>p.ip));
+ const filtered=records.filter(r=>(sector==='all'||r.sector===sector)&&(kind==='all'||r.type===kind)&&(region==='world'||(r.type==='network'&&locatedIPs.has((r.title||'').split(' · ').pop()))));
+ const visiblePoints=points.filter(regionMatches).length;
+ $('regionNotice').textContent=region==='world'
+  ?'Global source observations. Geography is an approximate IP location, not an attack target or verified attacker origin.'
+  :visiblePoints+' geolocated source IP'+(visiblePoints===1?'':'s')+' in selected region, from the limited SANS global top-source sample. CISA advisories have no country assignment. Zero matches does not mean zero cyber activity.';
  $('listSubtitle').textContent=filtered.length+' matching records · source-backed, no estimated severity';
  $('activity').innerHTML=filtered.length?filtered.map(r=>'<article class="record"><div class="record-top"><span class="tag '+(r.type==='network'?'network':'')+'">'+(r.type==='network'?'NETWORK OBSERVATION':r.type==='advisory'?'CISA VULNERABILITY ADVISORY':'SOURCE-REPORTED INCIDENT')+'</span><span class="small">'+esc(r.date||'')+'</span></div><h3>'+esc(r.title)+'</h3><p>'+esc(r.note||'')+'</p><div class="small">Source: '+esc(r.source||'unknown')+' · Sector: '+esc(r.sector||'unclassified')+'</div><a href="'+esc(r.url)+'" target="_blank" rel="noopener noreferrer">Original record ↗</a></article>').join(''):'<div class="empty">'+(records.length?'No source-verified records match these filters. This does not indicate zero real-world activity.':'No published feed data yet. The collector needs a successful run.')+'</div>';
  $('sectorNotice').textContent=sector==='all'?'All sectors includes unclassified network observations and advisories.':'Sector-specific view: only explicitly classified incidents appear. General scans and CVEs are not sector incidents.';
@@ -92,7 +126,7 @@ async function fetchVerifiedCisaFallback(){
 async function load(){
  try{
  const [a,h]=await Promise.all([fetch('./data/activity.json?t='+Date.now(),{cache:'no-store'}),fetch('./data/history.json?t='+Date.now(),{cache:'no-store'}).catch(()=>null)]);
- let d;try{if(!a.ok)throw Error('No local data');d=await a.json();if(!Array.isArray(d.events))throw Error('Invalid local feed')}catch{d=await fetchVerifiedCisaFallback()};records=Array.isArray(d.events)?d.events:[];const pts=Array.isArray(d.points)?d.points:[];
+ let d;try{if(!a.ok)throw Error('No local data');d=await a.json();if(!Array.isArray(d.events))throw Error('Invalid local feed')}catch{d=await fetchVerifiedCisaFallback()};records=Array.isArray(d.events)?d.events:[];points=Array.isArray(d.points)?d.points:[];const pts=points;
  let hist={snapshots:[]};try{if(h&&h.ok)hist=await h.json()}catch{}const snaps=Array.isArray(hist.snapshots)?hist.snapshots:[];
  $('networkCount').textContent=records.filter(x=>x.type==='network').length;
  $('advisoryCount').textContent=records.filter(x=>x.type==='advisory').length;
@@ -100,7 +134,7 @@ async function load(){
  const t=new Date(d.updated_at);$('updated').textContent=d.direct?'Direct CISA catalog · retrieved '+t.toLocaleString():'Last collection: '+(isNaN(t)?'unknown':t.toLocaleString());
  $('status').textContent=d.direct?'CISA catalog online · network feed pending':'Public sources '+(isNaN(t)?'loaded':(Date.now()-t.getTime()>6*3600000?'stale':'loaded'));
  $('status').classList.toggle('ok',!isNaN(t)&&Date.now()-t.getTime()<=6*3600000);
- layer.clearLayers();pts.forEach(p=>{if(!Number.isFinite(p.lat)||!Number.isFinite(p.lon))return;L.circleMarker([p.lat,p.lon],{radius:5,color:'#ffba95',fillColor:'#ff886c',fillOpacity:.75,weight:1}).addTo(layer).bindPopup('<b>Reported source infrastructure</b><br>'+esc(p.ip)+'<br>'+esc(p.country||'')+'<br>Approximate location only')});
+ renderMap();
  historyChart(snaps);display();
  if(d.errors?.length){$('errors').hidden=false;$('errors').textContent='Source status: '+d.errors.join(' · ')}
  }catch(e){$('status').textContent='Feed unavailable';$('activity').innerHTML='<div class="empty">Public data not yet available. No sample incidents are displayed. Check the collector run and publishing status.</div>';$('errors').hidden=false;$('errors').textContent=e.message;historyChart([])}
