@@ -29,3 +29,16 @@ The primary view is a source-backed ongoing record list, with a secondary map an
 The collector writes `data/activity.json` and appends one timestamped sample per successful run to `data/history.json`. These observations are permanent repository history, but are **not** counts of cyberattacks or a continuous risk score. Missing collection periods are not interpolated. The chart displays the latest 40 saved samples while the JSON retains older snapshots.
 
 If the site shows “Feed unavailable,” open **Actions → Refresh public cyber feeds → Run workflow** once and check whether the `data` files were committed. Scheduled runs occur every three hours; your web host must publish the new data files when the bot commits. GitHub Pages configured to deploy from a branch may not publish changes committed with the default `GITHUB_TOKEN`; use a GitHub Pages Actions-based deployment workflow or an external host that redeploys on the data commit.
+
+## Install on a phone (PWA)
+
+HackRadar is installable from the existing HTTPS website; there is no separate App Store / Google Play listing.
+
+- **Android (Chrome/Edge):** visit https://hackradar.org, use **Install app** (or the browser's **Add to Home Screen** menu).
+- **iPhone (Safari):** visit https://hackradar.org, tap **Share → Add to Home Screen**.
+- The mobile app keeps the global and Ukraine/Russia source radar filters, public event list, and history.
+- Offline opening shows an honest offline screen rather than outdated feeds. **Live data and map tiles require an internet connection.**
+- No push alerts, account, native store publication, or background monitoring is included in this initial version.
+- Files: `manifest.webmanifest`, `icon.svg`, `sw.js`, and `offline.html`.
+
+A production HTTPS deployment must serve the manifest and service worker from the site root for installation to work.
