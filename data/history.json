@@ -70,6 +70,16 @@
         "sans": true,
         "cisa": true
       }
+    },
+    {
+      "at": "2026-11-05T11:06:22.166817+00:00",
+      "network_records": 15,
+      "advisory_records": 60,
+      "mapped_sources": 15,
+      "sources_available": {
+        "sans": true,
+        "cisa": true
+      }
     }
   ]
 }
