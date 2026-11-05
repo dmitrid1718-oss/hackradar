@@ -55,7 +55,7 @@
 <section class="panel"><div class="head"><div><h2>Latest recorded activity</h2><div class="small" id="listSubtitle">Source-backed records · no estimated severity scores</div></div><div class="typefilters"><button class="btn active" data-kind="all" aria-pressed="true">All types</button><button class="btn" data-kind="network" aria-pressed="false">Network</button><button class="btn" data-kind="advisory" aria-pressed="false">Advisories</button><button class="btn" data-kind="incident" aria-pressed="false">Confirmed incidents</button><button class="btn" data-kind="outage" aria-pressed="false">Service outages</button></div></div><div class="records" id="activity" aria-live="polite"><div class="empty">Loading public data…</div></div></section>
 <div class="right-col">
 <section class="panel chartpanel"><div class="head"><div><h2>Observation history</h2><div class="small">Saved snapshots · NOT attack counts</div></div></div><div class="chartbox"><svg id="historyChart" viewBox="0 0 340 155" role="img" aria-label="Historical recorded observation counts"></svg><div id="historyLegend">No archived collections yet.</div></div></section>
-<section class="panel"><div class="head"><div><h2>Global source map</h2><div class="small">Approximate IP location · secondary view</div></div><button class="btn" id="resetMap">Reset</button></div><div id="map" aria-label="Map of publicly reported source IPs"></div><div class="map-note">Dots show reported source infrastructure, not attackers or destinations. Map points are not assigned a critical-infrastructure sector.</div></section>
+<section class="panel"><div class="head"><div><h2>Global source map</h2><div class="small" id="mapSubtitle">Approximate IP location · source-backed</div></div><button class="btn" id="resetMap">Reset view</button></div><div id="map" aria-label="Map of publicly reported source IPs"></div><div class="map-note" id="mapNotice" role="status">Dots show reported source infrastructure, not attackers or destinations. Map markers follow the active filters. Unmapped incidents remain in the list.</div></section>
 </div></div>
 <section class="panel notes"><h2>Reading HackRadar responsibly</h2><p><strong>Network observations</strong> are suspicious-source IPs from <a href="https://www.dshield.org/feeds_doc.html" target="_blank" rel="noopener">SANS Internet Storm Center / DShield</a>. They are not confirmed breaches. <strong>CISA advisories</strong> are known exploited vulnerabilities from <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener">CISA KEV</a>, not individual incidents. Their catalog addition dates are not attack timestamps.</p><p>Regional radars filter geographically located source IPs in the limited global feed, not verified attacks against those countries. An empty regional radar is not evidence of safety. Banking includes documented bank/payment-system cyber incidents, separately from verified service outages. A service outage is not evidence of a cyberattack. Financial incident records are individually sourced and manually curated, not an exhaustive or instant threat feed. Sector filters only show incidents explicitly classified by trusted sources; we will not guess targets from IPs, countries, or product names. An empty sector does not mean that sector is safe. Historical trends are counts of records visible in our snapshots, not global attack volume. No data is invented to fill gaps.</p><p id="errors" style="color:#ffc09b" hidden></p></section>
 <footer><span>© <span id="year"></span> Useless Instruments LLC · HackRadar™</span><span><a href="https://uselessinstruments.com/">Useless Instruments</a> · <a href="https://readyenough.org/">ReadyEnough</a> · Information only</span></footer></main>
@@ -94,21 +94,38 @@ function regionMatches(p){
  return region==='ua'?(c==='ukraine'||code==='ua'):region==='ru'?(c==='russia'||c==='russian federation'||code==='ru'):(c==='ukraine'||code==='ua'||c==='russia'||c==='russian federation'||code==='ru');
 }
 function setMapRegion(){const [lat,lon,z]=regionCenters[region];map.setView([lat,lon],z);}
-function renderMap(){
+function filteredRecords(){
+ const locatedIPs=new Set(points.filter(regionMatches).map(p=>p.ip));
+ return records.filter(r=>(sector==='all'||r.sector===sector)&&(kind==='all'||r.type===kind)&&
+  (region==='world'||(r.type==='network'&&locatedIPs.has((r.title||'').split(' · ').pop()))));
+}
+function renderMap(filtered=filteredRecords()){
  layer.clearLayers();
- points.filter(regionMatches).forEach(p=>{if(!Number.isFinite(p.lat)||!Number.isFinite(p.lon))return;
- L.circleMarker([p.lat,p.lon],{radius:5,color:'#ffba95',fillColor:'#ff886c',fillOpacity:.75,weight:1}).addTo(layer)
- .bindPopup('<b>Reported source infrastructure</b><br>'+esc(p.ip)+'<br>'+esc(p.country||'')+'<br>Approximate IP location only')});
+ // The map has locations only for source IP observations. An advisory or
+ // confirmed sector incident without verified coordinates must not acquire a
+ // location inferred from a country, vendor, or source.
+ const visibleIPs=new Set(filtered.filter(r=>r.type==='network').map(r=>(r.title||'').split(' · ').pop()));
+ const shown=points.filter(p=>regionMatches(p)&&visibleIPs.has(p.ip)&&Number.isFinite(p.lat)&&Number.isFinite(p.lon));
+ shown.forEach(p=>{
+  L.circleMarker([p.lat,p.lon],{radius:5,color:'#ffba95',fillColor:'#ff886c',fillOpacity:.75,weight:1}).addTo(layer)
+   .bindPopup('<b>Reported source infrastructure</b><br>'+esc(p.ip)+'<br>'+esc(p.country||'')+'<br>Approximate IP location only');
+ });
+ $('mapSubtitle').textContent=shown.length+' matching mapped source IP'+(shown.length===1?'':'s')+' · selected filters';
+ const noGeo=filtered.some(r=>r.type!=='network');
+ $('mapNotice').textContent=shown.length
+  ?'Map markers match active region, sector and record-type filters. Approximate source-IP locations are not attacker or victim locations.'
+  :noGeo
+   ?'No geolocated source IPs match these filters. Other matching records are list-only: no verified geographic coordinates.'
+   :'No mapped IPs match these filters in the current limited sample. This does not mean there are no incidents in this area or sector.';
 }
 $('resetMap').onclick=setMapRegion;
 document.querySelectorAll('[data-region]').forEach(b=>b.onclick=()=>{
  region=b.dataset.region;
  document.querySelectorAll('[data-region]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b));});
- setMapRegion();renderMap();display();
+ setMapRegion();display();
 });
 function display(){
- const locatedIPs=new Set(points.filter(regionMatches).map(p=>p.ip));
- const filtered=records.filter(r=>(sector==='all'||r.sector===sector)&&(kind==='all'||r.type===kind)&&(region==='world'||(r.type==='network'&&locatedIPs.has((r.title||'').split(' · ').pop()))));
+ const filtered=filteredRecords();
  const visiblePoints=points.filter(regionMatches).length;
  $('regionNotice').textContent=region==='world'
   ?'Global source observations. Geography is an approximate IP location, not an attack target or verified attacker origin.'
@@ -116,6 +133,7 @@ function display(){
  $('listSubtitle').textContent=filtered.length+' matching records · source-backed, no estimated severity';
  $('activity').innerHTML=filtered.length?filtered.map(r=>'<article class="record"><div class="record-top"><span class="tag '+(r.type==='network'?'network':'')+'">'+(r.type==='network'?'NETWORK OBSERVATION':r.type==='advisory'?'CISA VULNERABILITY ADVISORY':r.type==='outage'?'SERVICE OUTAGE · CAUSE NOT ESTABLISHED':'SOURCE-CONFIRMED CYBER INCIDENT')+'</span><span class="small">'+esc(r.date||'')+'</span></div><h3>'+esc(r.title)+'</h3><p>'+esc(r.note||'')+'</p><div class="small">Source: '+esc(r.source||'unknown')+' · Sector: '+esc(r.sector||'unclassified')+'</div><a href="'+esc(r.url)+'" target="_blank" rel="noopener noreferrer">Original record ↗</a></article>').join(''):'<div class="empty">'+(records.length?'No source-verified records match these filters. This does not indicate zero real-world activity.':'No published feed data yet. The collector needs a successful run.')+'</div>';
  $('sectorNotice').textContent=sector==='all'?'All sectors includes unclassified network observations and advisories.':'Sector-specific view: only sourced, sector-confirmed events appear. Cyber incidents and service outages are different categories; general scans and CVEs are excluded.';
+ renderMap(filtered);
 }
 document.querySelectorAll('[data-sector]').forEach(b=>b.onclick=()=>{sector=b.dataset.sector;document.querySelectorAll('[data-sector]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));display()});
 document.querySelectorAll('[data-kind]').forEach(b=>b.onclick=()=>{kind=b.dataset.kind;document.querySelectorAll('[data-kind]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b))});display()});
@@ -165,9 +183,9 @@ async function load(){
  const t=new Date(d.updated_at);$('updated').textContent=d.direct?'Direct CISA catalog · retrieved '+t.toLocaleString():'Last collection: '+(isNaN(t)?'unknown':t.toLocaleString());
  $('status').textContent=d.direct?'CISA catalog online · network feed pending':'Public sources '+(isNaN(t)?'loaded':(Date.now()-t.getTime()>6*3600000?'stale':'loaded'));
  $('status').classList.toggle('ok',!isNaN(t)&&Date.now()-t.getTime()<=6*3600000);
- renderMap();
  historyChart(snaps);display();
- if(d.errors?.length){$('errors').hidden=false;$('errors').textContent='Source status: '+d.errors.join(' · ')}
+ $('errors').hidden=!(d.errors?.length);
+ $('errors').textContent=d.errors?.length?'Source status: '+d.errors.join(' · '):'';
  }catch(e){$('status').textContent='Feed unavailable';$('activity').innerHTML='<div class="empty">Public data not yet available. No sample incidents are displayed. Check the collector run and publishing status.</div>';$('errors').hidden=false;$('errors').textContent=e.message;historyChart([])}
 }
 load();setInterval(load,15*60*1000);
