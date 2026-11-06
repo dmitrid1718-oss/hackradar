@@ -51,24 +51,45 @@
 <button class="btn" aria-pressed="false" data-region="both">🇺🇦 + 🇷🇺 Both</button>
 </div><p class="small" id="regionNotice">Global source observations. Geography is an approximate IP location, not an attack target or verified attacker origin.</p>
 </section>
-<section class="panel filters" aria-label="Ukraine Russia air activity radar" id="airRadar">
-<div class="eyebrow">AIR ACTIVITY RADAR / UKRAINE + RUSSIA · PUBLIC REPORTS</div>
-<h2 style="margin:7px 0">Drone · missile · aircraft activity</h2>
-<p class="small">Retrospective public reporting only. No live tracks, launch coordinates, predicted routes, or inferred aircraft positions.</p>
-<div class="filterset" id="airRadarFilters">
-<button class="btn active" data-air="all" aria-pressed="true">All</button><button class="btn" data-air="drone" aria-pressed="false">Drones</button><button class="btn" data-air="missile" aria-pressed="false">Missiles</button><button class="btn" data-air="aircraft" aria-pressed="false">Aircraft</button><button class="btn" data-air="airspace" aria-pressed="false">Airspace</button>
+<section class="panel filters" id="airRadar" aria-label="Ukraine and Russia daily air activity">
+<div class="eyebrow">UKRAINE / RUSSIA AIR RADAR · DAILY SNAPSHOT</div>
+<h2 style="margin:6px 0">Last 24 hours</h2>
+<div class="stats" style="margin:12px 0;grid-template-columns:repeat(3,minmax(0,1fr))">
+<div class="stat"><div class="small">Drones launched</div><strong id="airDrones">—</strong></div>
+<div class="stat"><div class="small">Missiles launched</div><strong id="airMissiles">—</strong></div>
+<div class="stat"><div class="small">Aircraft incidents</div><strong id="airAircraft">—</strong></div>
 </div>
-<div id="airRadarResults" class="small" style="margin:14px 0 9px" role="status">Select a category to open authoritative reporting sources. Live incident data is not connected.</div>
-<div class="filterset">
-<a class="btn" data-air-source="drone missile aircraft" href="https://www.facebook.com/kpszsu/" target="_blank" rel="noopener">Ukrainian Air Force ↗</a>
-<a class="btn" data-air-source="drone missile aircraft" href="https://www.reuters.com/world/europe/" target="_blank" rel="noopener">Reuters Europe ↗</a>
-<a class="btn" data-air-source="airspace aircraft" href="https://www.eurocontrol.int/network-operations" target="_blank" rel="noopener">EUROCONTROL ↗</a>
-<a class="btn" data-air-source="airspace aircraft" href="https://www.easa.europa.eu/en/domains/air-operations/airspace-risk" target="_blank" rel="noopener">EASA airspace ↗</a>
-</div>
-<p class="small" style="margin-top:12px">Status: <strong>source directory only</strong> · No verified event feed or live airspace feed connected. Confirmed / reported / unverified classifications will appear only when individual timestamped records are integrated. For immediate safety use official local air alerts.</p>
+<div id="airMap" style="height:290px;border-radius:9px;overflow:hidden;background:#081724" aria-label="Regional locations of sourced air incidents"></div>
+<div class="small" style="margin-top:10px">🔴 Reported strike &nbsp; 🟠 Reported activity &nbsp; 🔵 Interception</div>
+<p class="small" id="airFreshness">Checking daily report…</p>
+<p class="small">Only source-verified regional locations appear. Markers are regional reference points, not strike coordinates or flight paths. Totals are not added across opposing military claims. No real-time tracking. For immediate safety, consult official alerts.</p>
 </section>
 <script>
-(function(){const panel=document.getElementById('airRadar');if(!panel)return;const buttons=panel.querySelectorAll('[data-air]');const links=panel.querySelectorAll('[data-air-source]');const status=document.getElementById('airRadarResults');buttons.forEach(b=>b.addEventListener('click',()=>{const kind=b.dataset.air;buttons.forEach(x=>{const active=x===b;x.classList.toggle('active',active);x.setAttribute('aria-pressed',String(active));});let count=0;links.forEach(a=>{const show=kind==='all'||a.dataset.airSource.split(' ').includes(kind);a.hidden=!show;if(show)count++;});status.textContent=kind==='all'?'All source categories · no live event feed connected.':kind.charAt(0).toUpperCase()+kind.slice(1)+' sources ('+count+') · no live event feed connected.';}));})();
+(async function(){
+const status=document.getElementById('airFreshness');
+const map=L.map('airMap',{scrollWheelZoom:false}).setView([49,33],5);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:12,className:'base-tiles'}).addTo(map);
+try{
+const response=await fetch('/air-activity.json?ts='+Date.now(),{cache:'no-store'});
+if(!response.ok)throw Error('No daily report');
+const d=await response.json();
+if(!d||!d.updated_at||!Array.isArray(d.locations))throw Error('Invalid report');
+const age=Date.now()-Date.parse(d.updated_at);
+const fresh=Number.isFinite(age)&&age>=0&&age<=30*3600*1000;
+for(const [id,key] of [['airDrones','drones'],['airMissiles','missiles'],['airAircraft','aircraft']]){
+const val=d.totals?.[key];document.getElementById(id).textContent=Number.isInteger(val)&&val>=0?String(val):'—';
+}
+const colors={strike:'#ff6666',activity:'#ffae71',interception:'#68b9ff'};
+for(const p of d.locations){
+if(!p||!Number.isFinite(p.lat)||!Number.isFinite(p.lon)||!p.region||!p.source_url||!/^https:\/\//.test(p.source_url)||!colors[p.type])continue;
+const circle=L.circleMarker([p.lat,p.lon],{radius:7,color:colors[p.type],fillColor:colors[p.type],fillOpacity:.75,weight:1}).addTo(map);
+const popup=document.createElement('div');const title=document.createElement('strong');title.textContent=p.region;popup.append(title,document.createElement('br'));
+const label=document.createElement('span');label.textContent=p.type+' · '+(p.status||'reported');popup.append(label,document.createElement('br'));
+const link=document.createElement('a');link.href=p.source_url;link.target='_blank';link.rel='noopener';link.textContent='Source';popup.append(link);circle.bindPopup(popup);
+}
+status.textContent=(fresh?'Daily snapshot':'STALE SNAPSHOT — verify before use')+' · Updated '+new Date(d.updated_at).toLocaleString()+' · '+(d.window||'Reporting window not specified')+(d.source_url?' · Source available in report':'');
+}catch(e){status.textContent='Daily report unavailable · no verified totals or map markers. Source feed not connected.';}
+})();
 </script>
 <div class="layout">
 <section class="panel"><div class="head"><div><h2>Latest recorded activity</h2><div class="small" id="listSubtitle">Source-backed records · no estimated severity scores</div></div><div class="typefilters"><button class="btn active" data-kind="all" aria-pressed="true">All types</button><button class="btn" data-kind="network" aria-pressed="false">Network</button><button class="btn" data-kind="advisory" aria-pressed="false">Advisories</button><button class="btn" data-kind="incident" aria-pressed="false">Confirmed incidents</button><button class="btn" data-kind="outage" aria-pressed="false">Service outages</button></div></div><div class="records" id="activity" aria-live="polite"><div class="empty">Loading public data…</div></div></section>
