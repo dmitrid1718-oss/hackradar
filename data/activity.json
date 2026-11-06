@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T15:58:52.818536+00:00",
+  "updated_at": "2026-11-06T21:34:48.998049+00:00",
   "points": [
     {
       "ip": "23.94.68.19",
@@ -272,6 +272,16 @@
       "date": "2026-11-06",
       "url": "https://www.dshield.org/ipinfo.html?ip=194.180.49.217",
       "source": "SANS ISC DShield",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-19868 · SonicWall / SonicOS SSLVPN",
+      "note": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+      "date": "2026-11-06",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-19868",
+      "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
     },
@@ -861,16 +871,6 @@
       "note": "Cisco Secure Email Gateway SQL Injection Vulnerability",
       "date": "2026-09-14",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-76461",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-85706 · GitLab / Community Edition and Enterprise Edition",
-      "note": "GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
-      "date": "2026-09-11",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-85706",
       "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
