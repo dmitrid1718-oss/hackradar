@@ -18,8 +18,8 @@
 #installHelp button{margin-top:8px}
 @media(display-mode:standalone){#installApp{display:none!important}}
 </style></head>
-<body><header><div class="logo"><span class="radar" aria-hidden="true">◎</span>HACKRADAR<sup>™</sup></div><div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap"><button id="installApp" class="btn install-action" type="button" hidden>Install app</button><span class="status" id="status" role="status">Checking sources</span></div></header>
-<main><div id="installHelp" class="panel" hidden role="status"></div><div class="top"><div><div class="eyebrow">PUBLIC CYBER ACTIVITY OBSERVATORY / 002</div><h1>See the invisible internet.</h1><p>Recent observations, known exploited vulnerabilities, and recorded history.</p></div><div class="small" id="updated">Data retrieval: checking…</div></div>
+<body><header><div class="logo"><span class="radar" aria-hidden="true">◎</span>HACKRADAR<sup>™</sup></div><div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap"><span class="status" id="status" role="status">Checking sources</span></div></header>
+<main><div class="top"><div><div class="eyebrow">PUBLIC CYBER ACTIVITY OBSERVATORY / 002</div><h1>See the invisible internet.</h1><p>Recent observations, known exploited vulnerabilities, and recorded history.</p></div><div class="small" id="updated">Data retrieval: checking…</div></div>
 <div class="stats">
   <div class="stat"><div class="small">Network source entries</div><strong id="networkCount">—</strong><div class="small">SANS snapshot</div></div>
   <div class="stat"><div class="small">CISA advisory entries</div><strong id="advisoryCount">—</strong><div class="small">Latest catalog selection</div></div>
@@ -103,25 +103,6 @@ status.textContent=(fresh?'Daily snapshot':'STALE SNAPSHOT — verify before use
 <script>
 const $=id=>document.getElementById(id);$('year').textContent=new Date().getFullYear();
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}
-let pendingInstall=null;
-const standalone=()=>window.matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
-const installBtn=$('installApp'),installHelp=$('installHelp');
-window.addEventListener('beforeinstallprompt',event=>{
- event.preventDefault();pendingInstall=event;
- if(!standalone())installBtn.hidden=false;
-});
-window.addEventListener('appinstalled',()=>{pendingInstall=null;installBtn.hidden=true;installHelp.hidden=true;});
-const isiOS=/iPad|iPhone|iPod/.test(navigator.userAgent);
-if(isiOS&&!standalone())installBtn.hidden=false;
-installBtn.addEventListener('click',async()=>{
- if(pendingInstall){
-  const prompt=pendingInstall;pendingInstall=null;installBtn.hidden=true;
-  prompt.prompt();await prompt.userChoice.catch(()=>{});
- }else{
-  installHelp.hidden=false;
-  installHelp.textContent=isiOS?'On iPhone or iPad: open HackRadar in Safari, tap Share, then Add to Home Screen.':'To install: open your browser menu and choose Install app or Add to Home Screen.';
- }
-});
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let records=[],points=[],sector='all',kind='all',region='world';const map=L.map('map',{worldCopyJump:true}).setView([20,5],2);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap contributors',maxZoom:10,className:'base-tiles'}).addTo(map);
