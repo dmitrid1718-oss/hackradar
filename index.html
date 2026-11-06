@@ -51,6 +51,25 @@
 <button class="btn" aria-pressed="false" data-region="both">🇺🇦 + 🇷🇺 Both</button>
 </div><p class="small" id="regionNotice">Global source observations. Geography is an approximate IP location, not an attack target or verified attacker origin.</p>
 </section>
+<section class="panel filters" aria-label="Ukraine Russia air activity radar" id="airRadar">
+<div class="eyebrow">AIR ACTIVITY RADAR / UKRAINE + RUSSIA · PUBLIC REPORTS</div>
+<h2 style="margin:7px 0">Drone · missile · aircraft activity</h2>
+<p class="small">Retrospective public reporting only. No live tracks, launch coordinates, predicted routes, or inferred aircraft positions.</p>
+<div class="filterset" id="airRadarFilters">
+<button class="btn active" data-air="all" aria-pressed="true">All</button><button class="btn" data-air="drone" aria-pressed="false">Drones</button><button class="btn" data-air="missile" aria-pressed="false">Missiles</button><button class="btn" data-air="aircraft" aria-pressed="false">Aircraft</button><button class="btn" data-air="airspace" aria-pressed="false">Airspace</button>
+</div>
+<div id="airRadarResults" class="small" style="margin:14px 0 9px" role="status">Select a category to open authoritative reporting sources. Live incident data is not connected.</div>
+<div class="filterset">
+<a class="btn" data-air-source="drone missile aircraft" href="https://www.facebook.com/kpszsu/" target="_blank" rel="noopener">Ukrainian Air Force ↗</a>
+<a class="btn" data-air-source="drone missile aircraft" href="https://www.reuters.com/world/europe/" target="_blank" rel="noopener">Reuters Europe ↗</a>
+<a class="btn" data-air-source="airspace aircraft" href="https://www.eurocontrol.int/network-operations" target="_blank" rel="noopener">EUROCONTROL ↗</a>
+<a class="btn" data-air-source="airspace aircraft" href="https://www.easa.europa.eu/en/domains/air-operations/airspace-risk" target="_blank" rel="noopener">EASA airspace ↗</a>
+</div>
+<p class="small" style="margin-top:12px">Status: <strong>source directory only</strong> · No verified event feed or live airspace feed connected. Confirmed / reported / unverified classifications will appear only when individual timestamped records are integrated. For immediate safety use official local air alerts.</p>
+</section>
+<script>
+(function(){const panel=document.getElementById('airRadar');if(!panel)return;const buttons=panel.querySelectorAll('[data-air]');const links=panel.querySelectorAll('[data-air-source]');const status=document.getElementById('airRadarResults');buttons.forEach(b=>b.addEventListener('click',()=>{const kind=b.dataset.air;buttons.forEach(x=>{const active=x===b;x.classList.toggle('active',active);x.setAttribute('aria-pressed',String(active));});let count=0;links.forEach(a=>{const show=kind==='all'||a.dataset.airSource.split(' ').includes(kind);a.hidden=!show;if(show)count++;});status.textContent=kind==='all'?'All source categories · no live event feed connected.':kind.charAt(0).toUpperCase()+kind.slice(1)+' sources ('+count+') · no live event feed connected.';}));})();
+</script>
 <div class="layout">
 <section class="panel"><div class="head"><div><h2>Latest recorded activity</h2><div class="small" id="listSubtitle">Source-backed records · no estimated severity scores</div></div><div class="typefilters"><button class="btn active" data-kind="all" aria-pressed="true">All types</button><button class="btn" data-kind="network" aria-pressed="false">Network</button><button class="btn" data-kind="advisory" aria-pressed="false">Advisories</button><button class="btn" data-kind="incident" aria-pressed="false">Confirmed incidents</button><button class="btn" data-kind="outage" aria-pressed="false">Service outages</button></div></div><div class="records" id="activity" aria-live="polite"><div class="empty">Loading public data…</div></div></section>
 <div class="right-col">
