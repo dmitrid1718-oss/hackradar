@@ -64,6 +64,16 @@
 <p class="small" id="airFreshness">Checking daily report…</p>
 <p class="small">Only source-verified regional locations appear. Markers are regional reference points, not strike coordinates or flight paths. Totals are not added across opposing military claims. No real-time tracking. For immediate safety, consult official alerts.</p>
 </section>
+
+<div class="layout">
+<section class="panel"><div class="head"><div><h2>Latest recorded activity</h2><div class="small" id="listSubtitle">Source-backed records · no estimated severity scores</div></div><div class="typefilters"><button class="btn active" data-kind="all" aria-pressed="true">All types</button><button class="btn" data-kind="network" aria-pressed="false">Network</button><button class="btn" data-kind="advisory" aria-pressed="false">Advisories</button><button class="btn" data-kind="incident" aria-pressed="false">Confirmed incidents</button><button class="btn" data-kind="outage" aria-pressed="false">Service outages</button></div></div><div class="records" id="activity" aria-live="polite"><div class="empty">Loading public data…</div></div></section>
+<div class="right-col">
+<section class="panel chartpanel"><div class="head"><div><h2>Observation history</h2><div class="small">Saved snapshots · NOT attack counts</div></div></div><div class="chartbox"><svg id="historyChart" viewBox="0 0 340 155" role="img" aria-label="Historical recorded observation counts"></svg><div id="historyLegend">No archived collections yet.</div></div></section>
+<section class="panel"><div class="head"><div><h2>Global source map</h2><div class="small" id="mapSubtitle">Approximate IP location · source-backed</div></div><button class="btn" id="resetMap">Reset view</button></div><div id="map" aria-label="Map of publicly reported source IPs"></div><div class="map-note" id="mapNotice" role="status">Dots show reported source infrastructure, not attackers or destinations. Map markers follow the active filters. Unmapped incidents remain in the list.</div></section>
+</div></div>
+<section class="panel notes"><h2>Reading HackRadar responsibly</h2><p><strong>Network observations</strong> are suspicious-source IPs from <a href="https://www.dshield.org/feeds_doc.html" target="_blank" rel="noopener">SANS Internet Storm Center / DShield</a>. They are not confirmed breaches. <strong>CISA advisories</strong> are known exploited vulnerabilities from <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener">CISA KEV</a>, not individual incidents. Their catalog addition dates are not attack timestamps.</p><p>Regional radars filter geographically located source IPs in the limited global feed, not verified attacks against those countries. An empty regional radar is not evidence of safety. Banking includes documented bank/payment-system cyber incidents, separately from verified service outages. A service outage is not evidence of a cyberattack. Financial incident records are individually sourced and manually curated, not an exhaustive or instant threat feed. Sector filters only show incidents explicitly classified by trusted sources; we will not guess targets from IPs, countries, or product names. An empty sector does not mean that sector is safe. Historical trends are counts of records visible in our snapshots, not global attack volume. No data is invented to fill gaps.</p><p id="errors" style="color:#ffc09b" hidden></p></section>
+<footer><span>© <span id="year"></span> Useless Instruments LLC · HackRadar™</span><span><a href="https://uselessinstruments.com/">Useless Instruments</a> · <a href="https://readyenough.org/">ReadyEnough</a> · Information only</span></footer></main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 (async function(){
 const status=document.getElementById('airFreshness');
@@ -71,7 +81,7 @@ const map=L.map('airMap',{scrollWheelZoom:false}).setView([49,33],5);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:12,className:'base-tiles'}).addTo(map);
 try{
 const response=await fetch('/air-activity.json?ts='+Date.now(),{cache:'no-store'});
-if(!response.ok)throw Error('No daily report');
+if(!response.ok)throw Error('Daily report JSON not published (HTTP '+response.status+')');
 const d=await response.json();
 if(!d||!d.updated_at||!Array.isArray(d.locations))throw Error('Invalid report');
 const age=Date.now()-Date.parse(d.updated_at);
@@ -88,18 +98,9 @@ const label=document.createElement('span');label.textContent=p.type+' · '+(p.st
 const link=document.createElement('a');link.href=p.source_url;link.target='_blank';link.rel='noopener';link.textContent='Source';popup.append(link);circle.bindPopup(popup);
 }
 status.textContent=(fresh?'Daily snapshot':'STALE SNAPSHOT — verify before use')+' · Updated '+new Date(d.updated_at).toLocaleString()+' · '+(d.window||'Reporting window not specified')+(d.source_url?' · Source available in report':'');
-}catch(e){status.textContent='Daily report unavailable · no verified totals or map markers. Source feed not connected.';}
+}catch(e){status.textContent='AIR REPORT UNAVAILABLE — '+(e&&e.message?e.message:'Unable to load report')+'. No verified totals or map markers. This map is not live tracking.';console.warn('HackRadar air report:',e);}
 })();
 </script>
-<div class="layout">
-<section class="panel"><div class="head"><div><h2>Latest recorded activity</h2><div class="small" id="listSubtitle">Source-backed records · no estimated severity scores</div></div><div class="typefilters"><button class="btn active" data-kind="all" aria-pressed="true">All types</button><button class="btn" data-kind="network" aria-pressed="false">Network</button><button class="btn" data-kind="advisory" aria-pressed="false">Advisories</button><button class="btn" data-kind="incident" aria-pressed="false">Confirmed incidents</button><button class="btn" data-kind="outage" aria-pressed="false">Service outages</button></div></div><div class="records" id="activity" aria-live="polite"><div class="empty">Loading public data…</div></div></section>
-<div class="right-col">
-<section class="panel chartpanel"><div class="head"><div><h2>Observation history</h2><div class="small">Saved snapshots · NOT attack counts</div></div></div><div class="chartbox"><svg id="historyChart" viewBox="0 0 340 155" role="img" aria-label="Historical recorded observation counts"></svg><div id="historyLegend">No archived collections yet.</div></div></section>
-<section class="panel"><div class="head"><div><h2>Global source map</h2><div class="small" id="mapSubtitle">Approximate IP location · source-backed</div></div><button class="btn" id="resetMap">Reset view</button></div><div id="map" aria-label="Map of publicly reported source IPs"></div><div class="map-note" id="mapNotice" role="status">Dots show reported source infrastructure, not attackers or destinations. Map markers follow the active filters. Unmapped incidents remain in the list.</div></section>
-</div></div>
-<section class="panel notes"><h2>Reading HackRadar responsibly</h2><p><strong>Network observations</strong> are suspicious-source IPs from <a href="https://www.dshield.org/feeds_doc.html" target="_blank" rel="noopener">SANS Internet Storm Center / DShield</a>. They are not confirmed breaches. <strong>CISA advisories</strong> are known exploited vulnerabilities from <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener">CISA KEV</a>, not individual incidents. Their catalog addition dates are not attack timestamps.</p><p>Regional radars filter geographically located source IPs in the limited global feed, not verified attacks against those countries. An empty regional radar is not evidence of safety. Banking includes documented bank/payment-system cyber incidents, separately from verified service outages. A service outage is not evidence of a cyberattack. Financial incident records are individually sourced and manually curated, not an exhaustive or instant threat feed. Sector filters only show incidents explicitly classified by trusted sources; we will not guess targets from IPs, countries, or product names. An empty sector does not mean that sector is safe. Historical trends are counts of records visible in our snapshots, not global attack volume. No data is invented to fill gaps.</p><p id="errors" style="color:#ffc09b" hidden></p></section>
-<footer><span>© <span id="year"></span> Useless Instruments LLC · HackRadar™</span><span><a href="https://uselessinstruments.com/">Useless Instruments</a> · <a href="https://readyenough.org/">ReadyEnough</a> · Information only</span></footer></main>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 const $=id=>document.getElementById(id);$('year').textContent=new Date().getFullYear();
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}
