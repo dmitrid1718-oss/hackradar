@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T01:59:18.640772+00:00",
+  "updated_at": "2026-11-07T08:53:56.633183+00:00",
   "points": [
     {
       "ip": "23.94.68.19",
@@ -60,6 +60,12 @@
       "lat": 48.9751523,
       "lon": 8.1784569,
       "country": "France"
+    },
+    {
+      "ip": "176.65.148.243",
+      "lat": 50.8658269,
+      "lon": 6.062466,
+      "country": "Netherlands"
     },
     {
       "ip": "173.249.33.72",
@@ -201,6 +207,16 @@
       "note": "SANS ISC top-source snapshot; not an identified attacker, victim, or completed attack.",
       "date": "2026-11-07",
       "url": "https://www.dshield.org/ipinfo.html?ip=5.189.160.21",
+      "source": "SANS ISC DShield",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "network",
+      "title": "Reported suspicious source · 176.65.148.243",
+      "note": "SANS ISC top-source snapshot; not an identified attacker, victim, or completed attack.",
+      "date": "2026-11-07",
+      "url": "https://www.dshield.org/ipinfo.html?ip=176.65.148.243",
       "source": "SANS ISC DShield",
       "sector": "unclassified",
       "importance": "unrated"
