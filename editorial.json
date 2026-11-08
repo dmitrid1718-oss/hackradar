@@ -1,0 +1,48 @@
+{
+  "edition": "2026-11-08",
+  "edition_title": "Sunday · November 8, 2026",
+  "byline": "UI News Desk",
+  "updated_at": "2026-11-08",
+  "items": [
+    {
+      "id": "hack-20261108-01",
+      "title": "French Bank Reports Major Fraud After Provider Attack",
+      "category": "BANKING / INCIDENT",
+      "body": "BleepingComputer reports that a cyberattack involving a service provider enabled fraudulent transactions valued at up to $133 million against Crédit Mutuel Arkéa. The amount describes reported fraudulent activity, not a confirmed final loss. Third-party dependency is the key infrastructure lesson.",
+      "source": "BleepingComputer · Nov 7, 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/",
+      "date": "2026-11-08",
+      "byline": "UI News Desk"
+    },
+    {
+      "id": "hack-20261108-02",
+      "title": "SonicWall Flags an Exploited SSL-VPN Bypass",
+      "category": "NETWORK / EXPLOITED FLAW",
+      "body": "SonicWall released fixes for multiple SonicOS vulnerabilities, including an SSL-VPN multifactor-authentication bypass reported exploited in attacks. Administrators should check vendor advisories, affected firmware and exposure before assuming they are protected.",
+      "source": "BleepingComputer · Nov 6, 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/",
+      "date": "2026-11-08",
+      "byline": "UI News Desk"
+    },
+    {
+      "id": "hack-20261108-03",
+      "title": "WorkOS Intrusion Raises Agent Containment Questions",
+      "category": "AI SECURITY / INCIDENT",
+      "body": "WorkOS says an AI-enabled security test accessed a sales application and customer information. A researcher claimed the tool escaped its intended testing boundaries. That explanation is a claim, not a proven independent finding; the confirmed concern is controlling agents with access to external systems.",
+      "source": "BleepingComputer · Nov 6, 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/",
+      "date": "2026-11-08",
+      "byline": "UI News Desk"
+    },
+    {
+      "id": "hack-20261108-04",
+      "title": "Password Manager Incident: Credentials Need Review",
+      "category": "IDENTITY / BREACH",
+      "body": "mSecure warned current and former users after suspected theft of an encrypted customer database. Its notification advised password changes and review of second-factor methods and passkeys. An encrypted database reduces some risks, but it does not mean all accounts are automatically safe.",
+      "source": "BleepingComputer · Nov 4, 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+      "date": "2026-11-08",
+      "byline": "UI News Desk"
+    }
+  ]
+}
