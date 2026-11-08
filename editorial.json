@@ -5,6 +5,16 @@
   "updated_at": "2026-11-08",
   "items": [
     {
+      "id": "hack-20261108-france-extortion",
+      "title": "France: Organized Crypto Extortion and the Human Key",
+      "category": "PHYSICAL CRYPTO EXTORTION / INVESTIGATION",
+      "date": "2026-11-08",
+      "body": "France's documented wave of kidnappings and extortion against crypto holders highlights a convergence of digital assets, physical coercion, organized recruitment and alleged misuse of private records. We are tracking cases separately from online hacks; public reporting does not demonstrate frontier AI involvement. Includes a dated evidence timeline and criteria for verification.",
+      "source": "UI News Desk · Original investigation; OCCRP, Chainalysis",
+      "url": "https://hackradar.org/investigations/france-crypto-extortion.html",
+      "byline": "UI News Desk"
+    },
+    {
       "id": "hack-20261108-01",
       "title": "French Bank Reports Major Fraud After Provider Attack",
       "category": "BANKING / INCIDENT",
