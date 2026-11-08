@@ -180,6 +180,16 @@
         "sans": true,
         "cisa": true
       }
+    },
+    {
+      "at": "2026-11-08T07:27:28.158327+00:00",
+      "network_records": 19,
+      "advisory_records": 60,
+      "mapped_sources": 19,
+      "sources_available": {
+        "sans": true,
+        "cisa": true
+      }
     }
   ]
 }
