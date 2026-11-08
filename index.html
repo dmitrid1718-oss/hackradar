@@ -211,4 +211,4 @@ async function load(){
  }catch(e){$('status').textContent='Feed unavailable';$('activity').innerHTML='<div class="empty">Public data not yet available. No sample incidents are displayed. Check the collector run and publishing status.</div>';$('errors').hidden=false;$('errors').textContent=e.message;historyChart([])}
 }
 load();setInterval(load,15*60*1000);
-</script></body></html>
+</script><style id="ui-news-link-style">#ui-news-link{position:fixed;right:16px;bottom:16px;z-index:9990;background:#142a30;color:#e7f8f6;border:1px solid #6bd6d0;border-radius:9px;padding:12px 16px;font:700 12px/1.35 ui-monospace,Consolas,monospace;text-decoration:none;box-shadow:0 7px 26px #0008}#ui-news-link:focus-visible{outline:2px solid #fff;outline-offset:3px}</style><a id="ui-news-link" href="news.html" aria-label="Open the morning news desk">MORNING NEWS · NOV 8</a></body></html>
