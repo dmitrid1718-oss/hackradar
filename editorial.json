@@ -1,9 +1,29 @@
 {
-  "edition": "2026-11-08",
-  "edition_title": "Sunday · November 8, 2026",
+  "edition": "2026-11-09",
+  "edition_title": "Monday morning · November 9, 2026",
   "byline": "UI News Desk",
-  "updated_at": "2026-11-08",
+  "updated_at": "2026-11-09",
   "items": [
+    {
+      "id": "hack-20261109-iris",
+      "title": "Japan: Third-Party Cloud Breach May Affect 7.7 Million",
+      "category": "DATA BREACH / SUPPLY CHAIN",
+      "body": "Iris Ohyama says unauthorized access to a cloud service supporting its Iris Plaza store may have exposed personal data for up to 7.7 million people. The total is a potential exposure, not confirmed misuse; the investigation remains underway. Review provider access, data retention and credential safeguards.",
+      "source": "BleepingComputer · Nov 8, 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "date": "2026-11-09",
+      "byline": "UI News Desk"
+    },
+    {
+      "id": "hack-20261109-sonic",
+      "title": "Hong Kong CERT Warns of SonicOS Security Flaws",
+      "category": "NETWORK / ADVISORY",
+      "body": "HKCERT issued a November 9 bulletin on multiple SonicWall SonicOS vulnerabilities affecting availability, restrictions and information disclosure. Administrators should review affected releases and vendor patches; the advisory alone does not establish that every flaw is exploited in the wild.",
+      "source": "HKCERT · Nov 9, 2026",
+      "url": "https://www.hkcert.org/security-bulletin/sonicwall-sonicos-sslvpn-security-restriction-bypass-vulnerability_20261109",
+      "date": "2026-11-09",
+      "byline": "UI News Desk"
+    },
     {
       "id": "hack-20261108-france-extortion",
       "title": "France: Organized Crypto Extortion and the Human Key",
