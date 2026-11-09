@@ -79,6 +79,7 @@
 const status=document.getElementById('airFreshness');
 const map=L.map('airMap',{scrollWheelZoom:false}).setView([49,33],5);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:12,className:'base-tiles'}).addTo(map);
+window.addEventListener('pageshow',event=>{if(event.persisted){requestAnimationFrame(()=>map.invalidateSize());}});
 try{
 const response=await fetch('/air-activity.json?ts='+Date.now(),{cache:'no-store'});
 if(!response.ok)throw Error('Daily report JSON not published (HTTP '+response.status+')');
@@ -109,6 +110,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 let records=[],points=[],sector='all',kind='all',region='world';const map=L.map('map',{worldCopyJump:true}).setView([20,5],2);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap contributors',maxZoom:10,className:'base-tiles'}).addTo(map);
 const layer=L.layerGroup().addTo(map);
+window.addEventListener('pageshow',event=>{if(event.persisted){requestAnimationFrame(()=>{map.invalidateSize();});}});
 const regionCenters={world:[20,5,2],ua:[49,32,6],ru:[59,85,3],both:[53,49,4]};
 const normalizeCountry=s=>String(s||'').trim().toLowerCase();
 function regionMatches(p){
