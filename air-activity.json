@@ -1,0 +1,22 @@
+{
+  "updated_at": "2026-11-08T08:17:00+02:00",
+  "window": "7 Nov 18:00–8 Nov 08:00 Kyiv time (overnight report, not a rolling 24-hour total)",
+  "source_url": "https://www.ukrinform.net/rubric-ato/4182552-adf-neutralises-137-of-164-russian-drones-overnight.html",
+  "reporting_side": "Ukraine Air Force, as relayed by Ukrinform; preliminary figures",
+  "totals": {
+    "drones": 164,
+    "missiles": 3,
+    "aircraft": null
+  },
+  "locations": [
+    {
+      "region": "Odesa region, Ukraine (approximate regional marker)",
+      "lat": 46.48,
+      "lon": 30.73,
+      "type": "strike",
+      "status": "Reported Russian airstrike in Odesa; regional reference, not impact coordinates",
+      "source_url": "https://newsukraine.rbc.ua/news/drones-and-missiles-strike-overnight-how-1794120602.html"
+    }
+  ],
+  "notes": "Totals count weapons reported launched toward Ukraine overnight, including decoy drones; not intercepts or confirmed impacts. Aircraft incident total is unverified and intentionally left blank. All figures are reported, not independently verified."
+}
