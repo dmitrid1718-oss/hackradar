@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T08:04:14.349032+00:00",
+  "updated_at": "2026-11-09T18:53:00.533328+00:00",
   "points": [
     {
       "ip": "23.94.68.19",
@@ -256,6 +256,36 @@
       "date": "2026-11-09",
       "url": "https://www.dshield.org/ipinfo.html?ip=194.180.49.217",
       "source": "SANS ISC DShield",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-123158 · OpenBSD / OpenSSH",
+      "note": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+      "date": "2026-11-09",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-123158",
+      "source": "CISA KEV",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-116779 · SignalWire / FreeSwitch",
+      "note": "SignalWire FreeSwitch Code Injection Vulnerability",
+      "date": "2026-11-09",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-116779",
+      "source": "CISA KEV",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-102895 · GPUStack / GPUStack",
+      "note": "GPUStack Improper Authentication Vulnerability",
+      "date": "2026-11-09",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-102895",
+      "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
     },
@@ -825,36 +855,6 @@
       "note": "Acronis Backup Incorrect Default Permissions Vulnerability",
       "date": "2026-09-16",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-87886",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-76460 · Cisco / Identity Services Engine",
-      "note": "Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
-      "date": "2026-09-16",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-76460",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-58704 · Google / Pixel",
-      "note": "Google Pixel Improper Authorization Vulnerability",
-      "date": "2026-09-16",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-58704",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-76461 · Cisco / Secure Email Gateway",
-      "note": "Cisco Secure Email Gateway SQL Injection Vulnerability",
-      "date": "2026-09-14",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-76461",
       "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
