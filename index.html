@@ -53,7 +53,7 @@
 </section>
 <section class="panel filters" id="airRadar" aria-label="Ukraine and Russia daily air activity">
 <div class="eyebrow">UKRAINE / RUSSIA AIR RADAR · DAILY SNAPSHOT</div>
-<h2 style="margin:6px 0">Last 24 hours</h2>
+<h2 style="margin:6px 0">Latest verified overnight report</h2>
 <div class="stats" style="margin:12px 0;grid-template-columns:repeat(3,minmax(0,1fr))">
 <div class="stat"><div class="small">Drones launched</div><strong id="airDrones">—</strong></div>
 <div class="stat"><div class="small">Missiles launched</div><strong id="airMissiles">—</strong></div>
@@ -97,7 +97,8 @@ const popup=document.createElement('div');const title=document.createElement('st
 const label=document.createElement('span');label.textContent=p.type+' · '+(p.status||'reported');popup.append(label,document.createElement('br'));
 const link=document.createElement('a');link.href=p.source_url;link.target='_blank';link.rel='noopener';link.textContent='Source';popup.append(link);circle.bindPopup(popup);
 }
-status.textContent=(fresh?'Daily snapshot':'STALE SNAPSHOT — verify before use')+' · Updated '+new Date(d.updated_at).toLocaleString()+' · '+(d.window||'Reporting window not specified')+(d.source_url?' · Source available in report':'');
+status.textContent=(fresh?'Daily snapshot':'STALE SNAPSHOT — verify before use')+' · Updated '+new Date(d.updated_at).toLocaleString()+' · '+(d.window||'Reporting window not specified')+(d.reporting_side?' · '+d.reporting_side:'')+(d.source_url?' · Source linked below':'');
+if(d.source_url && /^https:\/\//.test(d.source_url)){const a=document.createElement('a');a.href=d.source_url;a.target='_blank';a.rel='noopener';a.textContent=' View source report';status.append(a);}
 }catch(e){status.textContent='AIR REPORT UNAVAILABLE — '+(e&&e.message?e.message:'Unable to load report')+'. No verified totals or map markers. This map is not live tracking.';console.warn('HackRadar air report:',e);}
 })();
 </script>
