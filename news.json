@@ -1,4 +1,13 @@
 {
-  "updated_at": null,
-  "items": []
+  "updated_at": "2026-11-09T22:20:39.431092+00:00",
+  "feed": "Google News RSS",
+  "query": "cybersecurity ransomware cyberattack internet outage critical infrastructure",
+  "items": [
+    {
+      "title": "Cyberattacks expose key Thai industries to growing economic risks - Asia News Network",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcl9XMWoxWGRyb21obE1DVjB0alpmcHFlM1hzS0dFUlhMRi0yZWxvSC0xSDJQUkdvQy03OFFfcjhRQlVhLVUtWUNRckZTa3d0QmRWejdBQ1h6dG5CSDZ4emdhQXJKVGFSUUdsejVidkRvd0JTLUhudmctR3RqaXFRQjk2UDhJODRiYXNyblRkZDIzNkhLUVE?oc=5",
+      "source": "Asia News Network",
+      "published": "2026-11-09T01:59:58+00:00"
+    }
+  ]
 }
