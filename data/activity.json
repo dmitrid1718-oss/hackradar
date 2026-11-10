@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T17:55:24.389530+00:00",
+  "updated_at": "2026-11-10T23:28:51.193699+00:00",
   "points": [
     {
       "ip": "23.94.68.19",
@@ -256,6 +256,66 @@
       "date": "2026-11-10",
       "url": "https://www.dshield.org/ipinfo.html?ip=194.180.49.217",
       "source": "SANS ISC DShield",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-20320 · Cisco / BroadWorks",
+      "note": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+      "date": "2026-11-10",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-20320",
+      "source": "CISA KEV",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-125350 · Google / Chromium",
+      "note": "Google Chromium Use-After-Free Vulnerability",
+      "date": "2026-11-10",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-125350",
+      "source": "CISA KEV",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-124194 · Microsoft / Office",
+      "note": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+      "date": "2026-11-10",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-124194",
+      "source": "CISA KEV",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-116606 · Barracuda Networks / Barracuda Email Security Gateway (ESG)",
+      "note": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "date": "2026-11-10",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-116606",
+      "source": "CISA KEV",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-111793 · Openwave Messaging Limited / Webtop Media Transcoder",
+      "note": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+      "date": "2026-11-10",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-111793",
+      "source": "CISA KEV",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-111560 · Barracuda Networks / Multiple Products",
+      "note": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+      "date": "2026-11-10",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-111560",
+      "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
     },
@@ -795,66 +855,6 @@
       "note": "Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
       "date": "2026-09-22",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-93952",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-93616 · Check Point / Multiple Products",
-      "note": "Check Point Multiple Products Path Traversal Vulnerability",
-      "date": "2026-09-22",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-93616",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-85102 · Check Point / Multiple Products",
-      "note": "Check Point Multiple Products Improper Certificate Validation Vulnerability",
-      "date": "2026-09-22",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-85102",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-7273 · Zyxel / GS1900 Series Switches",
-      "note": "Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
-      "date": "2026-09-21",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-7273",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-53266 · Linux / Kernel",
-      "note": "Linux Kernel Out-of-Bounds Write Vulnerability",
-      "date": "2026-09-18",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-53266",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2025-39964 · Linux / Kernel",
-      "note": "Linux Kernel Race Condition Vulnerability",
-      "date": "2026-09-18",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2025-39964",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2025-39682 · Linux / Kernel",
-      "note": "Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability",
-      "date": "2026-09-18",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2025-39682",
       "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
