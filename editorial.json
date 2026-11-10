@@ -1,9 +1,29 @@
 {
-  "edition": "2026-11-09",
-  "edition_title": "Monday morning · November 9, 2026",
+  "edition": "2026-11-10",
+  "edition_title": "Tuesday morning · November 10, 2026",
   "byline": "UI News Desk",
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-10",
   "items": [
+    {
+      "id": "hack-20261110-kev",
+      "title": "CISA Adds Four Actively Exploited Flaws to KEV",
+      "category": "VULNERABILITY / ACTIVE EXPLOITATION",
+      "body": "CISA added four vulnerabilities to its Known Exploited Vulnerabilities catalog on November 9, citing evidence of active exploitation. The affected products include GPUStack, FreeSWITCH, OpenSSH, and IBM Aspera Faspex. Federal civilian agencies have binding remediation requirements; CISA also encourages other organizations to prioritize KEV entries using risk-based patching.",
+      "source": "CISA · Nov. 9, 2026",
+      "url": "https://content.govdelivery.com/accounts/USDHSCISA/bulletins/4323900",
+      "date": "2026-11-10",
+      "byline": "UI News Desk"
+    },
+    {
+      "id": "hack-20261110-cold-chain",
+      "title": "Federal Agencies Warn of Attacks on Refrigeration Controls",
+      "category": "CRITICAL INFRASTRUCTURE / OPERATIONAL TECHNOLOGY",
+      "body": "CISA, FBI, HHS, USDA, and DOT warned on November 5 of malicious activity targeting industrial refrigeration and cold-chain monitoring systems. These controls protect food and temperature-sensitive medical supplies; compromise can disrupt operations even without stealing data. The agencies’ fact sheet recommends removing unnecessary public internet exposure and hardening these systems.",
+      "source": "FBI Internet Crime Complaint Center · Nov. 5, 2026",
+      "url": "https://www.ic3.gov/CSA/2026/261105.pdf",
+      "date": "2026-11-10",
+      "byline": "UI News Desk"
+    },
     {
       "id": "hack-20261109-iris",
       "title": "Japan: Third-Party Cloud Breach May Affect 7.7 Million",
