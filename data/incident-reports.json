@@ -1,7 +1,105 @@
 {
   "reports": [
-    {"date":"2026-11-09","title":"Rosstat acknowledges cyberattacks as groups publish estimates of Russian war deaths","source":"Novaya Gazeta Europe","url":"https://novayagazeta.eu/amp/en/articles/2026/11/09/hackers-who-broke-into-russias-stats-agency-say-400000-450000-russians-have-died-in-ukraine-war-en-news","note":"Russia’s federal statistics agency acknowledged attacks between October 29 and November 1 and denied a data leak. Silent Crow and Cyber Partisans say they used death records to estimate war deaths. The totals are the groups’ estimates. The extent of any data destruction remains unverified."},
-    {"date":"2026-11-09","title":"Vanderbilt University responds to a cybersecurity incident","source":"BleepingComputer","url":"https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/","note":"The university asked staff and students to disconnect university devices. A group claimed it had encrypted databases and stolen records. The university’s initial statement confirmed the incident without confirming those claims."},
-    {"date":"2026-11-04","title":"French blood service reports disruption to refrigeration at three sites","source":"BleepingComputer","url":"https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/","note":"France’s blood service said a supplier incident affected refrigeration controls at three facilities. The service identified its supplier as the target."}
-  ]
+    {
+      "date": "2026-11-09",
+      "title": "Rosstat acknowledges cyberattacks as groups publish estimates of Russian war deaths",
+      "source": "Novaya Gazeta Europe",
+      "url": "https://novayagazeta.eu/amp/en/articles/2026/11/09/hackers-who-broke-into-russias-stats-agency-say-400000-450000-russians-have-died-in-ukraine-war-en-news",
+      "note": "Russia’s federal statistics agency acknowledged attacks between October 29 and November 1 and denied a data leak. Silent Crow and Cyber Partisans say they used death records to estimate war deaths. The totals are the groups’ estimates. The extent of any data destruction remains unverified."
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Vanderbilt University responds to a cybersecurity incident",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+      "note": "The university asked staff and students to disconnect university devices. A group claimed it had encrypted databases and stolen records. The university’s initial statement confirmed the incident without confirming those claims."
+    },
+    {
+      "date": "2026-11-04",
+      "title": "French blood service reports disruption to refrigeration at three sites",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+      "note": "France’s blood service said a supplier incident affected refrigeration controls at three facilities. The service identified its supplier as the target."
+    },
+    {
+      "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+      "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+      "date": "2026-11-09",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+      "url": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+      "date": "2026-11-09",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Binance denies data breach after alleged ShinyHunters claims",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+      "date": "2026-11-09",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
+      "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+      "date": "2026-11-09",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "Amplifon Americas Data Breach Impacts 1.3 Million",
+      "url": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
+      "date": "2026-11-09",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "Over 3 Million People Hit by Frontline Education Data Breach",
+      "url": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
+      "date": "2026-11-09",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "DigiCert Data Breach Impacts Business Customer Information",
+      "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
+      "date": "2026-11-06",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
+      "url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
+      "date": "2026-11-03",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "Revolve Data Breach Impacts at Least 200,000 People",
+      "url": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/",
+      "date": "2026-11-02",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "Chainalysis Discloses Data Breach Following AI-Driven Cyberattack",
+      "url": "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/",
+      "date": "2026-11-02",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "Data breach at hearing aid giant Amplifon impacts thousands",
+      "url": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
+      "date": "2026-11-09",
+      "source": "The Record"
+    }
+  ],
+  "feeds": {
+    "BleepingComputer": {
+      "last_success": "2026-11-10 13:40 UTC",
+      "failed": false
+    },
+    "SecurityWeek": {
+      "last_success": "2026-11-10 13:40 UTC",
+      "failed": false
+    },
+    "The Record": {
+      "last_success": "2026-11-10 13:40 UTC",
+      "failed": false
+    }
+  }
 }
