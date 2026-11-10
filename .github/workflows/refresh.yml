@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - scripts/collect.py
+      - scripts/incident_reports.py
+      - scripts/incident-page.html
       - .github/workflows/refresh.yml
   schedule:
     - cron: '17 * * * *'
@@ -28,13 +30,15 @@ jobs:
           python-version: '3.12'
       - name: Verify collector syntax
         run: python -m py_compile scripts/collect.py
+      - name: Collect public incident reports
+        run: python scripts/incident_reports.py
       - name: Collect source-backed observations and append history
         run: python scripts/collect.py
       - name: Commit observed feed snapshots
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/activity.json data/history.json
+          git add data/activity.json data/history.json data/incident-reports.json incident-reports.html
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh verified cyber observations and history"
             git pull --rebase origin main

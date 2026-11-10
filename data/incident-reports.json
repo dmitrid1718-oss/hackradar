@@ -1,0 +1,7 @@
+{
+  "reports": [
+    {"date":"2026-11-09","title":"Rosstat acknowledges cyberattacks as groups publish estimates of Russian war deaths","source":"Novaya Gazeta Europe","url":"https://novayagazeta.eu/amp/en/articles/2026/11/09/hackers-who-broke-into-russias-stats-agency-say-400000-450000-russians-have-died-in-ukraine-war-en-news","note":"Russia’s federal statistics agency acknowledged attacks between October 29 and November 1 and denied a data leak. Silent Crow and Cyber Partisans say they used death records to estimate war deaths. The totals are the groups’ estimates. The extent of any data destruction remains unverified."},
+    {"date":"2026-11-09","title":"Vanderbilt University responds to a cybersecurity incident","source":"BleepingComputer","url":"https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/","note":"The university asked staff and students to disconnect university devices. A group claimed it had encrypted databases and stolen records. The university’s initial statement confirmed the incident without confirming those claims."},
+    {"date":"2026-11-04","title":"French blood service reports disruption to refrigeration at three sites","source":"BleepingComputer","url":"https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/","note":"France’s blood service said a supplier incident affected refrigeration controls at three facilities. The service identified its supplier as the target."}
+  ]
+}
