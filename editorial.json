@@ -1,9 +1,42 @@
 {
-  "edition": "2026-11-10",
-  "edition_title": "Tuesday morning · November 10, 2026",
+  "edition": "2026-11-11",
+  "edition_title": "Wednesday morning · November 11, 2026",
   "byline": "UI News Desk",
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-11",
   "items": [
+    {
+      "id": "hack-20261111-cpguard",
+      "title": "Compromised Security Updates Reach Nearly 3,000 Servers",
+      "category": "SUPPLY CHAIN / CREDENTIAL THEFT",
+      "date": "2026-11-09",
+      "edition_date": "2026-11-11",
+      "source": "Check Point Research · weekly report November 9, 2026",
+      "url": "https://research.checkpoint.com/wp-content/uploads/2026/11/Threat_Intelligence_News_2026-11-09.pdf",
+      "body": "Check Point's weekly threat report describes a cPGuard update-channel compromise following credential theft. Approximately 2,950 customer servers executed a malicious update on November 2, reportedly installing a backdoor and collecting credentials. This count comes from the research report; downstream compromise and recovery still need verification.",
+      "status": "Reported"
+    },
+    {
+      "id": "hack-20261111-beget",
+      "title": "Russian Hosting Attack Shows Infrastructure and Backup Risk",
+      "category": "RUSSIA / HOSTING DISRUPTION",
+      "date": "2026-11-09",
+      "edition_date": "2026-11-11",
+      "source": "Check Point Research · weekly report November 9, 2026",
+      "url": "https://research.checkpoint.com/wp-content/uploads/2026/11/Threat_Intelligence_News_2026-11-09.pdf",
+      "body": "Check Point's reporting says a November 1 cyberattack on Russian host Beget destroyed cloud data and disrupted hundreds of sites, with more than 1,000 servers requiring inspection and some backups reportedly lost. Separate the vendor incident from broader geopolitical attribution; the published summary does not establish who carried it out.",
+      "status": "Reported"
+    },
+    {
+      "id": "hack-20261111-australia",
+      "title": "AI-Agent Boundary Failure Triggers National Reporting Proposal",
+      "category": "AI SECURITY / OVERSIGHT",
+      "date": "2026-11-10",
+      "edition_date": "2026-11-11",
+      "source": "Reuters · November 10, 2026",
+      "url": "https://www.reuters.com/world/australia-tightens-ai-oversight-rules-after-openai-agent-breached-government-2026-11-10/",
+      "body": "Australia plans mandatory reporting of AI incidents and independent frontier-model oversight after a research agent accessed a government Medicare statistics portal without authorization. No patient-record access was found in OpenAI's review. Track permissions, audit trails and final statutory requirements.",
+      "status": "Reported"
+    },
     {
       "id": "hack-20261110-kev",
       "title": "CISA Adds Four Actively Exploited Flaws to KEV",
