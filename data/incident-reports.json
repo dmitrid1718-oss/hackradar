@@ -86,19 +86,25 @@
       "url": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
       "date": "2026-11-09",
       "source": "The Record"
+    },
+    {
+      "title": "Poland shuts down government services platform ePUAP following cyberattack",
+      "url": "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
+      "date": "2026-11-11",
+      "source": "The Record"
     }
   ],
   "feeds": {
     "BleepingComputer": {
-      "last_success": "2026-11-11 06:38 UTC",
+      "last_success": "2026-11-11 15:20 UTC",
       "failed": false
     },
     "SecurityWeek": {
-      "last_success": "2026-11-11 06:38 UTC",
+      "last_success": "2026-11-11 15:20 UTC",
       "failed": false
     },
     "The Record": {
-      "last_success": "2026-11-11 06:38 UTC",
+      "last_success": "2026-11-11 15:20 UTC",
       "failed": false
     }
   }
