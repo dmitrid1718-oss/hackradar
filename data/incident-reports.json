@@ -92,19 +92,25 @@
       "url": "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
       "date": "2026-11-11",
       "source": "The Record"
+    },
+    {
+      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+      "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+      "date": "2026-11-11",
+      "source": "BleepingComputer"
     }
   ],
   "feeds": {
     "BleepingComputer": {
-      "last_success": "2026-11-11 15:20 UTC",
+      "last_success": "2026-11-11 22:45 UTC",
       "failed": false
     },
     "SecurityWeek": {
-      "last_success": "2026-11-11 15:20 UTC",
+      "last_success": "2026-11-11 22:45 UTC",
       "failed": false
     },
     "The Record": {
-      "last_success": "2026-11-11 15:20 UTC",
+      "last_success": "2026-11-11 22:45 UTC",
       "failed": false
     }
   }
