@@ -1,9 +1,42 @@
 {
-  "edition": "2026-11-11",
-  "edition_title": "Wednesday morning · November 11, 2026",
+  "edition": "2026-11-12",
+  "edition_title": "Thursday morning · November 12, 2026",
   "byline": "UI News Desk",
-  "updated_at": "2026-11-11",
+  "updated_at": "2026-11-12",
   "items": [
+    {
+      "id": "hack-20261112-fireworks",
+      "title": "Fireworks Vendor Intrusion Reaches Datasets and Secrets",
+      "category": "CYBER / AI INFRASTRUCTURE",
+      "date": "2026-11-12",
+      "edition_date": "2026-11-12",
+      "source": "Fireworks AI · Nov 9",
+      "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
+      "body": "What changed: Updated investigation found exposure beyond the original credential report, including datasets and incomplete model weights for some accounts. Status: Confirmed company disclosure; actor attribution and secondary misuse unresolved. Why watch: credential rotation, network isolation, forensic updates.",
+      "status": "Reported"
+    },
+    {
+      "id": "hack-20261112-notion",
+      "title": "Notion Reports Downstream AI Chat Exposure",
+      "category": "SUPPLY CHAIN / CUSTOMER DATA",
+      "date": "2026-11-12",
+      "edition_date": "2026-11-12",
+      "source": "Notion · Nov 9",
+      "url": "https://www.notion.com/en-gb/security/advisories/security-incident-involving-a-third-party-ai-vendor",
+      "body": "What changed: Notion confirmed Insights chat transcripts among vendor-exposed data, affecting fewer than 1% of workspaces. Status: Confirmed disclosure; no general Notion system breach established. Why watch: impacted-workspace notices and sensitive tokens in pasted chats.",
+      "status": "Reported"
+    },
+    {
+      "id": "hack-20261112-ukraine",
+      "title": "Ukraine Energy and Civilian Infrastructure Hit Again",
+      "category": "CRITICAL INFRASTRUCTURE / UKRAINE",
+      "date": "2026-11-12",
+      "edition_date": "2026-11-12",
+      "source": "Reuters · Nov 12",
+      "url": "https://www.reuters.com/world/europe/russia-ukraine-exchange-attacks-capitals-us-envoys-head-moscow-2026-11-12/",
+      "body": "What changed: Overnight attacks and damage were reported in Kyiv and other regions; some military target descriptions come from Russia's ministry and are not independently confirmed. Status: Reported. Why watch: grid restoration and independently documented impacts; do not attribute unrelated cyber outages.",
+      "status": "Reported"
+    },
     {
       "id": "hack-20261111-cpguard",
       "title": "Compromised Security Updates Reach Nearly 3,000 Servers",
