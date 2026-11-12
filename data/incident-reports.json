@@ -98,19 +98,25 @@
       "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
       "date": "2026-11-11",
       "source": "BleepingComputer"
+    },
+    {
+      "title": "Baker Tilly notifies clients of data breach at third-party provider",
+      "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+      "date": "2026-11-11",
+      "source": "BleepingComputer"
     }
   ],
   "feeds": {
     "BleepingComputer": {
-      "last_success": "2026-11-11 22:45 UTC",
+      "last_success": "2026-11-12 03:52 UTC",
       "failed": false
     },
     "SecurityWeek": {
-      "last_success": "2026-11-11 22:45 UTC",
+      "last_success": "2026-11-12 03:52 UTC",
       "failed": false
     },
     "The Record": {
-      "last_success": "2026-11-11 22:45 UTC",
+      "last_success": "2026-11-12 03:52 UTC",
       "failed": false
     }
   }
