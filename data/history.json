@@ -340,6 +340,16 @@
         "sans": true,
         "cisa": true
       }
+    },
+    {
+      "at": "2026-11-12T20:54:03.846973+00:00",
+      "network_records": 18,
+      "advisory_records": 60,
+      "mapped_sources": 18,
+      "sources_available": {
+        "sans": true,
+        "cisa": true
+      }
     }
   ]
 }

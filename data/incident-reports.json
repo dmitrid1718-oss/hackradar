@@ -110,19 +110,25 @@
       "url": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
       "date": "2026-11-12",
       "source": "SecurityWeek"
+    },
+    {
+      "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+      "date": "2026-11-12",
+      "source": "BleepingComputer"
     }
   ],
   "feeds": {
     "BleepingComputer": {
-      "last_success": "2026-11-12 12:51 UTC",
+      "last_success": "2026-11-12 20:54 UTC",
       "failed": false
     },
     "SecurityWeek": {
-      "last_success": "2026-11-12 12:51 UTC",
+      "last_success": "2026-11-12 20:54 UTC",
       "failed": false
     },
     "The Record": {
-      "last_success": "2026-11-12 12:51 UTC",
+      "last_success": "2026-11-12 20:54 UTC",
       "failed": false
     }
   }
