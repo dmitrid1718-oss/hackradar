@@ -5,6 +5,41 @@
   "updated_at": "2026-11-13",
   "items": [
     {
+      "id": "hack-20261113-refrigeration-sabotage",
+      "title": "Why Hack a Freezer? Europe’s Refrigeration Attacks Turn Cyber Intrusion Into Physical Damage",
+      "category": "FOOD / COLD CHAIN / INDUSTRIAL SABOTAGE",
+      "date": "2026-11-13",
+      "edition_date": "2026-11-13",
+      "source": "France C4 / CERT-FR; ENISA; CISA–FBI joint advisory; Reuters",
+      "url": "https://cert.cyber.gouv.fr/uploads/CERTFR-2026-CTI-009.pdf",
+      "status": "Confirmed incidents; attribution scoped to October France",
+      "byline": "UI News Desk",
+      "body": "What happened: This is a follow-up to our November 10 refrigeration warning. France’s November 9 C4 report describes the compromise of refrigeration controllers at approximately 700 retail sites during October 11–12. Attackers changed defrost settings to high temperatures, causing substantial merchandise losses and at least 15 reported fires. ENISA confirms further incidents across multiple EU countries on November 1–2. These are attacks on commercial controls, not evidence that every household freezer is vulnerable.\n\nWhy would someone do this? France characterizes the October operation as sabotage and destabilization. Our interpretation: destroying perishable stock can impose immediate replacement, cleanup and business-interruption costs; visible failures in everyday services can unsettle the public and damage confidence; and disruption can serve as political intimidation. Those are plausible strategic purposes, not a proven account of every attacker’s intentions. The cited evidence does not establish a ransom demand or a plan to cause a continent-wide food shortage.\n\nWho is blamed—and for which incident: France attributes the October 11–12 attack to the IRGC-linked Shahid Kaveh cyber unit. Iran rejects the accusation. This is an official French attribution, not an independently proven attribution for all European incidents. ENISA’s statement on the November wave assigns no perpetrator. Similar targets and effects alone do not prove the same group carried out both waves.\n\nWhy refrigeration? Controllers manage temperature and defrost cycles, so unauthorized changes can have physical consequences. The November 5 CISA–FBI and partner advisory warns of malicious activity against exposed or unpatched controllers, including forced heating or defrost cycles and loss of temperature visibility. Weak protection of industrial equipment can turn an ordinary maintenance connection into a serious operational risk. The precise entry method is not established for every incident.\n\nLatest development: Reuters reported on November 13 that Germany’s BSI still considers some Danfoss cooling systems vulnerable and advises operators to remove direct internet exposure or secure necessary remote connections. This is a continuing operator-security issue, not a prediction of a new attack date.\n\nPractical response: Operators should remove unnecessary public access, secure required remote access, change default credentials, apply supported updates, segregate industrial controls and monitor temperature limits and unexpected changes. For households, our proportionate takeaway is to keep some ordinary shelf-stable food alongside frozen supplies. No panic buying is justified by these reports.\n\nWhat we are watching: verified new victims, recovery and vendor fixes, official findings linking or separating the attack waves, and documented effects on food or medical supplies. Unknown motives and attribution will remain labeled as unknown.",
+      "sources": [
+        {
+          "label": "France C4 / CERT-FR: November 9 attribution and impact report (French PDF)",
+          "url": "https://cert.cyber.gouv.fr/uploads/CERTFR-2026-CTI-009.pdf"
+        },
+        {
+          "label": "ENISA: November 4 joint EU statement",
+          "url": "https://www.enisa.europa.eu/news/joint-statement-on-cyber-incidents-in-refrigeration-systems-across-the-eu"
+        },
+        {
+          "label": "CISA, FBI and partners: November 5 defensive guidance (PDF)",
+          "url": "https://www.ic3.gov/CSA/2026/261105.pdf"
+        },
+        {
+          "label": "Reuters: November 13 German warning",
+          "url": "https://www.reuters.com/world/german-watchdog-warns-some-cooling-systems-remain-vulnerable-hacking-2026-11-13/"
+        },
+        {
+          "label": "Reuters: November 10 attribution dispute and diplomatic response",
+          "url": "https://www.reuters.com/world/europe/france-summons-iran-envoy-over-supermarket-fridge-hack-warns-response-2026-11-10/"
+        }
+      ],
+      "disclaimer": "Reviewed November 13, 2026. This report distinguishes official findings from editorial interpretation. It is not an emergency alert or a claim of a single coordinated attack across every affected country. Follow current vendor, cybersecurity-authority and food-safety instructions."
+    },
+    {
       "id": "hackradar-20261113-desk",
       "title": "AI-powered infrastructure cyber reporting discussed",
       "category": "CRITICAL INFRASTRUCTURE / CYBER",
