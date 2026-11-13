@@ -2,7 +2,7 @@
   "edition": "2026-11-13",
   "edition_title": "Friday · November 13, 2026",
   "byline": "UI News Desk",
-  "updated_at": "2026-11-13T21:25:00Z",
+  "updated_at": "2026-11-13T23:00:00Z",
   "items": [
     {
       "title": "FAA Orders Nationwide Departure Stop After Communications Problems",
@@ -13,7 +13,7 @@
       "source": "Reuters; CBS News Chicago; FAA status link",
       "url": "https://www.reuters.com/world/us/faa-issues-national-ground-stop-due-extraordinary-circumstance-reasons-safety-2026-11-13/",
       "status": "Developing outage; cyberattack not established",
-      "body": "Reporting checked November 13, 2026, at 4:25 p.m. Eastern / 3:25 p.m. Central (21:25 UTC).\n\nConfirmed reporting: Reuters reports that the FAA ordered a nationwide halt to departing flights on Friday afternoon following serious air traffic control communications problems. The order cited safety concerns and applied until further notice; international flights were to be handled case by case.\n\nLocal detail: CBS News Chicago reports equipment outages and communications issues in advisories affecting O’Hare and Midway before the nationwide action. A ground stop holds departures on the ground; it does not mean that every aircraft already airborne has been ordered to land immediately.\n\nWhat remains unknown: The reviewed reporting does not establish the underlying technical cause, a cyberattack, or a connection to the Microsoft 365 outage or European refrigeration attacks. We could not independently confirm a lifting notice from the FAA’s live status display at this check. This article records the reported order, not a continuously updated flight-status service.\n\nPractical response: Check your airline’s flight status and the FAA status page before leaving for the airport. Save booking details and important phone numbers offline; keep essential medication and charging supplies in your carry-on. Allow for onward travel disruption and follow airline instructions on rebooking. These are general travel precautions, not evidence of a wider emergency.",
+      "body": "Update checked November 13, 2026, at 6:00 p.m. Eastern / 5:00 p.m. Central (23:00 UTC).\n\nThe latest reporting reviewed still describes a nationwide departure stop, with no confirmed restart time. The FAA told WFTV that communications issues affected multiple regional Air Route Traffic Control Centers; Secretary Duffy described all centers as affected. The precise scope remains a point to clarify.\n\nAP reports that Secretary Mullin described a telecommunications outage and said there was no evidence of a cyberattack so far. Investigators will examine whether the newly introduced AI system played a role. An investigation is not a finding that AI caused the failure. AP also reports that airborne flights were continuing to land safely and all aircraft were accounted for.\n\nTiming caution: We have not independently verified the reported extension to 11:30 p.m. Eastern. An advisory’s listed end time should not be treated as a promised restart. Check current FAA and airline notices.\n\nOur assessment: A shared communications dependency is one possible explanation for disruption across several centers, but the technical cause remains unconfirmed. No connection to Microsoft’s outage has been established in the reporting reviewed. Delays could continue after departures resume as aircraft and crews recover their schedules; Saturday cancellations and particular airport impacts cannot yet be predicted reliably.\n\nEarlier report — 4:25 p.m. Eastern / 3:25 p.m. Central:\n\nReporting checked November 13, 2026, at 4:25 p.m. Eastern / 3:25 p.m. Central (21:25 UTC).\n\nConfirmed reporting: Reuters reports that the FAA ordered a nationwide halt to departing flights on Friday afternoon following serious air traffic control communications problems. The order cited safety concerns and applied until further notice; international flights were to be handled case by case.\n\nLocal detail: CBS News Chicago reports equipment outages and communications issues in advisories affecting O’Hare and Midway before the nationwide action. A ground stop holds departures on the ground; it does not mean that every aircraft already airborne has been ordered to land immediately.\n\nWhat remains unknown: The reviewed reporting does not establish the underlying technical cause, a cyberattack, or a connection to the Microsoft 365 outage or European refrigeration attacks. We could not independently confirm a lifting notice from the FAA’s live status display at this check. This article records the reported order, not a continuously updated flight-status service.\n\nPractical response: Check your airline’s flight status and the FAA status page before leaving for the airport. Save booking details and important phone numbers offline; keep essential medication and charging supplies in your carry-on. Allow for onward travel disruption and follow airline instructions on rebooking. These are general travel precautions, not evidence of a wider emergency.",
       "disclaimer": "Developing report, checked at the time above. Operational status can change quickly. This is an infrastructure-outage report, not a confirmed hacking incident or a prediction of further failures. Follow current FAA, airport and airline instructions.",
       "sources": [
         {
@@ -27,6 +27,18 @@
         {
           "label": "FAA: live National Airspace System status (check current conditions)",
           "url": "https://nasstatus.faa.gov/"
+        },
+        {
+          "label": "WFTV: FAA statement on multiple control centers",
+          "url": "https://www.wftv.com/news/local/faa-orders-nationwide-ground-stop-citing-extraordinary-circumstances/JSZFJV5NLNBO7KWHBK5VL4YD4A/"
+        },
+        {
+          "label": "AP: telecommunications outage and investigation",
+          "url": "https://apnews.com/article/f81b0904331dafad6133f291e5f531a8"
+        },
+        {
+          "label": "AP live reporting: airborne flights and safety",
+          "url": "https://apnews.com/article/6aaa6bd4991ef22eb0c3baa6961a91d1"
         }
       ],
       "id": "hack-20261113-faa-ground-stop"
