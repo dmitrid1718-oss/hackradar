@@ -1,8 +1,29 @@
 {
-  "updated_at": "2026-11-11T17:58:40.832478+00:00",
+  "updated_at": "2026-11-13T10:30:00+00:00",
   "feed": "Google News RSS",
   "query": "cybersecurity ransomware cyberattack internet outage critical infrastructure",
   "items": [
+    {
+      "title": "Microsoft 365 outage disrupts Outlook, Teams and Copilot; no cyberattack evidence reported",
+      "url": "https://status.cloud.microsoft/",
+      "source": "Microsoft 365 Status",
+      "published": "2026-11-13",
+      "category": "Service disruption"
+    },
+    {
+      "title": "Maersk confirms unauthorized access and data extraction from a local legacy system",
+      "url": "https://www.maersk.com/news/articles/2026/11/11/it-security-incident",
+      "source": "A.P. Moller–Maersk",
+      "published": "2026-11-11",
+      "category": "Breach"
+    },
+    {
+      "title": "N-able issues N-central security hotfix as exploit disclosures continue",
+      "url": "https://www.n-able.com/blog/update-on-n-central-2026-4-hf2-and-ongoing-security-response",
+      "source": "N-able",
+      "published": "2026-11-11",
+      "category": "Vulnerability"
+    },
     {
       "title": "Cyberattacks expose key Thai industries to growing economic risks - Asia News Network",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcl9XMWoxWGRyb21obE1DVjB0alpmcHFlM1hzS0dFUlhMRi0yZWxvSC0xSDJQUkdvQy03OFFfcjhRQlVhLVUtWUNRckZTa3d0QmRWejdBQ1h6dG5CSDZ4emdhQXJKVGFSUUdsejVidkRvd0JTLUhudmctR3RqaXFRQjk2UDhJODRiYXNyblRkZDIzNkhLUVE?oc=5",
