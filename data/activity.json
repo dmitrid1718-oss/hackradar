@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:50:21.262724+00:00",
+  "updated_at": "2026-11-13T23:39:27.117242+00:00",
   "points": [
     {
       "ip": "23.94.68.19",
@@ -288,6 +288,26 @@
       "date": "2026-11-13",
       "url": "https://www.dshield.org/ipinfo.html?ip=194.180.49.217",
       "source": "SANS ISC DShield",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-123039 · Check Point / Multiple Products",
+      "note": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+      "date": "2026-11-13",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-123039",
+      "source": "CISA KEV",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-114713 · UnrealIRCd / UnrealIRCd",
+      "note": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+      "date": "2026-11-13",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-114713",
+      "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
     },
@@ -724,7 +744,7 @@
     {
       "type": "advisory",
       "title": "CVE-2015-5477 · ISC / BIND",
-      "note": " ISC BIND Data Processing Errors Vulnerability",
+      "note": "ISC BIND Data Processing Errors Vulnerability",
       "date": "2026-10-08",
       "url": "https://www.cve.org/CVERecord?id=CVE-2015-5477",
       "source": "CISA KEV",
@@ -853,8 +873,8 @@
     },
     {
       "type": "advisory",
-      "title": "CVE-2026-71362 · Adobe / Commerce and Magento ",
-      "note": "Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
+      "title": "CVE-2026-71362 · Adobe / Commerce and Magento",
+      "note": "Adobe Commerce and Magento Incorrect Authorization Vulnerability",
       "date": "2026-09-24",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-71362",
       "source": "CISA KEV",
@@ -864,29 +884,9 @@
     {
       "type": "advisory",
       "title": "CVE-2026-5430 · WSO2 / Multiple Products",
-      "note": "WSO2 Multiple Products Path Traversal Vulnerability ",
+      "note": "WSO2 Multiple Products Path Traversal Vulnerability",
       "date": "2026-09-24",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-5430",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-94127 · F5 / BIG-IP APM",
-      "note": "F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
-      "date": "2026-09-22",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-94127",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-93952 · Arista / VeloCloud Orchestrator",
-      "note": "Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
-      "date": "2026-09-22",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-93952",
       "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"

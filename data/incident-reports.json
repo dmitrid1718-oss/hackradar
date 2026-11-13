@@ -140,19 +140,31 @@
       "url": "https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack",
       "date": "2026-11-13",
       "source": "The Record"
+    },
+    {
+      "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+      "url": "https://therecord.media/city-of-osaka-japan-email-data-breach",
+      "date": "2026-11-13",
+      "source": "The Record"
+    },
+    {
+      "title": "University of Texas at Arlington warns personal information stolen during cyberattack",
+      "url": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
+      "date": "2026-11-13",
+      "source": "The Record"
     }
   ],
   "feeds": {
     "BleepingComputer": {
-      "last_success": "2026-11-13 17:50 UTC",
+      "last_success": "2026-11-13 23:39 UTC",
       "failed": false
     },
     "SecurityWeek": {
-      "last_success": "2026-11-13 17:50 UTC",
+      "last_success": "2026-11-13 23:39 UTC",
       "failed": false
     },
     "The Record": {
-      "last_success": "2026-11-13 17:50 UTC",
+      "last_success": "2026-11-13 23:39 UTC",
       "failed": false
     }
   }
