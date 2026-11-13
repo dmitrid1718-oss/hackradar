@@ -116,19 +116,43 @@
       "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
       "date": "2026-11-12",
       "source": "BleepingComputer"
+    },
+    {
+      "title": "German military drone operations disrupted by cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+      "date": "2026-11-13",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Apify Confirms Customer Data Accessed in Cyberattack",
+      "url": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/",
+      "date": "2026-11-13",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "TSMC confirms employee data breach tied to cloud service provider",
+      "url": "https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider",
+      "date": "2026-11-13",
+      "source": "The Record"
+    },
+    {
+      "title": "Ransomware attack on Belarusian cloud firm disrupts businesses for days",
+      "url": "https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack",
+      "date": "2026-11-13",
+      "source": "The Record"
     }
   ],
   "feeds": {
     "BleepingComputer": {
-      "last_success": "2026-11-13 09:39 UTC",
+      "last_success": "2026-11-13 17:50 UTC",
       "failed": false
     },
     "SecurityWeek": {
-      "last_success": "2026-11-13 09:39 UTC",
+      "last_success": "2026-11-13 17:50 UTC",
       "failed": false
     },
     "The Record": {
-      "last_success": "2026-11-13 09:39 UTC",
+      "last_success": "2026-11-13 17:50 UTC",
       "failed": false
     }
   }
