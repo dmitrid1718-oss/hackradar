@@ -1,9 +1,36 @@
 {
   "edition": "2026-11-13",
-  "edition_title": "Friday morning · November 13, 2026",
+  "edition_title": "Friday · November 13, 2026",
   "byline": "UI News Desk",
-  "updated_at": "2026-11-13",
+  "updated_at": "2026-11-13T21:25:00Z",
   "items": [
+    {
+      "title": "FAA Orders Nationwide Departure Stop After Communications Problems",
+      "category": "AVIATION / INFRASTRUCTURE OUTAGE",
+      "date": "2026-11-13",
+      "edition_date": "2026-11-13",
+      "byline": "UI News Desk",
+      "source": "Reuters; CBS News Chicago; FAA status link",
+      "url": "https://www.reuters.com/world/us/faa-issues-national-ground-stop-due-extraordinary-circumstance-reasons-safety-2026-11-13/",
+      "status": "Developing outage; cyberattack not established",
+      "body": "Reporting checked November 13, 2026, at 4:25 p.m. Eastern / 3:25 p.m. Central (21:25 UTC).\n\nConfirmed reporting: Reuters reports that the FAA ordered a nationwide halt to departing flights on Friday afternoon following serious air traffic control communications problems. The order cited safety concerns and applied until further notice; international flights were to be handled case by case.\n\nLocal detail: CBS News Chicago reports equipment outages and communications issues in advisories affecting O’Hare and Midway before the nationwide action. A ground stop holds departures on the ground; it does not mean that every aircraft already airborne has been ordered to land immediately.\n\nWhat remains unknown: The reviewed reporting does not establish the underlying technical cause, a cyberattack, or a connection to the Microsoft 365 outage or European refrigeration attacks. We could not independently confirm a lifting notice from the FAA’s live status display at this check. This article records the reported order, not a continuously updated flight-status service.\n\nPractical response: Check your airline’s flight status and the FAA status page before leaving for the airport. Save booking details and important phone numbers offline; keep essential medication and charging supplies in your carry-on. Allow for onward travel disruption and follow airline instructions on rebooking. These are general travel precautions, not evidence of a wider emergency.",
+      "disclaimer": "Developing report, checked at the time above. Operational status can change quickly. This is an infrastructure-outage report, not a confirmed hacking incident or a prediction of further failures. Follow current FAA, airport and airline instructions.",
+      "sources": [
+        {
+          "label": "Reuters: nationwide departure stop reported November 13",
+          "url": "https://www.reuters.com/world/us/faa-issues-national-ground-stop-due-extraordinary-circumstance-reasons-safety-2026-11-13/"
+        },
+        {
+          "label": "CBS News Chicago: equipment and communications issues",
+          "url": "https://www.cbsnews.com/chicago/news/ground-stop-chicago-ohare-midway-airports-equipment-outage/"
+        },
+        {
+          "label": "FAA: live National Airspace System status (check current conditions)",
+          "url": "https://nasstatus.faa.gov/"
+        }
+      ],
+      "id": "hack-20261113-faa-ground-stop"
+    },
     {
       "id": "hack-20261113-refrigeration-sabotage",
       "title": "Why Hack a Freezer? Europe’s Refrigeration Attacks Turn Cyber Intrusion Into Physical Damage",
