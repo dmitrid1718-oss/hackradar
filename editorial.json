@@ -1,9 +1,21 @@
 {
-  "edition": "2026-11-12",
-  "edition_title": "Thursday morning · November 12, 2026",
+  "edition": "2026-11-13",
+  "edition_title": "Friday morning · November 13, 2026",
   "byline": "UI News Desk",
-  "updated_at": "2026-11-12",
+  "updated_at": "2026-11-13",
   "items": [
+    {
+      "id": "hackradar-20261113-desk",
+      "title": "AI-powered infrastructure cyber reporting discussed",
+      "category": "CRITICAL INFRASTRUCTURE / CYBER",
+      "date": "2026-11-13",
+      "edition_date": "2026-11-13",
+      "source": "www.reuters.com",
+      "url": "https://www.reuters.com/world/us/trumps-ai-task-force-met-thursday-discussed-ai-powered-cyberattacks-2026-11-13/",
+      "body": "What changed: US task force reportedly discussed incident reporting protections for critical infrastructure. Status: Reported discussion, not enacted regulation. Why watch: banking, energy and emergency service disclosures; Fireworks/Notion downstream investigation remains open.",
+      "status": "Reported",
+      "byline": "UI News Desk"
+    },
     {
       "id": "hack-20261112-fireworks",
       "title": "Fireworks Vendor Intrusion Reaches Datasets and Secrets",
