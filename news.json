@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:57:10.294465+00:00",
+  "updated_at": "2026-11-14T16:40:19.581743+00:00",
   "feed": "Google News RSS",
   "query": "cybersecurity ransomware cyberattack internet outage critical infrastructure",
   "items": [
@@ -10,10 +10,16 @@
       "published": "2026-11-12T20:55:30+00:00"
     },
     {
-      "title": "Trump’s AI task force discusses cyberattack reporting - Ticker News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYWFETTFjSllFUjZGSV9Id1V3QlJSVC1hOS1FaGdmeHE4cWRIc01lRDV5UjJ0ZF9oOEhCMk5rOG5kSVVnLXRCX0d5RllHZFJJSVB5Z1pieWg3OFVLU3RFa3VmLWVqYUxFcERiMUhudFhPTHhBZ24zcHNtaHBUZlRqVg?oc=5",
-      "source": "Ticker News",
-      "published": "2026-11-13T03:46:14+00:00"
+      "title": "Friday the 13th disruptions raise questions over hybrid attacks or coincidental failures - Asia Pacific Security Magazine",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTUNvV3pzTFZjWUlPMjN2NnFTd1lXdTVQRzN4XzNnM1FBMmJaM1dfT0VBUDJzSkltczY4MHZyYTNaUTVRdm9XRHk0d2VBa0czaUJWTDlMTFFQUGZ6UkM1T3lseXhfVndNUUs4LWJYaVV4ZHQ3Tm9zRjZPWFI1LWRWSGZoa040VldjWTBUY0JqWkI0dDd2Qjh2R2wzcTIteUZBTFRYYnoxWHZuWEVhbTFpZkV5SDdTVnFXSE9ta2M5NkZSTmpHMU90SUQxTXd0UQ?oc=5",
+      "source": "Asia Pacific Security Magazine",
+      "published": "2026-11-13T22:48:55+00:00"
+    },
+    {
+      "title": "Global Microsoft Outage Disrupts Outlook, Teams and Cloud Services as Company Works to Restore Servers - Australian Cyber Security Magazine",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWnJ4Mk9DaXhNLUJUZ2M0c2JVR2c5VGJONjhneUItdTljMjAwR1dkaUQ0aUlqNExxOGhuemhQZUJoeGtNMW1hUVhBOFkzYWtGZW0yU2U4QUktMlRwRGxzakpEUGpCRnFTeHVkZE1RellFdVBqcmxfQkxhdV90Y2tKYVkzMTlVdm50TUM3bXNUa0hNTW1ZRjJzNENrcmQyLUtjQnhHOUp1VTVXSUNrdHlPWDdLSFduNUpVejNERE1pbWpiXzFFZUtzN2JtQ3pwSjlCUGRLQ3Jpeks2bG9yVU1KRW8yNA?oc=5",
+      "source": "Australian Cyber Security Magazine",
+      "published": "2026-11-12T22:44:55+00:00"
     },
     {
       "title": "China-linked cyber espionage network compromises governments and firms across 21 nations - Escudo Digital",
@@ -22,10 +28,34 @@
       "published": "2026-11-13T05:10:02+00:00"
     },
     {
-      "title": "Global Microsoft Outage Disrupts Outlook, Teams and Cloud Services as Company Works to Restore Servers - Australian Cyber Security Magazine",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWnJ4Mk9DaXhNLUJUZ2M0c2JVR2c5VGJONjhneUItdTljMjAwR1dkaUQ0aUlqNExxOGhuemhQZUJoeGtNMW1hUVhBOFkzYWtGZW0yU2U4QUktMlRwRGxzakpEUGpCRnFTeHVkZE1RellFdVBqcmxfQkxhdV90Y2tKYVkzMTlVdm50TUM3bXNUa0hNTW1ZRjJzNENrcmQyLUtjQnhHOUp1VTVXSUNrdHlPWDdLSFduNUpVejNERE1pbWpiXzFFZUtzN2JtQ3pwSjlCUGRLQ3Jpeks2bG9yVU1KRW8yNA?oc=5",
-      "source": "Australian Cyber Security Magazine",
-      "published": "2026-11-12T22:44:55+00:00"
+      "title": "Why has the FAA grounded all U.S. flights and what’s causing the nationwide shutdown? - Ticker News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRUE0aEh0cFR6VF81ZGV6eW51MU1ScWJfZUo0STluc1RnVnRGN2JfZ2Z3aFpEdHpaeXFwbS1LdmtWdmxtTWRaTTh0SmowWXBqNnlMeE9XZVVEdXZfY1dPbFVWMGNjamhpUGtZNkJSS1Fyd3dkQ1p4a2dYaDktVG5NLXBNZml2VlFNTnhGNXVKRjZjSVNiei1hLW14YkVBZnpJNEdzNjNfakQ?oc=5",
+      "source": "Ticker News",
+      "published": "2026-11-13T22:06:18+00:00"
+    },
+    {
+      "title": "Microsoft 365 Outage Set to Ramp up Security Risks to Organizations - Infosecurity Magazine",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XT3RjaVc4QXptcFVjdm0yOVpobUF3cjFBaXBySmtEcHp5Y2NieG5wamotVHN3M1dKeEFPLWxUUmhMdlgzbl9SV0FvOUU4OGJRV0RabnkzakxjaWVydlFtdTlHUnR5dEFWcmNiVG5NVnRndG50X2Z3WENvZDc3QQ?oc=5",
+      "source": "Infosecurity Magazine",
+      "published": "2026-11-13T12:29:00+00:00"
+    },
+    {
+      "title": "Trump’s AI task force discusses cyberattack reporting - Ticker News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYWFETTFjSllFUjZGSV9Id1V3QlJSVC1hOS1FaGdmeHE4cWRIc01lRDV5UjJ0ZF9oOEhCMk5rOG5kSVVnLXRCX0d5RllHZFJJSVB5Z1pieWg3OFVLU3RFa3VmLWVqYUxFcERiMUhudFhPTHhBZ24zcHNtaHBUZlRqVg?oc=5",
+      "source": "Ticker News",
+      "published": "2026-11-13T03:46:14+00:00"
+    },
+    {
+      "title": "America's Air Traffic Control Crisis: Cybersecurity Risks, Chinese Threat Concerns and Lessons for India - IBG News",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUzlqU1ZZM1E5WERlWlNuSnp6bFY1d3hPb3RsSjB0dkdtVXpIYUtuMDRYVFRRZ2tyZHZ3dmtoSDdYQWpQQTNCUDVYRk52TWhuQlZZc3RvMHZCZ1o2anNPaGVsa2ZRLWpHeUwzMHJNRFJNTG1VekVveHJkSUptNWJRckEtdVVJaWpSUjNUM2JyTjRKMFp6Q2NhYV9KeVd5SWZZRGVYQ1pHdlR0cFVHempySmVkYzlOQkcwcEFQSThjUkx5WUxia0ZNb1g0OGdEQQ?oc=5",
+      "source": "IBG News",
+      "published": "2026-11-14T09:36:59+00:00"
+    },
+    {
+      "title": "FAA Halts Departing US Flights in Nationwide Ground Stop: Aging Router Overload Disrupts Air Traffic Control - PaidFreeDroid",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWXpMeF8wMzUwczNlZzlBX1hwZ1dkM296WmFfa2FvTlhMNmRMZXplOW1pQ2lnR0lCN2pKQS12S0hJTWkxWWxidFpaX0diaE1GSHQyWkV0WXVHWmowcHJESTBWU1l0TF9WUzhUU2hKTExYcGFvOGo3MjJfb25GZlhBVGNUZy0xc2dPek4ybVdzWGh1ZEh6WHZoakJ30gGfAUFVX3lxTFA5RlJRNlprcXV4Vk9yaDZfY0Exb3BwcGJDRG9FaHlCeC02ODJEVEZFVmFiamN3MVpLWTltSF80V1AyRU12cTQzX2JwcndfU3RhLVN0em5jOS1xUDdaNTNkX0RBYmV1bWZ1dXVYQWR2RGhkSzNiWHZFUVJSOWs0NmVnTkt3V3FGMExCaVZrZF9aR3BhbVh5Q3BmMDRaRTZjcw?oc=5",
+      "source": "PaidFreeDroid",
+      "published": "2026-11-14T04:42:16+00:00"
     }
   ]
 }
