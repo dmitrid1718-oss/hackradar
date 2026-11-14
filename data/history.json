@@ -400,6 +400,16 @@
         "sans": true,
         "cisa": true
       }
+    },
+    {
+      "at": "2026-11-14T14:14:44.006280+00:00",
+      "network_records": 18,
+      "advisory_records": 60,
+      "mapped_sources": 18,
+      "sources_available": {
+        "sans": true,
+        "cisa": true
+      }
     }
   ]
 }

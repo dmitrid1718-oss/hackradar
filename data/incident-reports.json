@@ -156,15 +156,15 @@
   ],
   "feeds": {
     "BleepingComputer": {
-      "last_success": "2026-11-14 06:37 UTC",
+      "last_success": "2026-11-14 14:14 UTC",
       "failed": false
     },
     "SecurityWeek": {
-      "last_success": "2026-11-14 06:37 UTC",
+      "last_success": "2026-11-14 14:14 UTC",
       "failed": false
     },
     "The Record": {
-      "last_success": "2026-11-14 06:37 UTC",
+      "last_success": "2026-11-14 14:14 UTC",
       "failed": false
     }
   }
