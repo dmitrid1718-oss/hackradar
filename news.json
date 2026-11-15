@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T16:40:19.581743+00:00",
+  "updated_at": "2026-11-15T17:20:21.549907+00:00",
   "feed": "Google News RSS",
   "query": "cybersecurity ransomware cyberattack internet outage critical infrastructure",
   "items": [
@@ -10,22 +10,16 @@
       "published": "2026-11-12T20:55:30+00:00"
     },
     {
-      "title": "Friday the 13th disruptions raise questions over hybrid attacks or coincidental failures - Asia Pacific Security Magazine",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTUNvV3pzTFZjWUlPMjN2NnFTd1lXdTVQRzN4XzNnM1FBMmJaM1dfT0VBUDJzSkltczY4MHZyYTNaUTVRdm9XRHk0d2VBa0czaUJWTDlMTFFQUGZ6UkM1T3lseXhfVndNUUs4LWJYaVV4ZHQ3Tm9zRjZPWFI1LWRWSGZoa040VldjWTBUY0JqWkI0dDd2Qjh2R2wzcTIteUZBTFRYYnoxWHZuWEVhbTFpZkV5SDdTVnFXSE9ta2M5NkZSTmpHMU90SUQxTXd0UQ?oc=5",
-      "source": "Asia Pacific Security Magazine",
-      "published": "2026-11-13T22:48:55+00:00"
+      "title": "U.S. ground stop: Homeland Security says cyberattack cannot be ruled out - Ticker News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOWt3bHliTzdtcTRob3lEb2xHUmRrWnFkOHE1RGo1blNqOFZsdHo1Zmh5Y2xjaHo4RllmZ2JZRnQ0eVpkOThzNzVpUzYxeTRxdURoU3pORTZTLTJsckk2b1NNZGROMzBVMllDaDBNV2lJNmg5anhnZWNBVjVPSUVacXFwQkdTV21CTlB2d1ZVZnBXeFBrZTVQdXNMYVktNGFKUmNnUzB4aEhMRjJWbTMyRkZYVktzLU5tMzdxbHJNaERGNHU1ZEtRR0k2dnpzWTc1?oc=5",
+      "source": "Ticker News",
+      "published": "2026-11-13T22:14:16+00:00"
     },
     {
       "title": "Global Microsoft Outage Disrupts Outlook, Teams and Cloud Services as Company Works to Restore Servers - Australian Cyber Security Magazine",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWnJ4Mk9DaXhNLUJUZ2M0c2JVR2c5VGJONjhneUItdTljMjAwR1dkaUQ0aUlqNExxOGhuemhQZUJoeGtNMW1hUVhBOFkzYWtGZW0yU2U4QUktMlRwRGxzakpEUGpCRnFTeHVkZE1RellFdVBqcmxfQkxhdV90Y2tKYVkzMTlVdm50TUM3bXNUa0hNTW1ZRjJzNENrcmQyLUtjQnhHOUp1VTVXSUNrdHlPWDdLSFduNUpVejNERE1pbWpiXzFFZUtzN2JtQ3pwSjlCUGRLQ3Jpeks2bG9yVU1KRW8yNA?oc=5",
       "source": "Australian Cyber Security Magazine",
       "published": "2026-11-12T22:44:55+00:00"
-    },
-    {
-      "title": "China-linked cyber espionage network compromises governments and firms across 21 nations - Escudo Digital",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeEU4Zk44RG9ieGctTFVNa1c0TmJTdzNoQUU5SXFhN0ZqSXFXdXV2OFFUV29ZRm5YVjY0SzhTMjJPcTNvblBiY0htd2ZUNnlteFAtaDRPS1RvUUhRUVpHMUFWQm5HVTN2Sm1hQWJoaFZic2t0X2Npd2RuZ19mZlY3clF0VEQ4bkRRZ1RPdDJCMXZodDFzUjBtLVlPdjYyU3FDaDN6NGVsU0xHNTQxa0RIdHlxVkUwN1V4bnRjOUpmZ0JRWjgtcEJmMmhtTW4yTFhBRl9WRW80Yw?oc=5",
-      "source": "Escudo Digital",
-      "published": "2026-11-13T05:10:02+00:00"
     },
     {
       "title": "Why has the FAA grounded all U.S. flights and what’s causing the nationwide shutdown? - Ticker News",
@@ -40,10 +34,22 @@
       "published": "2026-11-13T12:29:00+00:00"
     },
     {
+      "title": "Friday the 13th disruptions raise questions over hybrid attacks or coincidental failures - Asia Pacific Security Magazine",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTUNvV3pzTFZjWUlPMjN2NnFTd1lXdTVQRzN4XzNnM1FBMmJaM1dfT0VBUDJzSkltczY4MHZyYTNaUTVRdm9XRHk0d2VBa0czaUJWTDlMTFFQUGZ6UkM1T3lseXhfVndNUUs4LWJYaVV4ZHQ3Tm9zRjZPWFI1LWRWSGZoa040VldjWTBUY0JqWkI0dDd2Qjh2R2wzcTIteUZBTFRYYnoxWHZuWEVhbTFpZkV5SDdTVnFXSE9ta2M5NkZSTmpHMU90SUQxTXd0UQ?oc=5",
+      "source": "Asia Pacific Security Magazine",
+      "published": "2026-11-13T22:48:55+00:00"
+    },
+    {
       "title": "Trump’s AI task force discusses cyberattack reporting - Ticker News",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYWFETTFjSllFUjZGSV9Id1V3QlJSVC1hOS1FaGdmeHE4cWRIc01lRDV5UjJ0ZF9oOEhCMk5rOG5kSVVnLXRCX0d5RllHZFJJSVB5Z1pieWg3OFVLU3RFa3VmLWVqYUxFcERiMUhudFhPTHhBZ24zcHNtaHBUZlRqVg?oc=5",
       "source": "Ticker News",
       "published": "2026-11-13T03:46:14+00:00"
+    },
+    {
+      "title": "FAA: Why were all flights grounded in the US and if it was a cyberattack - SecNews.gr",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsSXM0aUtzQmZzeGFublV0QmZwdEtMaHQ1NzhXOV9XNzBKd3FIM0ZFMEhYTmN6R0pXa205VzNzSGp3dFJtN241a0ZMYnVXcUJYME5iZlFPclBacUtkNXppdWR6UTFHTVhqa3RIdUd3?oc=5",
+      "source": "SecNews.gr",
+      "published": "2026-11-13T23:17:05+00:00"
     },
     {
       "title": "America's Air Traffic Control Crisis: Cybersecurity Risks, Chinese Threat Concerns and Lessons for India - IBG News",
