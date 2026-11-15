@@ -1,9 +1,23 @@
 {
-  "edition": "2026-11-14",
-  "edition_title": "Saturday · November 14, 2026",
+  "edition": "2026-11-15",
+  "edition_title": "Sunday · November 15, 2026",
   "byline": "UI News Desk",
-  "updated_at": "2026-11-14T11:15:22Z",
+  "updated_at": "2026-11-15T11:00:00Z",
   "items": [
+    {
+      "id": "hack-20261115-checkpoint",
+      "title": "Check Point Confirms In-the-Wild Gaia Privilege Escalation",
+      "category": "NETWORK SECURITY / ACTIVE EXPLOITATION",
+      "date": "2026-11-12",
+      "edition_date": "2026-11-15",
+      "byline": "UI News Desk",
+      "source": "Check Point Security",
+      "url": "https://blog.checkpoint.com/security/security-advisory-active-exploitation-of-php2shell-and-local-privilege-escalation/",
+      "what_changed": "Check Point says CVE-2026-123039 was exploited against some gateways as part of an attack chain beginning with PHP2Shell. Its November Jumbo Hotfix resolves the reported vulnerabilities.",
+      "status": "Vendor reports activity from October 30 through November 4 and says affected customers were contacted. The disclosure does not establish widespread compromise.",
+      "why_watch": "Administrators should review Check Point's advisory, identify affected Gaia versions, apply the relevant hotfix, and follow the vendor's compromise checks.",
+      "body": "What changed: Check Point says CVE-2026-123039 was exploited against some gateways as part of an attack chain beginning with PHP2Shell. Its November Jumbo Hotfix resolves the reported vulnerabilities.\n\nStatus: Vendor reports activity from October 30 through November 4 and says affected customers were contacted. The disclosure does not establish widespread compromise.\n\nWhy watch: Administrators should review Check Point's advisory, identify affected Gaia versions, apply the relevant hotfix, and follow the vendor's compromise checks."
+    },
     {
       "id": "hack-20261114-faa-recovery",
       "title": "FAA Ground Stop Lifted; Recovery and Cause Under Review",
