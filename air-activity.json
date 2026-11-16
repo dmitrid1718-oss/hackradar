@@ -1,22 +1,55 @@
 {
-  "updated_at": "2026-11-08T08:17:00+02:00",
-  "window": "7 Nov 18:00–8 Nov 08:00 Kyiv time (overnight report, not a rolling 24-hour total)",
-  "source_url": "https://www.ukrinform.net/rubric-ato/4182552-adf-neutralises-137-of-164-russian-drones-overnight.html",
-  "reporting_side": "Ukraine Air Force, as relayed by Ukrinform; preliminary figures",
+  "updated_at": "2026-11-16T09:15:00+02:00",
+  "window": "15 Nov 18:00–16 Nov 08:00 Kyiv time; Ukrainian Air Force preliminary overnight assessment, not a rolling 24-hour total",
+  "source_url": "https://www.ukrinform.net/amp/rubric-ato/4185017-ukraines-adf-down-131-of-158-russian-drones-launched-since-evening.html",
+  "reporting_side": "Ukraine Air Force (reported by Ukrinform); Russian Defense Ministry (reported by Reuters); both preliminary/attributed",
   "totals": {
-    "drones": 164,
-    "missiles": 3,
+    "drones": 158,
+    "missiles": null,
     "aircraft": null
+  },
+  "interceptions": {
+    "ukraine_reports_russian_drones_neutralized": 131,
+    "russia_reports_ukrainian_drones_intercepted": 1336
+  },
+  "reported_impacts": {
+    "ukraine_locations": 19,
+    "ukraine_debris_locations": 11
+  },
+  "historical_comparison": {
+    "russian_claim_previous_record": 1254,
+    "date": "2026-10-29",
+    "source_url": "https://www.investing.com/news/world-news/ukraine-launches-biggest-drone-attack-on-russia-since-war-began-defence-ministry-data-shows-5028879"
   },
   "locations": [
     {
-      "region": "Odesa region, Ukraine (approximate regional marker)",
-      "lat": 46.48,
-      "lon": 30.73,
+      "region": "Dnipro, Ukraine (city reference only)",
+      "lat": 48.46,
+      "lon": 35.04,
       "type": "strike",
-      "status": "Reported Russian airstrike in Odesa; regional reference, not impact coordinates",
-      "source_url": "https://newsukraine.rbc.ua/news/drones-and-missiles-strike-overnight-how-1794120602.html"
+      "status": "Civilian deaths and injuries reported on November 16; broad city marker, not impact location",
+      "source_url": "https://www.itv.com/news/2026-11-16/russian-air-defenses-intercept-1336-ukrainian-drones-in-major-attack"
+    },
+    {
+      "region": "Azov, Rostov Oblast, Russia (city reference only)",
+      "lat": 47.11,
+      "lon": 39.42,
+      "type": "strike",
+      "status": "Industrial fires and injuries reported by regional officials; not independently verified strike coordinates",
+      "source_url": "https://abc-news.co.uk/International/ukraine-fires-1336-drones-russia-wars-largest-attacks/story?id=138171397"
     }
   ],
-  "notes": "Totals count weapons reported launched toward Ukraine overnight, including decoy drones; not intercepts or confirmed impacts. Aircraft incident total is unverified and intentionally left blank. All figures are reported, not independently verified."
+  "notes": "Nov 16 reporting. 158 = Russian drones reportedly launched toward Ukraine, not neutralized. 131 = Ukrainian Air Force neutralization claim. 1,336 = Russian Defense Ministry interception claim across Russian regions/occupied Crimea and adjacent waters, NOT an independently verified Ukrainian launch count. Impact locations are reported counts, not geolocated strike verification. No verified complete missile or aircraft total for this overnight window. Source timestamps and assessments differ; do not combine as one theater-wide launch count.",
+  "sources": [
+    {
+      "label": "Ukrinform / Ukrainian Air Force",
+      "url": "https://www.ukrinform.net/amp/rubric-ato/4185017-ukraines-adf-down-131-of-158-russian-drones-launched-since-evening.html",
+      "published": "2026-11-16 08:39 Kyiv time"
+    },
+    {
+      "label": "Reuters / Russian Defense Ministry",
+      "url": "https://www.investing.com/news/world-news/ukraine-launches-biggest-drone-attack-on-russia-since-war-began-defence-ministry-data-shows-5028879",
+      "published": "2026-11-16 05:40 (publisher timezone unspecified)"
+    }
+  ]
 }
