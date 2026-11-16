@@ -55,12 +55,17 @@
 </section>
 <section class="panel filters" id="airRadar" aria-label="Ukraine and Russia daily air activity">
 <div class="eyebrow">UKRAINE / RUSSIA AIR RADAR · DAILY SNAPSHOT</div>
-<h2 style="margin:6px 0">Latest verified overnight report</h2>
+<h2 style="margin:6px 0">Latest attributed overnight report</h2>
 <div class="stats" style="margin:12px 0;grid-template-columns:repeat(3,minmax(0,1fr))">
 <div class="stat"><div class="small">Drones launched</div><strong id="airDrones">—</strong></div>
 <div class="stat"><div class="small">Missiles launched</div><strong id="airMissiles">—</strong></div>
 <div class="stat"><div class="small">Aircraft incidents</div><strong id="airAircraft">—</strong></div>
 </div>
+<div class="stats" style="margin:0 0 12px;grid-template-columns:repeat(2,minmax(0,1fr))">
+<div class="stat"><div class="small">Russian drones neutralized · Ukraine claim</div><strong id="airNeutralized">—</strong></div>
+<div class="stat"><div class="small">Ukrainian drones intercepted · Russia claim</div><strong id="airRussiaClaim">—</strong></div>
+</div>
+<p class="small" id="airClaimNote">Official military claims are not independently verified. Interceptions are not launch totals.</p>
 <div id="airMap" style="height:290px;border-radius:9px;overflow:hidden;background:#081724" aria-label="Regional locations of sourced air incidents"></div>
 <div class="small" style="margin-top:10px">🔴 Reported strike &nbsp; 🟠 Reported activity &nbsp; 🔵 Interception</div>
 <p class="small" id="airFreshness">Checking daily report…</p>
@@ -92,6 +97,8 @@ const fresh=Number.isFinite(age)&&age>=0&&age<=30*3600*1000;
 for(const [id,key] of [['airDrones','drones'],['airMissiles','missiles'],['airAircraft','aircraft']]){
 const val=d.totals?.[key];document.getElementById(id).textContent=Number.isInteger(val)&&val>=0?String(val):'—';
 }
+document.getElementById('airNeutralized').textContent=Number.isInteger(d.interceptions?.ukraine_reports_russian_drones_neutralized)?d.interceptions.ukraine_reports_russian_drones_neutralized.toLocaleString():'—';
+document.getElementById('airRussiaClaim').textContent=Number.isInteger(d.interceptions?.russia_reports_ukrainian_drones_intercepted)?d.interceptions.russia_reports_ukrainian_drones_intercepted.toLocaleString():'—';
 const colors={strike:'#ff6666',activity:'#ffae71',interception:'#68b9ff'};
 for(const p of d.locations){
 if(!p||!Number.isFinite(p.lat)||!Number.isFinite(p.lon)||!p.region||!p.source_url||!/^https:\/\//.test(p.source_url)||!colors[p.type])continue;
