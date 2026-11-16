@@ -1,9 +1,23 @@
 {
-  "edition": "2026-11-15",
-  "edition_title": "Sunday · November 15, 2026",
+  "edition": "2026-11-16",
+  "edition_title": "Monday · November 16, 2026",
   "byline": "UI News Desk",
-  "updated_at": "2026-11-15T11:00:00Z",
+  "updated_at": "2026-11-16T11:05:17.144Z",
   "items": [
+    {
+      "id": "hackradar-20261116-cursor",
+      "title": "Cursor: Malicious Extension Copies Reached Its Marketplace Cache",
+      "category": "SOFTWARE SUPPLY CHAIN / FOLLOW-UP",
+      "date": "2026-11-13",
+      "edition_date": "2026-11-16",
+      "byline": "UI News Desk",
+      "source": "Cursor",
+      "url": "https://cursor.com/blog/security-incident-update",
+      "what_changed": "Cursor says at most 5,000 users potentially received tampered Claude Code builds during an approximately 11-hour October 29 window.",
+      "status": "Company disclosure; potential exposure is not a confirmed infection count.",
+      "why_watch": "Affected users should follow Cursor's remediation notice; uninstalling alone may be insufficient.",
+      "body": "What changed: Cursor says at most 5,000 users potentially received tampered Claude Code builds during an approximately 11-hour October 29 window.\n\nStatus: Company disclosure; potential exposure is not a confirmed infection count.\n\nWhy watch: Affected users should follow Cursor's remediation notice; uninstalling alone may be insufficient."
+    },
     {
       "id": "hack-20261115-checkpoint",
       "title": "Check Point Confirms In-the-Wild Gaia Privilege Escalation",
