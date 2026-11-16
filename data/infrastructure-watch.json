@@ -1,0 +1,46 @@
+{
+  "updated_at": "2026-11-16",
+  "scope": "Selected sourced infrastructure disruptions; not a complete or statistically representative sample.",
+  "incidents": [
+    {
+      "id": "faa-2026-11-13",
+      "date": "2026-11-13",
+      "title": "FAA national ground stop",
+      "sector": "Aviation",
+      "country": "United States",
+      "classification": "technical_failure",
+      "status": "Preliminary root cause",
+      "cause": "Legacy network instability associated with excessive data flooding; possible originating sites in Texas and Arkansas. FAA says no indication of cyberattack.",
+      "source": "FAA, November 15 Q&A",
+      "url": "https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers",
+      "physical_effect": "Flights grounded; communications and radar feeds unstable",
+      "linked_group": null
+    },
+    {
+      "id": "m365-2026-11-12",
+      "date": "2026-11-12",
+      "title": "Microsoft 365 service disruption",
+      "sector": "Cloud / communications",
+      "country": "Global",
+      "classification": "service_outage",
+      "status": "Service restored; full post-incident review pending",
+      "cause": "Microsoft 365 service interruption; no verified causal link to FAA event.",
+      "source": "Microsoft preliminary incident report (mirror)",
+      "url": "https://www.365fanatic.com/wp-content/uploads/2026/11/PostIncidentReport.pdf",
+      "physical_effect": "Exchange Online and dependent services disrupted",
+      "linked_group": null
+    }
+  ],
+  "methodology": {
+    "labels": {
+      "confirmed_cyber": "Cyberattack confirmed by responsible organization or authority",
+      "technical_failure": "Responsible authority indicates equipment/software or operational fault",
+      "service_outage": "Disruption confirmed; malicious cause not established",
+      "unverified": "Claim needs reliable corroboration"
+    },
+    "baseline": "No historical baseline exists yet. Do not calculate increases, coordination, incident rates, or cross-sector anomalies from this small curated list.",
+    "deduplication": "One row per distinct real-world incident; do not count multiple articles as multiple events.",
+    "source_priority": "Official postmortems > responsible operators > reliable independent reporting > social claims.",
+    "review": "Update dates, source links, and classification as investigations progress."
+  }
+}
