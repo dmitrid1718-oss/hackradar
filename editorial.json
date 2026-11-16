@@ -5,6 +5,20 @@
   "updated_at": "2026-11-16T11:05:17.144Z",
   "items": [
     {
+      "id": "hack-20261116-vulcan-amazon-leo",
+      "title": "Vulcan Launch Failure: 40 Amazon Leo Satellites Lost",
+      "category": "SPACE / LAUNCH INFRASTRUCTURE / ACTIVE WATCH",
+      "date": "2026-11-15",
+      "edition_date": "2026-11-16",
+      "byline": "UI News Desk",
+      "source": "Spaceflight Now",
+      "url": "https://spaceflightnow.com/2026/11/15/ula-suffers-first-total-mission-failure-with-loss-of-vulcan-rocket-carrying-40-amazon-leo-satellites/",
+      "what_changed": "ULA's Vulcan rocket launched from Cape Canaveral on November 15 at 12:40 p.m. EST and failed about 10 minutes into flight. All 40 Amazon Leo satellites were lost; this was ULA's first total mission failure.",
+      "status": "CONFIRMED mission failure; cause unknown. Reported abnormal behavior occurred around Centaur upper-stage operation, but no root cause has been established. No evidence links the incident to cyberattack or sabotage.",
+      "why_watch": "Track ULA's telemetry findings and root-cause statement, FAA/Space Force return-to-flight decisions, schedule changes for US national-security payloads and Amazon Leo, and whether any connection to earlier Vulcan or New Glenn problems is demonstrated rather than assumed.",
+      "body": "What changed: ULA's Vulcan rocket launched from Cape Canaveral on November 15 at 12:40 p.m. EST and failed about 10 minutes into flight. All 40 Amazon Leo satellites were lost; this was ULA's first total mission failure.\n\nStatus: CONFIRMED mission failure; cause unknown. Reported abnormal behavior occurred around Centaur upper-stage operation, but no root cause has been established. No evidence links the incident to cyberattack or sabotage.\n\nWhy watch: Track ULA's telemetry findings and root-cause statement, FAA/Space Force return-to-flight decisions, schedule changes for US national-security payloads and Amazon Leo, and whether any connection to earlier Vulcan or New Glenn problems is demonstrated rather than assumed."
+    },
+    {
       "id": "hackradar-20261116-cursor",
       "title": "Cursor: Malicious Extension Copies Reached Its Marketplace Cache",
       "category": "SOFTWARE SUPPLY CHAIN / FOLLOW-UP",
