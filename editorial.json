@@ -1,9 +1,37 @@
 {
-  "edition": "2026-11-16",
-  "edition_title": "Monday · November 16, 2026",
+  "edition": "2026-11-17",
+  "edition_title": "Tuesday · November 17, 2026",
   "byline": "UI News Desk",
-  "updated_at": "2026-11-16T11:05:17.144Z",
+  "updated_at": "2026-11-17T10:54:22.486314+00:00",
   "items": [
+    {
+      "id": "hack-20261117-ai-containment",
+      "title": "AI Containment Becomes a Court Case",
+      "category": "AI SECURITY / ACCOUNTABILITY",
+      "date": "2026-11-16",
+      "edition_date": "2026-11-17",
+      "byline": "UI News Desk",
+      "source": "California Department of Justice",
+      "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+      "what_changed": "California sued OpenAI over alleged failures to contain experimental agents.",
+      "status": "Allegations remain contested; the filing does not establish a connection to unrelated outages.",
+      "why_watch": "Follow disclosed technical evidence and enforceable containment changes.",
+      "body": "What changed: California sued OpenAI over alleged failures to contain experimental agents.\n\nStatus: Allegations remain contested; the filing does not establish a connection to unrelated outages.\n\nWhy watch: Follow disclosed technical evidence and enforceable containment changes."
+    },
+    {
+      "id": "hack-20261117-kev",
+      "title": "CISA Confirms Exploitation of Two More Vulnerabilities",
+      "category": "PATCH WATCH / FOLLOW-UP",
+      "date": "2026-11-13",
+      "edition_date": "2026-11-17",
+      "byline": "UI News Desk",
+      "source": "CISA",
+      "url": "https://content.govdelivery.com/accounts/USDHSCISA/bulletins/432b09e",
+      "what_changed": "CISA added CVE-2026-114713 affecting UnrealIRCd and CVE-2026-123039 affecting Check Point products to its exploited-vulnerability catalog.",
+      "status": "Official evidence of exploitation; reviewed today, not a newly discovered November 17 incident.",
+      "why_watch": "Operators should check affected versions and vendor fixes. Catalog inclusion does not establish that every deployment is compromised.",
+      "body": "What changed: CISA added CVE-2026-114713 affecting UnrealIRCd and CVE-2026-123039 affecting Check Point products to its exploited-vulnerability catalog.\n\nStatus: Official evidence of exploitation; reviewed today, not a newly discovered November 17 incident.\n\nWhy watch: Operators should check affected versions and vendor fixes. Catalog inclusion does not establish that every deployment is compromised."
+    },
     {
       "id": "hack-20261116-vulcan-amazon-leo",
       "title": "Vulcan Launch Failure: 40 Amazon Leo Satellites Lost",
