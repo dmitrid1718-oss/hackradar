@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T14:34:39.401909+00:00",
+  "updated_at": "2026-11-17T22:57:21.329186+00:00",
   "points": [
     {
       "ip": "23.94.68.19",
@@ -272,6 +272,16 @@
       "date": "2026-11-17",
       "url": "https://www.dshield.org/ipinfo.html?ip=194.180.49.218",
       "source": "SANS ISC DShield",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-115731 · Perforce / Puppet Enterprise",
+      "note": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+      "date": "2026-11-17",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-115731",
+      "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
     },
@@ -861,16 +871,6 @@
       "note": "Adobe Commerce and Magento Incorrect Authorization Vulnerability",
       "date": "2026-09-24",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-71362",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-5430 · WSO2 / Multiple Products",
-      "note": "WSO2 Multiple Products Path Traversal Vulnerability",
-      "date": "2026-09-24",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-5430",
       "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
