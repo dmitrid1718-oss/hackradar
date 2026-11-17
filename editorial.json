@@ -5,6 +5,23 @@
   "updated_at": "2026-11-17T13:40:00+00:00",
   "items": [
     {
+      "id": "hack-20261117-nsa-net-outage",
+      "title": "NSA Classified Network Reportedly Goes Offline",
+      "category": "NATIONAL SECURITY / NETWORK OUTAGE / DEVELOPING",
+      "date": "2026-11-17",
+      "edition_date": "2026-11-17",
+      "byline": "UI News Desk",
+      "source": "CNN · Reuters",
+      "url": "https://www.reuters.com/",
+      "what_changed": "CNN reports an outage affecting NSA Net, a classified internal communications network used by the US National Security Agency.",
+      "status": "Reported, not independently confirmed as to scope or cause. No public evidence currently establishes a cyberattack or loss of all NSA intelligence collection capabilities.",
+      "why_watch": "Watch for an NSA statement, confirmed duration and scope, restoration updates, and any established cause. Do not assume links to unrelated infrastructure outages.",
+      "how_bad_is_it": "HIGH · 4/5 potential operational significance if the reported classified-network outage is confirmed. The extent and cause remain unknown; this is not evidence of an attack.",
+      "severity": 4,
+      "severity_label": "HIGH",
+      "body": "What changed: CNN reports that NSA Net, a classified internal NSA communications network, has experienced an outage.\n\nStatus: The cause, duration, and operational scope remain unclear. A cyberattack has not been established; this does not mean every NSA collection system is offline.\n\nHow bad is it? HIGH · 4/5 potential operational significance, subject to confirmation of scope. Not a confirmed cyberattack.\n\nWhy watch: Official NSA confirmation, restoration, cause, and any verified effect on intelligence operations."
+    },
+    {
       "id": "hack-20261117-kerch-bridge",
       "title": "Kerch Bridge Hit in Coordinated Ukrainian Strike; Damage and Retaliation Under Watch",
       "category": "MILITARY / CRITICAL INFRASTRUCTURE / HIGH WATCH",
