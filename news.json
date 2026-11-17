@@ -1,67 +1,85 @@
 {
-  "updated_at": "2026-11-15T17:20:21.549907+00:00",
+  "updated_at": "2026-11-17T19:16:16.990187+00:00",
   "feed": "Google News RSS",
   "query": "cybersecurity ransomware cyberattack internet outage critical infrastructure",
   "items": [
     {
-      "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams - SecurityWeek",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONUpZX08wc0l2M09xZjJIMEp0MkJHbTBsSFB0bkE5Y2hudy1LV3BQX3BhZ0o3Mk5pWVFYYkVUN181N2tiR18yTUJDRDNSSjljaDY1Vm1xWFFZT19VbWxvMGd2TU9kNElLdWNTcEFuN2VfQnRYLXU2ck9vNGJCbC1mOGh4eVNfbURkQUxlVG5tc2dVYmF3a3YxWA?oc=5",
-      "source": "SecurityWeek",
-      "published": "2026-11-12T20:55:30+00:00"
+      "title": "US Bank Outages: Why Critical Infrastructure Keeps Failing - Cyber Magazine",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORFFfN2lrXzdxam5xWk1KVnB4R2MyV1pjMjlFSkZxRmNxdm9QZ1BjWW1GNzRfU3hLNS1jcEpZN0Q2d3RTWExWWF9UQ2dVOTBLNjBKVERiS1c4VDJtUFRvV29ZdnNqdTQwQnVMdjluMy1aNmNtNnFNc3Q2TmJRT2c2VndVd19BeTl2TXhNdW45aDFXUQ?oc=5",
+      "source": "Cyber Magazine",
+      "published": "2026-11-17T13:11:57+00:00"
     },
     {
-      "title": "U.S. ground stop: Homeland Security says cyberattack cannot be ruled out - Ticker News",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOWt3bHliTzdtcTRob3lEb2xHUmRrWnFkOHE1RGo1blNqOFZsdHo1Zmh5Y2xjaHo4RllmZ2JZRnQ0eVpkOThzNzVpUzYxeTRxdURoU3pORTZTLTJsckk2b1NNZGROMzBVMllDaDBNV2lJNmg5anhnZWNBVjVPSUVacXFwQkdTV21CTlB2d1ZVZnBXeFBrZTVQdXNMYVktNGFKUmNnUzB4aEhMRjJWbTMyRkZYVktzLU5tMzdxbHJNaERGNHU1ZEtRR0k2dnpzWTc1?oc=5",
-      "source": "Ticker News",
-      "published": "2026-11-13T22:14:16+00:00"
+      "title": "Can hackers take down the U.S. power grid? 10 key facts - qz.com",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DREZpNEpWVGIxdVBueS1GN3hfUDhVZ01zYlBvZ2pxSFNzS2c1U20ybXJSc0JJWXZpQjdtcVRQZUx4UWcxZWxXMmVJNll4TWgyU3ZrdmE2OVZ3SnlBQTd3?oc=5",
+      "source": "qz.com",
+      "published": "2026-11-17T14:33:40+00:00"
     },
     {
-      "title": "Global Microsoft Outage Disrupts Outlook, Teams and Cloud Services as Company Works to Restore Servers - Australian Cyber Security Magazine",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWnJ4Mk9DaXhNLUJUZ2M0c2JVR2c5VGJONjhneUItdTljMjAwR1dkaUQ0aUlqNExxOGhuemhQZUJoeGtNMW1hUVhBOFkzYWtGZW0yU2U4QUktMlRwRGxzakpEUGpCRnFTeHVkZE1RellFdVBqcmxfQkxhdV90Y2tKYVkzMTlVdm50TUM3bXNUa0hNTW1ZRjJzNENrcmQyLUtjQnhHOUp1VTVXSUNrdHlPWDdLSFduNUpVejNERE1pbWpiXzFFZUtzN2JtQ3pwSjlCUGRLQ3Jpeks2bG9yVU1KRW8yNA?oc=5",
-      "source": "Australian Cyber Security Magazine",
-      "published": "2026-11-12T22:44:55+00:00"
+      "title": "NSA down: Classified US intelligence network suffers major outage - Beinsure",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR3FRUnBrVnFCa2JnT1UxdEg1RDloQUxkOEpyWlhGTTlha0MzTmVtRHVmV2tqU2ItNjdGZlV6Z0cwMDBqTjdVTzIyZ01CLTFqbC1FMG5fSUJmUXZobmY3QlNpVXNCT2Q1SWpSQ2ZPbF9WMi1EN3drQ0F1WlRRVmZ2OFh5Y3RIUWZmRUkyalE3eWlRM0txMkE?oc=5",
+      "source": "Beinsure",
+      "published": "2026-11-17T17:58:59+00:00"
     },
     {
-      "title": "Why has the FAA grounded all U.S. flights and what’s causing the nationwide shutdown? - Ticker News",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRUE0aEh0cFR6VF81ZGV6eW51MU1ScWJfZUo0STluc1RnVnRGN2JfZ2Z3aFpEdHpaeXFwbS1LdmtWdmxtTWRaTTh0SmowWXBqNnlMeE9XZVVEdXZfY1dPbFVWMGNjamhpUGtZNkJSS1Fyd3dkQ1p4a2dYaDktVG5NLXBNZml2VlFNTnhGNXVKRjZjSVNiei1hLW14YkVBZnpJNEdzNjNfakQ?oc=5",
-      "source": "Ticker News",
-      "published": "2026-11-13T22:06:18+00:00"
+      "title": "Why is the UK worried about a major Cyber Threat dubbed Black Sky Event - Cybersecurity Insiders",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbHB1dnZzNHN1S0RMeGU3cm9MRXB4VzRtUm5UdmpTdElKd0cwRks0VWZvcTk2a1JReEYzSUdaWnNFdWhkclZZQzFkdmVZVElOUnVSOWdIMlNDSDk2TEJPTmk1OXNmdUY3dmFpYjRQX0xGZ3ZsX3FRSGlpMXYzRFdYU2owSTJQNk03bHY4a09KM3lpTm42YnppMG8xWU44X2dwaXU5SXoyZ1RkNHE5MVBiOQ?oc=5",
+      "source": "Cybersecurity Insiders",
+      "published": "2026-11-17T11:37:24+00:00"
     },
     {
-      "title": "Microsoft 365 Outage Set to Ramp up Security Risks to Organizations - Infosecurity Magazine",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XT3RjaVc4QXptcFVjdm0yOVpobUF3cjFBaXBySmtEcHp5Y2NieG5wamotVHN3M1dKeEFPLWxUUmhMdlgzbl9SV0FvOUU4OGJRV0RabnkzakxjaWVydlFtdTlHUnR5dEFWcmNiVG5NVnRndG50X2Z3WENvZDc3QQ?oc=5",
-      "source": "Infosecurity Magazine",
-      "published": "2026-11-13T12:29:00+00:00"
+      "title": "The next cyberattack won't steal your data, it will simply shut down your business - Israel Hayom",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPR0VtOWVvYWhyY1dnNmhPb0pjM2JTajhUd2ZTR2Y1cUlaNkVERUw0dFBjNVJkY0VfWEpKM0Uza2pIdTRfaEd4cFVPdTRZT2lPSEl6SVhlRU5IR3FObkJiLVF5RUhBalhjUW42ejU2aGk5Y1B5ME9iVGZUdGJwUUlFNDI1d3BtWlBhaDZvMHpMM2xqZGo4RFJRV1JDb1V4NnhpUFlOaWNBem1iTVRDRE5OTlVjRldwcTdvVWZLSA?oc=5",
+      "source": "Israel Hayom",
+      "published": "2026-11-17T06:00:50+00:00"
     },
     {
-      "title": "Friday the 13th disruptions raise questions over hybrid attacks or coincidental failures - Asia Pacific Security Magazine",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTUNvV3pzTFZjWUlPMjN2NnFTd1lXdTVQRzN4XzNnM1FBMmJaM1dfT0VBUDJzSkltczY4MHZyYTNaUTVRdm9XRHk0d2VBa0czaUJWTDlMTFFQUGZ6UkM1T3lseXhfVndNUUs4LWJYaVV4ZHQ3Tm9zRjZPWFI1LWRWSGZoa040VldjWTBUY0JqWkI0dDd2Qjh2R2wzcTIteUZBTFRYYnoxWHZuWEVhbTFpZkV5SDdTVnFXSE9ta2M5NkZSTmpHMU90SUQxTXd0UQ?oc=5",
-      "source": "Asia Pacific Security Magazine",
-      "published": "2026-11-13T22:48:55+00:00"
+      "title": "America Under Cyber Siege: Who Profits When a Nation’s Digital Systems Begin to Fail? - The 420.in",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUk1naXR4NDYwQmkxNksxSllWUGxtQm91bUFNQ3NGMHhjczlaN0JLWW9fVklxTUJtRVpDZXFtYkdiR09PYU1kZ0NPdTFmVEpqQ2tEdWN0Tm9OSzE1eHFoaHRfSXBOQlN6STgxVEloU1ZkLW9jcGRDa1FYb1o3ekE5RzdINXMyYnNtaEtZNzFCaWlWUjVyNFItNUVXUEpHV2dCb0Z3?oc=5",
+      "source": "The 420.in",
+      "published": "2026-11-17T12:39:29+00:00"
     },
     {
-      "title": "Trump’s AI task force discusses cyberattack reporting - Ticker News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYWFETTFjSllFUjZGSV9Id1V3QlJSVC1hOS1FaGdmeHE4cWRIc01lRDV5UjJ0ZF9oOEhCMk5rOG5kSVVnLXRCX0d5RllHZFJJSVB5Z1pieWg3OFVLU3RFa3VmLWVqYUxFcERiMUhudFhPTHhBZ24zcHNtaHBUZlRqVg?oc=5",
-      "source": "Ticker News",
-      "published": "2026-11-13T03:46:14+00:00"
+      "title": "Microsoft Outlook outage hits users in 74 countries - CoinGeek",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BaXlkSExud2NPamo4WEdaajVjd25NX25teWZmR1ZzdFZzdXNmX242WlM5OVIwMFl1ejhOdncxVjNYdF8wN01xMXlVM3Q1VVZYWkpHcHR2amdOMDAwOERoZktYNlhJUzR5VEZVSFZHRUozYV9jc1F1dllpOHNUUQ?oc=5",
+      "source": "CoinGeek",
+      "published": "2026-11-16T10:00:00+00:00"
     },
     {
-      "title": "FAA: Why were all flights grounded in the US and if it was a cyberattack - SecNews.gr",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsSXM0aUtzQmZzeGFublV0QmZwdEtMaHQ1NzhXOV9XNzBKd3FIM0ZFMEhYTmN6R0pXa205VzNzSGp3dFJtN241a0ZMYnVXcUJYME5iZlFPclBacUtkNXppdWR6UTFHTVhqa3RIdUd3?oc=5",
-      "source": "SecNews.gr",
-      "published": "2026-11-13T23:17:05+00:00"
+      "title": "NSA Net Down: Classified US Intelligence Network Suffers Outage, No Evidence of Cyberattack - Aktualita.co",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQVg2dFhzX0NYS2o0N2RYSUcxUTZNZWdNQThZLTZZaWxMMzJra0xwcmlDZTN6YURKZENoNVNMUWt5Q1pqZ3JOZ0lTcW1KaGxBMW52LWUwX3hDaWY1NjRMZ1ZIWVV4MTFSc1FsWFU4bGRvNXJsTVpYdXowUXBfamJ3VC02Z2w2V2Jk?oc=5",
+      "source": "Aktualita.co",
+      "published": "2026-11-17T16:44:13+00:00"
     },
     {
-      "title": "America's Air Traffic Control Crisis: Cybersecurity Risks, Chinese Threat Concerns and Lessons for India - IBG News",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUzlqU1ZZM1E5WERlWlNuSnp6bFY1d3hPb3RsSjB0dkdtVXpIYUtuMDRYVFRRZ2tyZHZ3dmtoSDdYQWpQQTNCUDVYRk52TWhuQlZZc3RvMHZCZ1o2anNPaGVsa2ZRLWpHeUwzMHJNRFJNTG1VekVveHJkSUptNWJRckEtdVVJaWpSUjNUM2JyTjRKMFp6Q2NhYV9KeVd5SWZZRGVYQ1pHdlR0cFVHempySmVkYzlOQkcwcEFQSThjUkx5WUxia0ZNb1g0OGdEQQ?oc=5",
-      "source": "IBG News",
-      "published": "2026-11-14T09:36:59+00:00"
+      "title": "What's behind Japan's wave of cyberattacks? - Escudo Digital",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNHcxRmZNSWhzN2N5M2llRVBBV3hsQzAzRkJ4a1AyWElJOE1UWkVzOTg0RkFzdVQyZGU5T2NIbVl3ZHUtMF9LWmhOV0lkQ3plZDFhM1BmbS02VjdUZy1remwwMzJpcUN1dHFtNGRCdDJKcGRfVWxMRUU2aWNPVTZRSU94ZzJuU3E2WTJheVpLYW9aQlE?oc=5",
+      "source": "Escudo Digital",
+      "published": "2026-11-16T05:00:02+00:00"
     },
     {
-      "title": "FAA Halts Departing US Flights in Nationwide Ground Stop: Aging Router Overload Disrupts Air Traffic Control - PaidFreeDroid",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWXpMeF8wMzUwczNlZzlBX1hwZ1dkM296WmFfa2FvTlhMNmRMZXplOW1pQ2lnR0lCN2pKQS12S0hJTWkxWWxidFpaX0diaE1GSHQyWkV0WXVHWmowcHJESTBWU1l0TF9WUzhUU2hKTExYcGFvOGo3MjJfb25GZlhBVGNUZy0xc2dPek4ybVdzWGh1ZEh6WHZoakJ30gGfAUFVX3lxTFA5RlJRNlprcXV4Vk9yaDZfY0Exb3BwcGJDRG9FaHlCeC02ODJEVEZFVmFiamN3MVpLWTltSF80V1AyRU12cTQzX2JwcndfU3RhLVN0em5jOS1xUDdaNTNkX0RBYmV1bWZ1dXVYQWR2RGhkSzNiWHZFUVJSOWs0NmVnTkt3V3FGMExCaVZrZF9aR3BhbVh5Q3BmMDRaRTZjcw?oc=5",
-      "source": "PaidFreeDroid",
-      "published": "2026-11-14T04:42:16+00:00"
+      "title": "Internet Meltdown: NSA's Classified Network Goes Down as Hackers Target Visa and JPMorgan Chase - OFFGRID Survival",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWkRsZWpVcVdiWENKLXhDRzdRV2laNkRsV1JEU1hrRjhrVnNCQXZ2eFBtSGlrZmNxWWhYRGEtWDkwOG15MG9UOVZCdmtaY1JMS2hlVlVUY1l6bkJtTmFxY3QwRTRHX3N3UDdvM3RIbUVKaUlOMkRqR1h2OVE5RzNzcDlsaWpsdlh1dGhuYVF6eERLSWx6aXZxVjBfXzNHcmFobnFYYnhtVGl3SjFJVGxPMDBDNlhjWFZiNFFORURxaw?oc=5",
+      "source": "OFFGRID Survival",
+      "published": "2026-11-16T17:27:14+00:00"
+    },
+    {
+      "title": "Cyberattack fears grip US: Bank outages, Microsoft disruption, grounded flights, 178 websites hit by malwa - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOZGpvT3hzMW00ZzdRNXIwZDNvQ1h5aU1pcWQyZ0hPcmxoaHJQWDFQajRtYXNWSFlqUFN2YlBCY1dfSUxNYTlIOU1rVGRjZGhrTFFPQl92eWsxcGxIelJJUVlQQjRRX09xZlMtMkJQQjNCX2hiS0hsa1FNUkxZU01LcDF5RVh2X1ptd3REMXJ1TjgyTDZKd1dOeFFiU1ZKRTNCRGRQSjBmc0NpTjlKbjNXdDNGcTNLTVNlVzdCTlVoS0xWaHBNNmF5cUpHblVKVEZXSmVKX19XbjVHTFhSMEdjYVU1ZXg0M0xQRk1GTmgwVkRySkRtb2wtbDZ5ZGNZV2xfM3JCbGwxWDBwLUljTFh4dDV2UlBMRUtfYmUtYlN6d0NMbUlnejlNV1lqOTZfbkZxTEg2YjM2eXNJX0FBc1VKMzNiVTYtN1Rm0gHOAkFVX3lxTE42dWNxOS15YzBYSWk3Z0NhUXFkb1JDUndCVDNwYy1ySTlGV25MV213dzA3eEc3SzdtdWZGNlBpSmRCUnpJc1pVZlRPRHo0TjVtbEhIZjVNTkdKMUJWOS11YzNiOUJERml1cFB4NWRXaERoWkIyQ1lBUTFOR3FmMllrelh1OGxrSXZOT1lwQ25NMEpZeGxsZVlURUh4ZjJScXVHbVFBTUdZQzNVTUZKWVpLMGF1SGZ6NURxSmhtNDQ1TEx6eVBTOUtrRXItSjgteWpQOFBfajg5Z0d0bUs2M0tYTng2cTJtbkxpT2ZYaE9WVDdHZ3FDSHlNRXlXVmJpQnNMVU9yOWRTQ01XdDRFel9CSElFNVlRa0ZYei0zWFNBMmtPV3B1aHpuSHpmMnJnajd3YkxXUVlna0M2aW96NlFmWHBNS2kzT25IOTJfTnc?oc=5",
+      "source": "The Economic Times",
+      "published": "2026-11-17T12:22:54+00:00"
+    },
+    {
+      "title": "Did Trump Get America Hacked? Nationwide Outages Cripple Airlines, Banks, and Microsoft as Cybersecurity Fears Grow - SFL Media",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaVZETEVJbEJocUxRNzRJSEhuRE42cHhiTmtvWjJiel9zZ292aWRyYTRVMWdQbWdIUkxyUXA5S2dIRFR4RldRdW5VbDZCbnc5UGRxX2FMTjdya25zV25ybGFha2RUNi1nOHZVZUlFRUR2SFpLX0dSZDdFQ2dtZXpZdU5Vd0l0WGc1blVYaXluTlVJLUs3ODd0Q0x4SGRBdVJXY25KNUx1RTZjMmJFbWJfVXlaOFFpaHh1emZyS3dZS05WeThIb2I2T0wwRQ?oc=5",
+      "source": "SFL Media",
+      "published": "2026-11-17T10:48:58+00:00"
+    },
+    {
+      "title": "From Grounded Flights to Frozen Bank Accounts: Why America's Digital Backbone Is Cracking And What Happens Next - News Talk Florida",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWkM1aXZDb0RPV0RIZ3owR2l6WmdQZzhrWllMRUlYRmRJcktoN2FhblJCcW5JWUVqVnB1ZGVlTkJyUVlmSlkyU3ltRDY2M2xzc3hRMGt2c2MyRENtTUM1Qk5wcDJkVDQwZ3J3WDJGcy1yQXBWTS1hbXFkb2VJZjljSWVSLWY5NTFWa2ZERjdQemN3eTJaQXhOOVBoOFNRLU0?oc=5",
+      "source": "News Talk Florida",
+      "published": "2026-11-16T21:41:55+00:00"
     }
   ]
 }
