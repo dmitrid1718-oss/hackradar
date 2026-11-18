@@ -1,8 +1,44 @@
 {
-  "updated_at": "2026-11-17T19:16:16.990187+00:00",
+  "updated_at": "2026-11-18T18:57:22.558955+00:00",
   "feed": "Google News RSS",
   "query": "cybersecurity ransomware cyberattack internet outage critical infrastructure",
   "items": [
+    {
+      "title": "Exclusive: Highly classified US national security communications network goes down, sources say - CNN",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQ0tpUkRvaGcwWEh5T0JlUzZzMEdTakNIenJjdjltc1dLb25pdlgxQks1aExOSTQ5UDI4ZVEwTjZDWm5nRk1XTkkxM0tUQVFIS19JSGNsblFxcW9jT0ZPb3U2QmxnVmh6b1hGbjFRcU1SaDRza0lzcEFGRWNMUjdSX1QtVDNTdnRMeUJRb0FRbk5kc1MwVnVTNWJQdXBvM3d2VXhVQzZtenJ5U0I4?oc=5",
+      "source": "CNN",
+      "published": "2026-11-17T15:31:26+00:00"
+    },
+    {
+      "title": "Internet outages hit Apple, Google and government systems, but experts say incidents aren't connected - wtsp.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ3EzV0R0WnZEYVB3S1hWWjBEVXhNalFfdzJTT3ZLSFNWdE9jRDhuSzBaTmt5ZW9vNXFlVXB5WHAweUMyajZQcktBUXRfUzR6WWJBVXVrZVNNbGRpYmZPc21IZGRXV1d3OGUzclR1UjFxdWpfLTdxMnpyQU02NG9YdEF0bmdXZ0xRa2Q5a1Iza0tsdEVGZzFWdUVpOEFwSWFndE1icEt5WG1pMHlMdHZPejN3X29abXNlcEZyemk4OA?oc=5",
+      "source": "wtsp.com",
+      "published": "2026-11-18T03:44:00+00:00"
+    },
+    {
+      "title": "Classified N.S.A. Network Goes Down, Causing Work Disruptions - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPa2l0QmN5NDdtbHpuM3Bsc2s1LWJPckU2a25pWFJETmhpY3ZlVzFpa3VHaWd0REZOaWNpbXl2cHlBOU0yaW1WZkVhbGpHYV9wSjF4NGx0cV9wZmMxbGpmYWZvanpkUVdaR202cXlUQTJCOFVVMjBxX1FvbUtheGdsS3BrOHBXcGRCY1E?oc=5",
+      "source": "The New York Times",
+      "published": "2026-11-17T16:36:18+00:00"
+    },
+    {
+      "title": "How to Tell If It’s a Cyberattack or Just an Outage - WIRED",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUVRiZUNSNVJhVVpYYTRHdGktNWY2UWc3eV81emd3bGw5eEhNVmZ2cTdoTnlzN2oxeWZyLTIzVmZSMS1JeGRSNXZhcThfdEFOc3psQUVhelRWdWtUT2pzZ0IzTXBWRUgwaHpBQWtPZkhlU05HVmYxZEhPUGRxVFpNY1o1RUUxUQ?oc=5",
+      "source": "WIRED",
+      "published": "2026-11-17T19:40:57+00:00"
+    },
+    {
+      "title": "The Great Cyberattack Mania: Why Everyone Falsely Thinks America Is Under Attack - Emerald Book",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PM1ktTzVpMHRKVVNVX3phcHF5ZWpnYXE3OVJPTE1saGhBZmxSLWtfUHE3LUpXVl9TR0pqNUNBSWFjdlRWY0VXcGJJNTNwTHc2S0E?oc=5",
+      "source": "Emerald Book",
+      "published": "2026-11-18T06:38:50+00:00"
+    },
+    {
+      "title": "Multiple tech systems have been crashing. Here is how to protect yourself - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSWVUT0djTW55S2JCaEt4aWVaWjlNR2JwUkFJVzAzYk1ZRUNudmR4NU1SNVBpV3FnNVhFc1BQZW02UWpEX3Y2ZGhNUWR6RnExV3NkTDJyTjBmNzkxT0hpb1BOd3FvbldURWduYWVNN0o4NGxGVV8xdEpqWVZGbGhQSGpqWVlqeXpaMHg2dHVfZGhjRmhwWkJIcFFkWl93cUU0OGZjcEJwY3BlcEZFRzExREhSVkFkU2ZObmduTXUtSQ?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-17T23:50:00+00:00"
+    },
     {
       "title": "US Bank Outages: Why Critical Infrastructure Keeps Failing - Cyber Magazine",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORFFfN2lrXzdxam5xWk1KVnB4R2MyV1pjMjlFSkZxRmNxdm9QZ1BjWW1GNzRfU3hLNS1jcEpZN0Q2d3RTWExWWF9UQ2dVOTBLNjBKVERiS1c4VDJtUFRvV29ZdnNqdTQwQnVMdjluMy1aNmNtNnFNc3Q2TmJRT2c2VndVd19BeTl2TXhNdW45aDFXUQ?oc=5",
@@ -10,16 +46,10 @@
       "published": "2026-11-17T13:11:57+00:00"
     },
     {
-      "title": "Can hackers take down the U.S. power grid? 10 key facts - qz.com",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DREZpNEpWVGIxdVBueS1GN3hfUDhVZ01zYlBvZ2pxSFNzS2c1U20ybXJSc0JJWXZpQjdtcVRQZUx4UWcxZWxXMmVJNll4TWgyU3ZrdmE2OVZ3SnlBQTd3?oc=5",
-      "source": "qz.com",
-      "published": "2026-11-17T14:33:40+00:00"
-    },
-    {
-      "title": "NSA down: Classified US intelligence network suffers major outage - Beinsure",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR3FRUnBrVnFCa2JnT1UxdEg1RDloQUxkOEpyWlhGTTlha0MzTmVtRHVmV2tqU2ItNjdGZlV6Z0cwMDBqTjdVTzIyZ01CLTFqbC1FMG5fSUJmUXZobmY3QlNpVXNCT2Q1SWpSQ2ZPbF9WMi1EN3drQ0F1WlRRVmZ2OFh5Y3RIUWZmRUkyalE3eWlRM0txMkE?oc=5",
-      "source": "Beinsure",
-      "published": "2026-11-17T17:58:59+00:00"
+      "title": "Is America’s Infrastructure Under Attack? - The Free Press",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaFppQVlCSnM4bG5IcUlmLWtnV2xwSDZ1YW1FSTJvUHNIOEtVcmVtM2xveElvakxwOXJrMHJUc0VFTEFUVUFPMkhSaWxHSlZ1cnE1NUcxV1A3UHVScDc5SExZcGpoWVVrdXZKNW0yOEg0emxFbndwanJVTTlKYkhVV2dn?oc=5",
+      "source": "The Free Press",
+      "published": "2026-11-18T02:28:03+00:00"
     },
     {
       "title": "Why is the UK worried about a major Cyber Threat dubbed Black Sky Event - Cybersecurity Insiders",
@@ -28,58 +58,58 @@
       "published": "2026-11-17T11:37:24+00:00"
     },
     {
+      "title": "National Security Agency internal communications system down: Report - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWTRNUG44Rm85Z1FBeVdzRmd2U0lweWYzZUc4Rlhkc1FGY2YzOFlDWTl5aXlYV0s0QjQ0YTRqcHllS3RaMHdrbFhuN2NoX1kzYTJvMUFmQTAzbnBCWTVWVU5LblZZWmoxYm9vc0hJWkhhckw5RVd5cWlhSGcydWtmcUFaQUhWSk9ycFFucGNHRjNRQTNBUW8tNEx6eUlzWG0zakVlN0tXMEJoYUkyaGE1bC1B0gG3AUFVX3lxTE5Jb1FheGcyX1ZQakI1bVprRDJXczg0cUROZUNMVVBUakdQbUxXN2Y1NmhneWNvcXNvczlRZXo4Q2lfNUFUZHFQTWRNSC1hcS04TXF6cDNHN183S3dKRzlxYUtQZHdLOXlLRjZYYXA3LXJ6YmJqdlNVMWZiaV9idzhEeGhRZjVyQUdKS0pnQ29LRzg1S21NdXN1OTYzZU1vaUx3d1d0SDhmd1BEXzljUkZGRktfZUptTQ?oc=5",
+      "source": "NewsNation",
+      "published": "2026-11-18T00:10:49+00:00"
+    },
+    {
+      "title": "PHP2Shell flaw exploited in chained attacks targeting unpatched Check Point gateways - Cybersecurity Dive",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSnFpV0c3VGtodzJaSjNwSTcwZi1SQUJNMVVlVURRTnRmV2NPUERTVi1nUFkxeU5GN1FfdEhYbHRzVlFBZGItX1F3V1VWcVRWRnRlVmxZckRUdUVQek0zUndpTXNRTjMzemh2U1ZubVpYVjBiOEU0RloyejlMLU5YQkVqUEttQjNwWXl4S0tiN3N6a3RlXzhfM2d3?oc=5",
+      "source": "Cybersecurity Dive",
+      "published": "2026-11-16T17:45:57+00:00"
+    },
+    {
+      "title": "Can hackers take down the U.S. power grid? 10 key facts - qz.com",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DREZpNEpWVGIxdVBueS1GN3hfUDhVZ01zYlBvZ2pxSFNzS2c1U20ybXJSc0JJWXZpQjdtcVRQZUx4UWcxZWxXMmVJNll4TWgyU3ZrdmE2OVZ3SnlBQTd3?oc=5",
+      "source": "qz.com",
+      "published": "2026-11-17T14:33:40+00:00"
+    },
+    {
+      "title": "Update: Disruptions in NSA’s internal network caused by software patch, DNI says - The Record from Recorded Future News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9obVFCTWZocGFmTTVkMmhvT20weFY0dDV6bnRXQnJwUk5vNEE2SnlxSEY5Y0ZpSnJXRDQzZElGUGhKUWNrUU1nV2s1NVdDOUZHdXR3VlhB?oc=5",
+      "source": "The Record from Recorded Future News",
+      "published": "2026-11-17T16:31:34+00:00"
+    },
+    {
+      "title": "Optimizely reports 'security incident' that involved malware in customers' digital products - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcjRNV3ZGeEdxSmZBS0poRi11bHR6SmN6cl9RQnZFc0F0QXNSWHNHQXVuXzE0RVBjUml0WGNsUXdzY29XN3RPUFROakJyNDB3TUU0X2ZHRnhMSzN2OWN3RTZ3dnJIajliV1huTDAzY083c0Ezc1NpWlppQjZNcFNfaDVBZVVJZ1VROXYyQnk2YWRfWHg1MkhRZnBBVDQxOExXYU16RnJnbE5SZjUtYmdYWTFDa1BPYlB6TWZQeHJR0gHDAUFVX3lxTE9FSk4zV3BQcFNIbzBLSFVTZkFac3J3SFFtd0FsRkdSaUU5RXB0M3NFWEdIOGZ2T0lYcnpzUWpvYlNZajhuUEs5cUVSZFZzanJUaTF1VFBBV1Z6ZzB2cUtNaUdkOEcwcU9JenJ5YUlIcWNkUEJMYy1fMHIweE1pZEtkeUlHaFBJdURCTWlxbUdQVlpnZWpOSWJZbVU5ckR4dWRlbE02eGdfeUFndzZuRmlRVURWVjhvaHgwNmpYc0JGdGxVWQ?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-17T19:28:18+00:00"
+    },
+    {
+      "title": "NSA down: Classified US intelligence network suffers major outage - Beinsure",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR3FRUnBrVnFCa2JnT1UxdEg1RDloQUxkOEpyWlhGTTlha0MzTmVtRHVmV2tqU2ItNjdGZlV6Z0cwMDBqTjdVTzIyZ01CLTFqbC1FMG5fSUJmUXZobmY3QlNpVXNCT2Q1SWpSQ2ZPbF9WMi1EN3drQ0F1WlRRVmZ2OFh5Y3RIUWZmRUkyalE3eWlRM0txMkE?oc=5",
+      "source": "Beinsure",
+      "published": "2026-11-17T17:58:59+00:00"
+    },
+    {
       "title": "The next cyberattack won't steal your data, it will simply shut down your business - Israel Hayom",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPR0VtOWVvYWhyY1dnNmhPb0pjM2JTajhUd2ZTR2Y1cUlaNkVERUw0dFBjNVJkY0VfWEpKM0Uza2pIdTRfaEd4cFVPdTRZT2lPSEl6SVhlRU5IR3FObkJiLVF5RUhBalhjUW42ejU2aGk5Y1B5ME9iVGZUdGJwUUlFNDI1d3BtWlBhaDZvMHpMM2xqZGo4RFJRV1JDb1V4NnhpUFlOaWNBem1iTVRDRE5OTlVjRldwcTdvVWZLSA?oc=5",
       "source": "Israel Hayom",
       "published": "2026-11-17T06:00:50+00:00"
     },
     {
-      "title": "America Under Cyber Siege: Who Profits When a Nation’s Digital Systems Begin to Fail? - The 420.in",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUk1naXR4NDYwQmkxNksxSllWUGxtQm91bUFNQ3NGMHhjczlaN0JLWW9fVklxTUJtRVpDZXFtYkdiR09PYU1kZ0NPdTFmVEpqQ2tEdWN0Tm9OSzE1eHFoaHRfSXBOQlN6STgxVEloU1ZkLW9jcGRDa1FYb1o3ekE5RzdINXMyYnNtaEtZNzFCaWlWUjVyNFItNUVXUEpHV2dCb0Z3?oc=5",
-      "source": "The 420.in",
-      "published": "2026-11-17T12:39:29+00:00"
+      "title": "Top 10: Telecom Cybersecurity Companies - Cyber Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xU05wN2I0SU0ybzBJMXZKS3dadUprODZZaG9RQnB1b2VfWjBpNEZYOGZ4amlSU0RIMzZXQ3FfYXV6QVg5TDAwVFpZRXd3MHFTbjZfTWk5LTlENHhEX2IycGoyeC1Wa2Zmcml5SzhzZWhGWkZOeXFXNHNn?oc=5",
+      "source": "Cyber Magazine",
+      "published": "2026-11-18T14:00:45+00:00"
     },
     {
       "title": "Microsoft Outlook outage hits users in 74 countries - CoinGeek",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BaXlkSExud2NPamo4WEdaajVjd25NX25teWZmR1ZzdFZzdXNmX242WlM5OVIwMFl1ejhOdncxVjNYdF8wN01xMXlVM3Q1VVZYWkpHcHR2amdOMDAwOERoZktYNlhJUzR5VEZVSFZHRUozYV9jc1F1dllpOHNUUQ?oc=5",
       "source": "CoinGeek",
       "published": "2026-11-16T10:00:00+00:00"
-    },
-    {
-      "title": "NSA Net Down: Classified US Intelligence Network Suffers Outage, No Evidence of Cyberattack - Aktualita.co",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQVg2dFhzX0NYS2o0N2RYSUcxUTZNZWdNQThZLTZZaWxMMzJra0xwcmlDZTN6YURKZENoNVNMUWt5Q1pqZ3JOZ0lTcW1KaGxBMW52LWUwX3hDaWY1NjRMZ1ZIWVV4MTFSc1FsWFU4bGRvNXJsTVpYdXowUXBfamJ3VC02Z2w2V2Jk?oc=5",
-      "source": "Aktualita.co",
-      "published": "2026-11-17T16:44:13+00:00"
-    },
-    {
-      "title": "What's behind Japan's wave of cyberattacks? - Escudo Digital",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNHcxRmZNSWhzN2N5M2llRVBBV3hsQzAzRkJ4a1AyWElJOE1UWkVzOTg0RkFzdVQyZGU5T2NIbVl3ZHUtMF9LWmhOV0lkQ3plZDFhM1BmbS02VjdUZy1remwwMzJpcUN1dHFtNGRCdDJKcGRfVWxMRUU2aWNPVTZRSU94ZzJuU3E2WTJheVpLYW9aQlE?oc=5",
-      "source": "Escudo Digital",
-      "published": "2026-11-16T05:00:02+00:00"
-    },
-    {
-      "title": "Internet Meltdown: NSA's Classified Network Goes Down as Hackers Target Visa and JPMorgan Chase - OFFGRID Survival",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWkRsZWpVcVdiWENKLXhDRzdRV2laNkRsV1JEU1hrRjhrVnNCQXZ2eFBtSGlrZmNxWWhYRGEtWDkwOG15MG9UOVZCdmtaY1JMS2hlVlVUY1l6bkJtTmFxY3QwRTRHX3N3UDdvM3RIbUVKaUlOMkRqR1h2OVE5RzNzcDlsaWpsdlh1dGhuYVF6eERLSWx6aXZxVjBfXzNHcmFobnFYYnhtVGl3SjFJVGxPMDBDNlhjWFZiNFFORURxaw?oc=5",
-      "source": "OFFGRID Survival",
-      "published": "2026-11-16T17:27:14+00:00"
-    },
-    {
-      "title": "Cyberattack fears grip US: Bank outages, Microsoft disruption, grounded flights, 178 websites hit by malwa - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOZGpvT3hzMW00ZzdRNXIwZDNvQ1h5aU1pcWQyZ0hPcmxoaHJQWDFQajRtYXNWSFlqUFN2YlBCY1dfSUxNYTlIOU1rVGRjZGhrTFFPQl92eWsxcGxIelJJUVlQQjRRX09xZlMtMkJQQjNCX2hiS0hsa1FNUkxZU01LcDF5RVh2X1ptd3REMXJ1TjgyTDZKd1dOeFFiU1ZKRTNCRGRQSjBmc0NpTjlKbjNXdDNGcTNLTVNlVzdCTlVoS0xWaHBNNmF5cUpHblVKVEZXSmVKX19XbjVHTFhSMEdjYVU1ZXg0M0xQRk1GTmgwVkRySkRtb2wtbDZ5ZGNZV2xfM3JCbGwxWDBwLUljTFh4dDV2UlBMRUtfYmUtYlN6d0NMbUlnejlNV1lqOTZfbkZxTEg2YjM2eXNJX0FBc1VKMzNiVTYtN1Rm0gHOAkFVX3lxTE42dWNxOS15YzBYSWk3Z0NhUXFkb1JDUndCVDNwYy1ySTlGV25MV213dzA3eEc3SzdtdWZGNlBpSmRCUnpJc1pVZlRPRHo0TjVtbEhIZjVNTkdKMUJWOS11YzNiOUJERml1cFB4NWRXaERoWkIyQ1lBUTFOR3FmMllrelh1OGxrSXZOT1lwQ25NMEpZeGxsZVlURUh4ZjJScXVHbVFBTUdZQzNVTUZKWVpLMGF1SGZ6NURxSmhtNDQ1TEx6eVBTOUtrRXItSjgteWpQOFBfajg5Z0d0bUs2M0tYTng2cTJtbkxpT2ZYaE9WVDdHZ3FDSHlNRXlXVmJpQnNMVU9yOWRTQ01XdDRFel9CSElFNVlRa0ZYei0zWFNBMmtPV3B1aHpuSHpmMnJnajd3YkxXUVlna0M2aW96NlFmWHBNS2kzT25IOTJfTnc?oc=5",
-      "source": "The Economic Times",
-      "published": "2026-11-17T12:22:54+00:00"
-    },
-    {
-      "title": "Did Trump Get America Hacked? Nationwide Outages Cripple Airlines, Banks, and Microsoft as Cybersecurity Fears Grow - SFL Media",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaVZETEVJbEJocUxRNzRJSEhuRE42cHhiTmtvWjJiel9zZ292aWRyYTRVMWdQbWdIUkxyUXA5S2dIRFR4RldRdW5VbDZCbnc5UGRxX2FMTjdya25zV25ybGFha2RUNi1nOHZVZUlFRUR2SFpLX0dSZDdFQ2dtZXpZdU5Vd0l0WGc1blVYaXluTlVJLUs3ODd0Q0x4SGRBdVJXY25KNUx1RTZjMmJFbWJfVXlaOFFpaHh1emZyS3dZS05WeThIb2I2T0wwRQ?oc=5",
-      "source": "SFL Media",
-      "published": "2026-11-17T10:48:58+00:00"
-    },
-    {
-      "title": "From Grounded Flights to Frozen Bank Accounts: Why America's Digital Backbone Is Cracking And What Happens Next - News Talk Florida",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWkM1aXZDb0RPV0RIZ3owR2l6WmdQZzhrWllMRUlYRmRJcktoN2FhblJCcW5JWUVqVnB1ZGVlTkJyUVlmSlkyU3ltRDY2M2xzc3hRMGt2c2MyRENtTUM1Qk5wcDJkVDQwZ3J3WDJGcy1yQXBWTS1hbXFkb2VJZjljSWVSLWY5NTFWa2ZERjdQemN3eTJaQXhOOVBoOFNRLU0?oc=5",
-      "source": "News Talk Florida",
-      "published": "2026-11-16T21:41:55+00:00"
     }
   ]
 }
