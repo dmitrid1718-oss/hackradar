@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T14:10:52.842859+00:00",
+  "updated_at": "2026-11-18T22:03:55.966204+00:00",
   "points": [
     {
       "ip": "23.94.68.19",
@@ -272,6 +272,46 @@
       "date": "2026-11-18",
       "url": "https://www.dshield.org/ipinfo.html?ip=194.180.49.217",
       "source": "SANS ISC DShield",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-90817 · Vanderbilt University / Research Electronic Data Capture (REDCap)",
+      "note": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+      "date": "2026-11-18",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-90817",
+      "source": "CISA KEV",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-90436 · Apache / Axis",
+      "note": "Apache Axis Unsafe Reflection Vulnerability",
+      "date": "2026-11-18",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-90436",
+      "source": "CISA KEV",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-40217 · BerriAI / LiteLLM",
+      "note": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+      "date": "2026-11-18",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-40217",
+      "source": "CISA KEV",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2024-10441 · Synology / DiskStation Manager (DSM)",
+      "note": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+      "date": "2026-11-18",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2024-10441",
+      "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
     },
@@ -831,46 +871,6 @@
       "note": "Citrix NetScaler Improper Input Validation Vulnerability",
       "date": "2026-09-27",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-88771",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-87902 · WordPress / Core",
-      "note": "WordPress Core Remote File Inclusion Vulnerability",
-      "date": "2026-09-25",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-87902",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-67279 · MikroTik / RouterOS",
-      "note": "Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
-      "date": "2026-09-25",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-67279",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-65660 · Microsoft / SharePoint",
-      "note": "Microsoft SharePoint Code Injection Vulnerability",
-      "date": "2026-09-25",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-65660",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-71362 · Adobe / Commerce and Magento",
-      "note": "Adobe Commerce and Magento Incorrect Authorization Vulnerability",
-      "date": "2026-09-24",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-71362",
       "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
