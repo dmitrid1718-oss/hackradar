@@ -1,115 +1,111 @@
 {
-  "updated_at": "2026-11-17T16:45:00+02:00",
-  "window": "16 Nov 18:00–17 Nov 12:00 Kyiv time (Ukraine Air Force preliminary); Russian MoD 16 Nov 20:00–17 Nov 08:00 Moscow time. Separate overnight assessments within the previous 24 hours, NOT one synchronized 24-hour theater total.",
-  "source_url": "https://bukoda.gov.ua/news/operatyvna-informatsiia-vid-heneralnoho-shtabu-zbroinykh-syl-ukrainy-stanom-na-17-lystopada",
-  "reporting_side": "Ukraine Air Force via Ukrainian General Staff (official claims); Russian Defense Ministry via Reuters and Ukrainska Pravda (official claims); AP/Reuters independently report disruption, not independently verified interception counts",
+  "updated_at": "2026-11-18T08:48:18-06:00",
+  "window": "Editorial assessment 17 Nov 08:48–18 Nov 08:48 America/Chicago. Ukraine Air Force overnight 17 Nov evening–18 Nov 08:00 Kyiv; Russian MoD overnight 17–18 Nov, exact start/end not verified. These are separate assessment windows, not synchronized 24-hour totals.",
+  "source_url": "https://www.ukrinform.net/amp/rubric-ato/4185864-air-defence-neutralises-126-russian-drones-used-to-attack-ukraine-overnight.html",
+  "reporting_side": "Ukraine Air Force official claims relayed by Ukrinform/Kyiv Independent; Russian Defense Ministry official claim relayed by Anadolu Agency; regional civilian impacts attributed to officials, with Reuters independent reporting of the occurrence of Odesa attacks.",
   "totals": {
-    "drones": 306,
+    "drones": 141,
     "missiles": null,
     "aircraft": null
   },
   "interceptions": {
-    "ukraine_reports_russian_drones_neutralized": 205,
-    "russia_reports_ukrainian_drones_intercepted": 1441
+    "ukraine_reports_russian_drones_neutralized": 126,
+    "russia_reports_ukrainian_drones_intercepted": 184
   },
   "reported_impacts": {
-    "ukraine_locations": 44,
+    "ukraine_locations": 7,
     "ukraine_debris_locations": null
   },
-  "historical_comparison": {
-    "russian_claim_previous_record": 1336,
-    "date": "2026-11-16",
-    "source_url": "https://www.reuters.com/world/europe/ukraine-launches-biggest-drone-attack-russia-since-war-began-defence-ministry-2026-11-16/"
-  },
+  "historical_comparison": null,
   "locations": [],
-  "notes": "PRELIMINARY AND ATTRIBUTED. Ukraine Air Force says 306 Russian drones launched (92 jet-powered); 211 aerial targets neutralized in total, including 205 drones; 44 impact locations; missile launch total unavailable. Russia MoD claims 1,441 Ukrainian drones intercepted in its separate 20:00–08:00 Moscow-time window, NOT independently verified and NOT a confirmed Ukrainian launch count. No verified aircraft losses. Reuters/AP corroborate significant Kerch Bridge disruption and damage, but precise strike details remain attributed; Russian-installed Crimea official reports two deaths, unverified independently. Kyiv North/South bridges closed for inspection following Russian strikes; some heating/water and electricity disruptions reported. Moscow airports reportedly temporarily restricted flights; no live flight status verified. Do not add totals across sides, or treat regional references as verified impact coordinates. Assessment timestamp is editorial update time, not official publication time.",
+  "notes": "PRELIMINARY/ATTRIBUTED, NOT SYNCHRONIZED. Ukrainian Air Force reports 141 Russian long-range attack drones overnight (73 jet-powered), 126 neutralized (59 jet-powered), and impacts at seven locations as of 08:00 Kyiv. Russian MoD claims 184 Ukrainian drones intercepted overnight according to Anadolu; a separate secondary aggregator reports 183, so Russian tally is disputed and not independently corroborated. Ukraine-wide civilian deaths/injuries reported by regional authorities (5 killed, 15 injured in Kyiv Independent morning roundup) must not be added to later Odesa updates; Reuters separately reports four killed and at least seven injured in Odesa's subsequent morning strikes. Ukrainian energy ministry reports outages in eight oblasts. No independently verified aircraft losses. No verified live airspace status. The Ukrainian General Staff's daily 2 missile strikes/87 airstrikes/6990 tactical drones are a DIFFERENT operational category and must not be added to the overnight long-range drone count. Exact original primary-post times unavailable; article times retained when known.",
   "sources": [
     {
-      "label": "Ukraine General Staff / Air Force, 17 Nov 14:00 Kyiv; official",
-      "url": "https://bukoda.gov.ua/news/operatyvna-informatsiia-vid-heneralnoho-shtabu-zbroinykh-syl-ukrainy-stanom-na-17-lystopada",
-      "published": "2026-11-17 14:00 Kyiv time"
+      "label": "Ukrinform / Ukrainian Air Force via General Staff, 18 Nov",
+      "url": "https://www.ukrinform.net/amp/rubric-ato/4185864-air-defence-neutralises-126-russian-drones-used-to-attack-ukraine-overnight.html",
+      "published": "2026-11-18 09:19 (publisher timezone not specified)"
     },
     {
-      "label": "Kyiv Post / Air Force breakdown",
-      "url": "https://www.kyivpost.com/uk/post/90356",
-      "published": "2026-11-17 13:48 Kyiv time"
+      "label": "Kyiv Independent / Ukrainian Air Force and regional authorities",
+      "url": "https://kyivindependent.com/russian-attacks-kill-5-injure-15-across-ukraine-over-past-day-as-russia-continues-energy-assault/",
+      "published": "2026-11-18 11:06 (publisher timezone not specified)"
     },
     {
-      "label": "Ukrainska Pravda / Russian Defense Ministry claim",
-      "url": "https://www.pravda.com.ua/eng/news/2026/11/17/8063209/",
-      "published": "2026-11-17 09:16 Kyiv time"
+      "label": "Anadolu Agency / Russian Defense Ministry and Ukrainian regional officials",
+      "url": "https://www.aa.com.tr/en/russia-ukraine-war/1-killed-nearly-30-injured-as-russia-ukraine-exchange-overnight-strikes-amid-putins-china-visit/4129282",
+      "published": "2026-11-18 (exact publication time unavailable)"
     },
     {
-      "label": "Reuters / Kerch Bridge and Russian MoD claims",
-      "url": "https://www.reuters.com/world/russia-says-ukraine-struck-its-bridge-crimea-second-day-biggest-drone-attack-war-2026-11-17/",
-      "published": "2026-11-17 (exact publication time not established)"
+      "label": "Reuters / Odesa regional officials, later morning strikes",
+      "url": "https://www.reuters.com/world/europe/russian-attacks-ukrainian-city-odesa-kill-four-officials-say-2026-11-18/",
+      "published": "2026-11-18 (exact publication time unavailable)"
     },
     {
-      "label": "AP / bridges, infrastructure and casualties",
-      "url": "https://apnews.com/article/df4b867cf8f70e88843d8fefea5d643c",
-      "published": "2026-11-17 (exact publication time not established)"
-    },
-    {
-      "label": "UNITED24 / Moscow airport restrictions attributed to Rosaviatsiya",
-      "url": "https://united24media.com/war-in-ukraine/russia-claims-record-ukrainian-drone-attack-for-second-day-in-a-row-reports-1441-interceptions-24433",
-      "published": "2026-11-17 10:39 (publisher timezone not specified)"
+      "label": "Hromadske / Ukraine Energy Ministry and regional officials",
+      "url": "https://hromadske.ua/en/war/274575-russian-drone-attacks-hit-ukrainian-market-and-homes-killing-one-and-injuring-at-least-18",
+      "published": "2026-11-18 (exact publication time unavailable)"
     }
   ],
   "assessment": {
-    "assessed_at": "2026-11-17T16:45:00+02:00",
-    "window_start": "2026-11-16T16:45:00+02:00",
-    "window_end": "2026-11-17T16:45:00+02:00",
-    "ukraine_air_force_neutralized_total_targets": 211,
-    "ukraine_air_force_drones_jet_powered_claim": 92,
+    "assessed_at": "2026-11-18T08:48:18-06:00",
+    "window_start": "2026-11-17T08:48:18-06:00",
+    "window_end": "2026-11-18T08:48:18-06:00",
+    "ukraine_air_force_neutralized_total_targets": 126,
+    "ukraine_air_force_drones_jet_powered_claim": 73,
     "independently_verified_aircraft_losses": null,
     "verified_airspace_status": null,
     "regional_impacts": [
       {
-        "region": "Kyiv, Ukraine",
-        "summary": "North/South bridges inspected/closed following Russian strikes; utility disruption reported",
-        "status": "reported by AP/Reuters"
+        "region": "Odesa, Ukraine",
+        "summary": "Reuters reports three waves of attacks on 18 Nov; regional officials report four killed and at least seven injured; residential and commercial damage",
+        "status": "attacks reported by Reuters; casualty count attributed to officials; later than overnight tally"
       },
       {
-        "region": "Kerch Strait, occupied Crimea",
-        "summary": "Bridge traffic suspended, significant road span damage reported; rail status changed during reporting",
-        "status": "bridge disruption corroborated; precise damage attributed"
+        "region": "Donetsk, Ukraine",
+        "summary": "Four deaths reported in daily regional-authority roundup",
+        "status": "attributed to regional governor; not independently verified"
       },
       {
-        "region": "Moscow region, Russia",
-        "summary": "Russian officials claim large-scale drone interceptions; temporary airport restrictions reported",
-        "status": "official claims, flight status not live-verified"
+        "region": "Kharkiv, Ukraine",
+        "summary": "Zlatopil market attack; regional governor reports 12 injured",
+        "status": "attributed; casualty totals may overlap national roundup"
       },
       {
-        "region": "Bashkortostan, Russia",
-        "summary": "Industrial/petrochemical fire reported amid drone attacks",
-        "status": "reported; strike mechanism not independently established"
+        "region": "Dnipro, Ukraine",
+        "summary": "Six injured and residential damage reported by regional governor",
+        "status": "attributed; do not add to separate aggregate"
       },
       {
-        "region": "Zaporizhzhia, Ukraine",
-        "summary": "Two deaths reported in Russian strikes",
-        "status": "AP-reported; attribution from local officials"
+        "region": "Rivne and seven other Ukrainian oblasts",
+        "summary": "Energy Ministry reports power interruptions across eight regions; over 80 communities affected in northern Rivne",
+        "status": "attributed to Ukraine Energy Ministry"
       },
       {
-        "region": "Crimea, occupied Ukraine",
-        "summary": "Two deaths reported by Russian-installed authorities",
-        "status": "attributed; independently unverified"
+        "region": "Crimea and Russian regions",
+        "summary": "Russian Defense Ministry claims overnight drone interceptions; exact regional impact totals unverified",
+        "status": "attributed; no confirmed geographic strike coordinates"
       }
     ],
     "notable_claims": [
       {
-        "claim": "1,441 Ukrainian drones intercepted",
+        "claim": "141 Russian attack drones, 126 neutralized",
+        "attribution": "Ukraine Air Force",
+        "verification": "official claim; not independently verified"
+      },
+      {
+        "claim": "184 Ukrainian drones intercepted",
+        "attribution": "Russian Defense Ministry via Anadolu",
+        "verification": "unverified; another secondary source reports 183"
+      },
+      {
+        "claim": "73 jet-powered Russian drones launched, 59 neutralized",
+        "attribution": "Ukraine Air Force",
+        "verification": "official claim; not independently verified"
+      },
+      {
+        "claim": "Record Russian overnight interception counts from Nov 16–17",
         "attribution": "Russian Defense Ministry",
-        "verification": "unverified"
-      },
-      {
-        "claim": "Kerch Bridge arch collapse after seven-stage drone/missile operation",
-        "attribution": "Ukrainian General Staff and President Zelenskyy",
-        "verification": "major bridge damage and closure reported by Reuters/AP; operational sequence not independently verified"
-      },
-      {
-        "claim": "Record largest attack",
-        "attribution": "Russian official overnight tallies",
-        "verification": "not independently verified; competing historical comparisons exist"
+        "verification": "historical claims, outside current overnight window; do not roll forward"
       }
     ]
   }
