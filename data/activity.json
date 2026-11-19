@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T03:37:31.611152+00:00",
+  "updated_at": "2026-11-19T13:24:22.993181+00:00",
   "points": [
     {
       "ip": "23.94.68.19",
@@ -14,22 +14,16 @@
       "country": "Bulgaria"
     },
     {
+      "ip": "204.76.203.212",
+      "lat": 50.8658269,
+      "lon": 6.062466,
+      "country": "Netherlands"
+    },
+    {
       "ip": "79.124.62.134",
       "lat": 42.6975067,
       "lon": 23.324147,
       "country": "Bulgaria"
-    },
-    {
-      "ip": "3.131.209.36",
-      "lat": 39.9611755,
-      "lon": -82.9987943,
-      "country": "United States"
-    },
-    {
-      "ip": "204.236.133.68",
-      "lat": 37.3393854,
-      "lon": -121.894959,
-      "country": "United States"
     },
     {
       "ip": "207.180.192.205",
@@ -102,6 +96,12 @@
       "lat": 52.2297666,
       "lon": 21.0117787,
       "country": "Poland"
+    },
+    {
+      "ip": "194.180.49.218",
+      "lat": 52.2297666,
+      "lon": 21.0117787,
+      "country": "Poland"
     }
   ],
   "events": [
@@ -127,30 +127,20 @@
     },
     {
       "type": "network",
+      "title": "Reported suspicious source · 204.76.203.212",
+      "note": "SANS ISC top-source snapshot; not an identified attacker, victim, or completed attack.",
+      "date": "2026-11-19",
+      "url": "https://www.dshield.org/ipinfo.html?ip=204.76.203.212",
+      "source": "SANS ISC DShield",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "network",
       "title": "Reported suspicious source · 79.124.62.134",
       "note": "SANS ISC top-source snapshot; not an identified attacker, victim, or completed attack.",
       "date": "2026-11-19",
       "url": "https://www.dshield.org/ipinfo.html?ip=79.124.62.134",
-      "source": "SANS ISC DShield",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "network",
-      "title": "Reported suspicious source · 3.131.209.36",
-      "note": "SANS ISC top-source snapshot; not an identified attacker, victim, or completed attack.",
-      "date": "2026-11-19",
-      "url": "https://www.dshield.org/ipinfo.html?ip=3.131.209.36",
-      "source": "SANS ISC DShield",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "network",
-      "title": "Reported suspicious source · 204.236.133.68",
-      "note": "SANS ISC top-source snapshot; not an identified attacker, victim, or completed attack.",
-      "date": "2026-11-19",
-      "url": "https://www.dshield.org/ipinfo.html?ip=204.236.133.68",
       "source": "SANS ISC DShield",
       "sector": "unclassified",
       "importance": "unrated"
@@ -271,6 +261,16 @@
       "note": "SANS ISC top-source snapshot; not an identified attacker, victim, or completed attack.",
       "date": "2026-11-19",
       "url": "https://www.dshield.org/ipinfo.html?ip=194.180.49.217",
+      "source": "SANS ISC DShield",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "network",
+      "title": "Reported suspicious source · 194.180.49.218",
+      "note": "SANS ISC top-source snapshot; not an identified attacker, victim, or completed attack.",
+      "date": "2026-11-19",
+      "url": "https://www.dshield.org/ipinfo.html?ip=194.180.49.218",
       "source": "SANS ISC DShield",
       "sector": "unclassified",
       "importance": "unrated"
