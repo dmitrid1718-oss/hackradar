@@ -206,19 +206,31 @@
       "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
       "date": "2026-11-18",
       "source": "BleepingComputer"
+    },
+    {
+      "title": "Five warning signs of ransomware breach before encryption or data theft",
+      "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+      "date": "2026-11-19",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "European Commission confirms cyberattack, says hackers used AI tool",
+      "url": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+      "date": "2026-11-19",
+      "source": "The Record"
     }
   ],
   "feeds": {
     "BleepingComputer": {
-      "last_success": "2026-11-19 13:24 UTC",
+      "last_success": "2026-11-19 22:14 UTC",
       "failed": false
     },
     "SecurityWeek": {
-      "last_success": "2026-11-19 13:24 UTC",
+      "last_success": "2026-11-19 22:14 UTC",
       "failed": false
     },
     "The Record": {
-      "last_success": "2026-11-19 13:24 UTC",
+      "last_success": "2026-11-19 22:14 UTC",
       "failed": false
     }
   }
