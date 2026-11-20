@@ -236,19 +236,31 @@
       "url": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
       "date": "2026-11-20",
       "source": "SecurityWeek"
+    },
+    {
+      "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+      "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+      "date": "2026-11-20",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Container Store restores systems after cyberattack",
+      "url": "https://therecord.media/container-store-restores-systems-cyberattack",
+      "date": "2026-11-20",
+      "source": "The Record"
     }
   ],
   "feeds": {
     "BleepingComputer": {
-      "last_success": "2026-11-20 13:04 UTC",
+      "last_success": "2026-11-20 21:14 UTC",
       "failed": false
     },
     "SecurityWeek": {
-      "last_success": "2026-11-20 13:04 UTC",
+      "last_success": "2026-11-20 21:14 UTC",
       "failed": false
     },
     "The Record": {
-      "last_success": "2026-11-20 13:04 UTC",
+      "last_success": "2026-11-20 21:14 UTC",
       "failed": false
     }
   }

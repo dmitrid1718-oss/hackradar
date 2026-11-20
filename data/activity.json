@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T13:04:03.260636+00:00",
+  "updated_at": "2026-11-20T21:14:03.548577+00:00",
   "points": [
     {
       "ip": "23.94.68.19",
@@ -272,6 +272,46 @@
       "date": "2026-11-20",
       "url": "https://www.dshield.org/ipinfo.html?ip=194.180.49.218",
       "source": "SANS ISC DShield",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-76466 · Cisco / Expressway Series",
+      "note": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+      "date": "2026-11-20",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-76466",
+      "source": "CISA KEV",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-129448 · Apache / Roller",
+      "note": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+      "date": "2026-11-20",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-129448",
+      "source": "CISA KEV",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2026-123890 · Broadcom / VMware vCenter",
+      "note": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "date": "2026-11-20",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-123890",
+      "source": "CISA KEV",
+      "sector": "unclassified",
+      "importance": "unrated"
+    },
+    {
+      "type": "advisory",
+      "title": "CVE-2025-42884 · SAP / NetWeaver",
+      "note": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+      "date": "2026-11-20",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-42884",
+      "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
     },
@@ -831,46 +871,6 @@
       "note": "Fortinet FortiMail Path Traversal Vulnerability",
       "date": "2026-10-01",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-104286",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-76504 · Cisco / Catalyst SD-WAN Manager",
-      "note": "Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
-      "date": "2026-09-30",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-76504",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-86950 · Apple / Multiple Products",
-      "note": "Apple Multiple Products Out-of-Bounds Write Vulnerability",
-      "date": "2026-09-29",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-86950",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-88772 · Citrix / NetScaler",
-      "note": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-      "date": "2026-09-27",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-88772",
-      "source": "CISA KEV",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "advisory",
-      "title": "CVE-2026-88771 · Citrix / NetScaler",
-      "note": "Citrix NetScaler Improper Input Validation Vulnerability",
-      "date": "2026-09-27",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-88771",
       "source": "CISA KEV",
       "sector": "unclassified",
       "importance": "unrated"
