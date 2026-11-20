@@ -1,9 +1,35 @@
 {
-  "edition": "2026-11-19",
-  "edition_title": "Thursday · November 19, 2026",
+  "edition": "2026-11-20",
+  "edition_title": "Friday · November 20, 2026",
   "byline": "UI News Desk",
-  "updated_at": "2026-11-19T12:00:00Z",
+  "updated_at": "2026-11-20T13:30:00Z",
   "items": [
+    {
+      "date": "2026-11-20",
+      "edition_date": "2026-11-20",
+      "byline": "UI News Desk",
+      "id": "hack-20261120-ipo-market",
+      "title": "Market Shock Watch: Anthropic's $83 IPO Floor",
+      "category": "MARKET SHOCK / AI EQUITIES",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/",
+      "what_changed": "Anthropic's shares retreated after their November 19 debut as Nasdaq futures weakened. The shares had opened at $111.50 on Thursday from an $83 IPO price and closed at $97.17.",
+      "status": "Observed equity-market move; not a cybersecurity incident. Friday's closing result remains unknown.",
+      "why_watch": "Watch whether ANT trades below $83 and whether AI-sector weakness is broad-based; do not assign a cyber cause to market moves."
+    },
+    {
+      "date": "2026-11-20",
+      "edition_date": "2026-11-20",
+      "byline": "UI News Desk",
+      "id": "hack-20261120-outage-resilience",
+      "title": "Outage Cluster: Investigate Separately Before Linking Causes",
+      "category": "INFRASTRUCTURE / RESILIENCE",
+      "source": "Cybersecurity Dive",
+      "url": "https://www.cybersecuritydive.com/news/technology-outages-infrastructure-failures-week/806103/",
+      "what_changed": "A recent succession of high-profile communications and technology disruptions highlights dependency and recovery risks across essential services.",
+      "status": "Different failures with different available evidence; no established common attacker. Underlying technical causes should be verified individually.",
+      "why_watch": "Track restoration time, confirmed root causes, and the availability of independent backups. Coincidence is not proof of coordination."
+    },
     {
       "id": "hack-20261119-barracuda-artex",
       "title": "Barracuda Details 44-Hour ARTEX Cloud Intrusion",
