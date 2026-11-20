@@ -1,9 +1,23 @@
 {
   "edition": "2026-11-20",
-  "edition_title": "Friday · November 20, 2026",
+  "edition_title": "November 20, 2026 · Afternoon follow-up",
   "byline": "UI News Desk",
-  "updated_at": "2026-11-20T13:30:00Z",
+  "updated_at": "2026-11-20T21:17:00Z",
   "items": [
+    {
+      "date": "2026-11-20",
+      "edition_date": "2026-11-20",
+      "byline": "UI News Desk",
+      "id": "hack-20261120-evening-ukraine-grid",
+      "title": "Ukraine Grid Watch: 750-kV Substation Targeted in Large-Scale Strike",
+      "category": "ENERGY INFRASTRUCTURE / PHYSICAL ATTACK",
+      "url": "https://kyivindependent.com/russia-targets-europes-largest-substation-in-mass-energy-attack-on-ukraine/",
+      "source": "Kyiv Independent · Financial Times · November 20, 2026",
+      "what_changed": "Reporting from Ukraine identifies a Russian missile-and-drone attack targeting the Western Ukrainian 750-kV substation. Ukrainian officials reported damage to energy infrastructure and reduced nuclear generating capacity during the assault.",
+      "status": "Reported physical wartime infrastructure attack. Damage assessments may change. Do not conflate this event with unrelated cloud-service outages or infer a common cyber cause.",
+      "why_watch": "Track grid stabilization, independent damage reports, restoration timelines, further strikes and effects on civilian energy access. Keep physical attacks, software outages and cyber intrusions in separate categories.",
+      "body": "What changed: Reporting from Ukraine identifies a Russian missile-and-drone attack targeting the Western Ukrainian 750-kV substation. Ukrainian officials reported damage to energy infrastructure and reduced nuclear generating capacity during the assault.\n\nStatus: Reported physical wartime infrastructure attack. Damage assessments may change. Do not conflate this event with unrelated cloud-service outages or infer a common cyber cause.\n\nWhy watch: Track grid stabilization, independent damage reports, restoration timelines, further strikes and effects on civilian energy access. Keep physical attacks, software outages and cyber intrusions in separate categories."
+    },
     {
       "date": "2026-11-20",
       "edition_date": "2026-11-20",
