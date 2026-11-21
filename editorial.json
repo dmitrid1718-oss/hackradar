@@ -1,9 +1,97 @@
 {
   "edition": "2026-11-21",
-  "edition_title": "November 21, 2026 · FBI NCIC developing story",
+  "edition_title": "November 21, 2026 · Incident timeline audit",
   "byline": "UI News Desk",
   "updated_at": "2026-11-21",
   "items": [
+    {
+      "edition_date": "2026-11-21",
+      "byline": "UI News Desk",
+      "id": "hack-20261121-retro-jpm-outage",
+      "date": "2026-11-16",
+      "title": "JPMorgan Technical Failure Disrupts Banking and Zelle Access",
+      "category": "BANKING / TECHNICAL OUTAGE",
+      "url": "https://www.opb.org/article/2026/11/16/a-technical-issue-at-jpmorgan-chase-triggers-online-banking-delays-across-major-us-banks/",
+      "source": "Associated Press · November 16–17, 2026",
+      "what_changed": "Customers reported online banking and transfer problems across Chase and several other banks and Zelle on November 16. JPMorgan identified an on-premise hardware software issue and reported recovery.",
+      "status": "Confirmed service disruption; JPMorgan said no evidence the outage was cyber-related. Do not conflate with the November 19 third-party data leak.",
+      "why_watch": "Review incident postmortems and recovery measures; cross-service dependency can spread a localized technical fault.",
+      "sources": [
+        {
+          "label": "AP syndicated report",
+          "url": "https://www.opb.org/article/2026/11/16/a-technical-issue-at-jpmorgan-chase-triggers-online-banking-delays-across-major-us-banks/"
+        }
+      ],
+      "body": "What changed: Customers reported online banking and transfer problems across Chase and several other banks and Zelle on November 16. JPMorgan identified an on-premise hardware software issue and reported recovery.\n\nStatus: Confirmed service disruption; JPMorgan said no evidence the outage was cyber-related. Do not conflate with the November 19 third-party data leak.\n\nWhy watch: Review incident postmortems and recovery measures; cross-service dependency can spread a localized technical fault."
+    },
+    {
+      "edition_date": "2026-11-21",
+      "byline": "UI News Desk",
+      "id": "hack-20261121-retro-playstation",
+      "date": "2026-11-18",
+      "title": "PlayStation Network Problems Reported Ahead of GTA VI Launch",
+      "category": "CONSUMER INFRASTRUCTURE / REPORTED OUTAGE",
+      "url": "https://www.axios.com/2026/11/18/gta-6-playstation-psn-servers",
+      "source": "Axios · Guardian · November 18, 2026",
+      "what_changed": "PlayStation users reported widespread problems with game launches and network services around the anticipated Grand Theft Auto VI rollout. The reports include outage-tracker observations.",
+      "status": "Widespread user reports; the detailed technical cause and full official incident scope remain unconfirmed. No evidence here of a cyberattack.",
+      "why_watch": "Look for Sony's official incident assessment, regional recovery information and any confirmed capacity or authentication bottleneck.",
+      "sources": [
+        {
+          "label": "Axios reporting",
+          "url": "https://www.axios.com/2026/11/18/gta-6-playstation-psn-servers"
+        },
+        {
+          "label": "Guardian",
+          "url": "https://www.theguardian.com/games/2026/nov/18/playstation-down-grand-theft-auto-vi-game-release"
+        }
+      ],
+      "body": "What changed: PlayStation users reported widespread problems with game launches and network services around the anticipated Grand Theft Auto VI rollout. The reports include outage-tracker observations.\n\nStatus: Widespread user reports; the detailed technical cause and full official incident scope remain unconfirmed. No evidence here of a cyberattack.\n\nWhy watch: Look for Sony's official incident assessment, regional recovery information and any confirmed capacity or authentication bottleneck."
+    },
+    {
+      "edition_date": "2026-11-21",
+      "byline": "UI News Desk",
+      "id": "hack-20261121-retro-nvidia-claim",
+      "date": "2026-11-19",
+      "title": "Nvidia Investigates Gentlemen Ransomware Group's Breach Claim",
+      "category": "CYBER / RANSOMWARE CLAIM / UNVERIFIED",
+      "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+      "source": "BleepingComputer · November 19, 2026",
+      "what_changed": "The Gentlemen ransomware group listed Nvidia on its leak site and alleged it had obtained company data; Nvidia was reported to be investigating.",
+      "status": "Attacker claim, not an independently verified successful intrusion or confirmed data theft. Claimed samples and statements require independent verification.",
+      "why_watch": "Check for Nvidia's official findings, verifiable disclosure, affected customers, or confirmed security response; do not treat a criminal group's publicity as proof.",
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/"
+        }
+      ],
+      "body": "What changed: The Gentlemen ransomware group listed Nvidia on its leak site and alleged it had obtained company data; Nvidia was reported to be investigating.\n\nStatus: Attacker claim, not an independently verified successful intrusion or confirmed data theft. Claimed samples and statements require independent verification.\n\nWhy watch: Check for Nvidia's official findings, verifiable disclosure, affected customers, or confirmed security response; do not treat a criminal group's publicity as proof."
+    },
+    {
+      "edition_date": "2026-11-21",
+      "byline": "UI News Desk",
+      "id": "hack-20261121-retro-jpm-vendor",
+      "date": "2026-11-19",
+      "title": "JPMorgan Customer Contact Details Leaked After Third-Party Attack",
+      "category": "CYBER / FINANCIAL THIRD-PARTY DATA EXPOSURE",
+      "url": "https://apnews.com/article/8470d475450721b66858bdace47091c0",
+      "source": "Associated Press · November 19, 2026",
+      "what_changed": "JPMorgan said third-party vendors were targeted and customer information including some email addresses and phone numbers was exposed. Visa and Mastercard separately acknowledged effects on limited information.",
+      "status": "Confirmed third-party data exposure; reporting says payment credentials and particularly sensitive customer details were not included. Distinct from JPMorgan's November 16 technical outage.",
+      "why_watch": "Check customer notifications, vendor identity and scope, and follow-on phishing attempts. Do not imply that customer funds or payment-card details were stolen without evidence.",
+      "sources": [
+        {
+          "label": "Associated Press",
+          "url": "https://apnews.com/article/8470d475450721b66858bdace47091c0"
+        },
+        {
+          "label": "NBC Chicago",
+          "url": "https://www.nbcchicago.com/news/local/chase-bank-warns-customer-data-may-have-been-exposed-after-third-party-cyberattack/4018958/"
+        }
+      ],
+      "body": "What changed: JPMorgan said third-party vendors were targeted and customer information including some email addresses and phone numbers was exposed. Visa and Mastercard separately acknowledged effects on limited information.\n\nStatus: Confirmed third-party data exposure; reporting says payment credentials and particularly sensitive customer details were not included. Distinct from JPMorgan's November 16 technical outage.\n\nWhy watch: Check customer notifications, vendor identity and scope, and follow-on phishing attempts. Do not imply that customer funds or payment-card details were stolen without evidence."
+    },
     {
       "date": "2026-11-21",
       "edition_date": "2026-11-21",
