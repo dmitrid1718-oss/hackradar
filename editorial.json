@@ -1,9 +1,57 @@
 {
-  "edition": "2026-11-20",
-  "edition_title": "November 20, 2026 · Afternoon follow-up",
+  "edition": "2026-11-21",
+  "edition_title": "November 21, 2026 · Verified morning follow-up",
   "byline": "UI News Desk",
-  "updated_at": "2026-11-20T21:17:00Z",
+  "updated_at": "2026-11-21",
   "items": [
+    {
+      "date": "2026-11-21",
+      "edition_date": "2026-11-21",
+      "byline": "UI News Desk",
+      "id": "hack-20261121-usda-farm-payments",
+      "title": "USDA Farm-Payment Systems Disrupted After Security Incident",
+      "category": "CYBER / GOVERNMENT SERVICES",
+      "url": "https://www.reuters.com/legal/litigation/us-department-agriculture-breached-by-hackers-this-week-nbc-news-reports-2026-11-20/",
+      "source": "Reuters · Nextgov/FCW · November 19–20, 2026",
+      "what_changed": "Reuters relayed new reporting of hacker access to a USDA system used for farmer payments; Nextgov separately reported internal password resets and multiple applications taken offline.",
+      "status": "Reported breach and documented service disruptions. The complete scope, data exposure and recovery status are not yet established.",
+      "why_watch": "Watch USDA notices on farmer payments and contracting; do not interpret a payment-system breach as proof of national food shortages.",
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/us-department-agriculture-breached-by-hackers-this-week-nbc-news-reports-2026-11-20/"
+        },
+        {
+          "label": "Nextgov/FCW",
+          "url": "https://www.nextgov.com/cybersecurity/2026/11/usda-grapples-security-breach-it-staff-take-multiple-systems-offline/417350/"
+        }
+      ],
+      "body": "What changed: Reuters relayed new reporting of hacker access to a USDA system used for farmer payments; Nextgov separately reported internal password resets and multiple applications taken offline.\n\nStatus: Reported breach and documented service disruptions. The complete scope, data exposure and recovery status are not yet established.\n\nWhy watch: Watch USDA notices on farmer payments and contracting; do not interpret a payment-system breach as proof of national food shortages."
+    },
+    {
+      "date": "2026-11-21",
+      "edition_date": "2026-11-21",
+      "byline": "UI News Desk",
+      "id": "hack-20261121-eu-commission",
+      "title": "European Commission Confirms AI-Assisted Cyberattack",
+      "category": "CYBER / PUBLIC INSTITUTIONS",
+      "url": "https://apnews.com/article/79705095e8141cd650196dbff1cf3c70",
+      "source": "AP · Reuters · November 19, 2026",
+      "what_changed": "The Commission confirmed an attack detected October 22 that disrupted some digital tools. Investigation of the scale and any exposed data continues.",
+      "status": "Attack confirmed by Commission; affected systems and attribution remain under investigation. No evidence of a staff-wide data breach was reported.",
+      "why_watch": "Track official restoration updates and the investigation; AI assistance alone does not establish the attacker identity or technique.",
+      "sources": [
+        {
+          "label": "Associated Press",
+          "url": "https://apnews.com/article/79705095e8141cd650196dbff1cf3c70"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/eu-commission-targeted-cyberattack-politico-reports-2026-11-19/"
+        }
+      ],
+      "body": "What changed: The Commission confirmed an attack detected October 22 that disrupted some digital tools. Investigation of the scale and any exposed data continues.\n\nStatus: Attack confirmed by Commission; affected systems and attribution remain under investigation. No evidence of a staff-wide data breach was reported.\n\nWhy watch: Track official restoration updates and the investigation; AI assistance alone does not establish the attacker identity or technique."
+    },
     {
       "date": "2026-11-20",
       "edition_date": "2026-11-20",
