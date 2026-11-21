@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T02:29:33.056097+00:00",
+  "updated_at": "2026-11-21T11:18:14.353453+00:00",
   "points": [
     {
       "ip": "23.94.68.19",
@@ -50,12 +50,6 @@
       "country": "France"
     },
     {
-      "ip": "176.65.148.243",
-      "lat": 50.8658269,
-      "lon": 6.062466,
-      "country": "Netherlands"
-    },
-    {
       "ip": "173.249.33.72",
       "lat": 48.9751523,
       "lon": 8.1784569,
@@ -90,12 +84,6 @@
       "lat": -20.4227819,
       "lon": -49.9727786,
       "country": "Brazil"
-    },
-    {
-      "ip": "194.180.49.217",
-      "lat": 52.2297666,
-      "lon": 21.0117787,
-      "country": "Poland"
     },
     {
       "ip": "194.180.49.218",
@@ -187,16 +175,6 @@
     },
     {
       "type": "network",
-      "title": "Reported suspicious source · 176.65.148.243",
-      "note": "SANS ISC top-source snapshot; not an identified attacker, victim, or completed attack.",
-      "date": "2026-11-21",
-      "url": "https://www.dshield.org/ipinfo.html?ip=176.65.148.243",
-      "source": "SANS ISC DShield",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "network",
       "title": "Reported suspicious source · 173.249.33.72",
       "note": "SANS ISC top-source snapshot; not an identified attacker, victim, or completed attack.",
       "date": "2026-11-21",
@@ -251,16 +229,6 @@
       "note": "SANS ISC top-source snapshot; not an identified attacker, victim, or completed attack.",
       "date": "2026-11-21",
       "url": "https://www.dshield.org/ipinfo.html?ip=177.129.99.94",
-      "source": "SANS ISC DShield",
-      "sector": "unclassified",
-      "importance": "unrated"
-    },
-    {
-      "type": "network",
-      "title": "Reported suspicious source · 194.180.49.217",
-      "note": "SANS ISC top-source snapshot; not an identified attacker, victim, or completed attack.",
-      "date": "2026-11-21",
-      "url": "https://www.dshield.org/ipinfo.html?ip=194.180.49.217",
       "source": "SANS ISC DShield",
       "sector": "unclassified",
       "importance": "unrated"
