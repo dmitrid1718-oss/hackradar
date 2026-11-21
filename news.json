@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-20T18:42:41.145078+00:00",
+  "updated_at": "2026-11-21T17:42:39.332338+00:00",
   "feed": "Google News RSS",
   "query": "cybersecurity ransomware cyberattack internet outage critical infrastructure",
   "items": [
     {
-      "title": "Federal cybersecurity gaps leave US food supply vulnerable to ransomware and operational disruptions, GAO warns - Industrial Cyber",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUlBlVFktS3ZuQmp3dEFCRy1POVp4RVYzTGhOUzJFZVpVQWp5MHhFSFVmUUFGQU1VQXVpQkZfWXVlNjNzZV9JQk5RTVZ1azJwbVZjMnlEenYxUWtBbG9UTWIwOWk1b3o4azF1VVZhamhEckF3aWt1cEZGbkJTRl9QbTBqa3N1c2tfa0JMTW9QSUJkNExVbTVRQjR4NVpnR2lqUTgzLUFpM0Z4LWc0OUtBOVhkRnd4ZS13a0x1ZjBuRl8wUXRnQ3RZdDFNYlF0Sm1SN01QWU9KczhKaG9FZlBZ?oc=5",
-      "source": "Industrial Cyber",
-      "published": "2026-11-20T11:50:04+00:00"
+      "title": "‘What the hell is going on?’: Technology outages offer preview of US infrastructure’s messy, risky future - Cybersecurity Dive",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSE54V05VdWJZSE9xTmJRczhvdDNsLWg1RkxTYkdlSnRONGJaeEI5SUdkNjJMMjlpSUtSeFVTVUlsS1MtTGtrQk93VFZyZlAxazdjVHdIcmpPeWVjZVNZOWNWZVUwbDhBZTRXOGVHUUdjZTFTQ0k1TUVzT2dBX2ZOSXhVTkMzN1hCOVF6X1I5X3BHSjVVOTZ2RWNTQQ?oc=5",
+      "source": "Cybersecurity Dive",
+      "published": "2026-11-19T15:53:03+00:00"
     },
     {
       "title": "How to determine if a tech outage is a cyberattack - SC Media",
@@ -16,10 +16,10 @@
       "published": "2026-11-20T17:15:24+00:00"
     },
     {
-      "title": "‘What the hell is going on?’: Technology outages offer preview of US infrastructure’s messy, risky future - Cybersecurity Dive",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSE54V05VdWJZSE9xTmJRczhvdDNsLWg1RkxTYkdlSnRONGJaeEI5SUdkNjJMMjlpSUtSeFVTVUlsS1MtTGtrQk93VFZyZlAxazdjVHdIcmpPeWVjZVNZOWNWZVUwbDhBZTRXOGVHUUdjZTFTQ0k1TUVzT2dBX2ZOSXhVTkMzN1hCOVF6X1I5X3BHSjVVOTZ2RWNTQQ?oc=5",
-      "source": "Cybersecurity Dive",
-      "published": "2026-11-19T15:53:03+00:00"
+      "title": "Federal cybersecurity gaps leave US food supply vulnerable to ransomware and operational disruptions, GAO warns - Industrial Cyber",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUlBlVFktS3ZuQmp3dEFCRy1POVp4RVYzTGhOUzJFZVpVQWp5MHhFSFVmUUFGQU1VQXVpQkZfWXVlNjNzZV9JQk5RTVZ1azJwbVZjMnlEenYxUWtBbG9UTWIwOWk1b3o4azF1VVZhamhEckF3aWt1cEZGbkJTRl9QbTBqa3N1c2tfa0JMTW9QSUJkNExVbTVRQjR4NVpnR2lqUTgzLUFpM0Z4LWc0OUtBOVhkRnd4ZS13a0x1ZjBuRl8wUXRnQ3RZdDFNYlF0Sm1SN01QWU9KczhKaG9FZlBZ?oc=5",
+      "source": "Industrial Cyber",
+      "published": "2026-11-20T11:50:04+00:00"
     },
     {
       "title": "Why everything keeps breaking: Outages, cuts and AI - Epicenter NYC",
@@ -28,34 +28,28 @@
       "published": "2026-11-19T19:58:38+00:00"
     },
     {
-      "title": "Internet outages hit Apple, Google and government systems, but experts say incidents aren't connected - wtsp.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ3EzV0R0WnZEYVB3S1hWWjBEVXhNalFfdzJTT3ZLSFNWdE9jRDhuSzBaTmt5ZW9vNXFlVXB5WHAweUMyajZQcktBUXRfUzR6WWJBVXVrZVNNbGRpYmZPc21IZGRXV1d3OGUzclR1UjFxdWpfLTdxMnpyQU02NG9YdEF0bmdXZ0xRa2Q5a1Iza0tsdEVGZzFWdUVpOEFwSWFndE1icEt5WG1pMHlMdHZPejN3X29abXNlcEZyemk4OA?oc=5",
-      "source": "wtsp.com",
-      "published": "2026-11-18T03:44:00+00:00"
-    },
-    {
-      "title": "How to Tell If It’s a Cyberattack or Just an Outage - WIRED",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUVRiZUNSNVJhVVpYYTRHdGktNWY2UWc3eV81emd3bGw5eEhNVmZ2cTdoTnlzN2oxeWZyLTIzVmZSMS1JeGRSNXZhcThfdEFOc3psQUVhelRWdWtUT2pzZ0IzTXBWRUgwaHpBQWtPZkhlU05HVmYxZEhPUGRxVFpNY1o1RUUxUQ?oc=5",
-      "source": "WIRED",
-      "published": "2026-11-17T19:40:57+00:00"
-    },
-    {
-      "title": "Why so many critical tech outages are happening all at once - Scientific American",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQXzN4eW9rc2o0RHdtXzdfVXhENy1HM3lVSlJzZWtDVHItNjgwa2I1Vkdtd2x6T2Fpc05meVlDYWstLWFlMk9zNEI1cV9CX0tlSVRkVHFEZDFXWUF4S0p4aW1WWjR0cWQtZC1FdW51cHN5SEVvUHdya0w2YnVwdWlkTVRnRDJGQld4Z2FuaWVZalphMk1EZDhXNWtrX3JWXzFjZ250UG9R?oc=5",
-      "source": "Scientific American",
-      "published": "2026-11-18T17:00:00+00:00"
-    },
-    {
-      "title": "Multiple tech systems have been crashing. Here is how to protect yourself - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSWVUT0djTW55S2JCaEt4aWVaWjlNR2JwUkFJVzAzYk1ZRUNudmR4NU1SNVBpV3FnNVhFc1BQZW02UWpEX3Y2ZGhNUWR6RnExV3NkTDJyTjBmNzkxT0hpb1BOd3FvbldURWduYWVNN0o4NGxGVV8xdEpqWVZGbGhQSGpqWVlqeXpaMHg2dHVfZGhjRmhwWkJIcFFkWl93cUU0OGZjcEJwY3BlcEZFRzExREhSVkFkU2ZObmduTXUtSQ?oc=5",
-      "source": "Reuters",
-      "published": "2026-11-17T23:50:00+00:00"
-    },
-    {
       "title": "6 days, 6 major crashes: Why does the internet keep breaking? - Ynetnews",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jbFlHY3dDdEhZUmVaNXhtdjdsdEg4WFlseENVLUx5ZHpoT1NpVmVRZHoxbnY3UHJoTTY5QUFHSDNORExYYmEyYWxoY2FLM3F0ejh3Z1dYcEU5WHdSZWdmRGhrUmh1aHgxc0g4NQ?oc=5",
       "source": "Ynetnews",
       "published": "2026-11-19T08:53:36+00:00"
+    },
+    {
+      "title": "Cyberwarfare Threats Grow as US Tech Outages Raise Cybersecurity Concerns - Beinsure",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LMXlLSVJVWHVVOEtNenNzTlBCbXJ3amhKZy03cmxxS0pSb0xpTmJjMjBsaDFMOVk3VkFnV2t2RjhGZDJJSTJZWXpmTXA2VnBIc2ZHRFF5XzljU2M?oc=5",
+      "source": "Beinsure",
+      "published": "2026-11-20T18:08:28+00:00"
+    },
+    {
+      "title": "Not a technical fault but a cyberattack: the assault on Salt epitomises Switzerland’s vulnerability to hackers targeting its critical infrastructure - Le Temps",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQV3JSaUFzUllycWY0MWh4Zk5uanNEWmFZcm5oa3dOTm1BMk5PZXYxbDdRRVJYWkpOWEpiRXJrYXJiMHE5dlZ6TS1ybUNOWjRreFZhU3NycU1xb194ejZGU1VwQzcxcS1PaUJ4cmo5d1lyTjNsbWptN0NFajJlUUVRcnNXQzBrSENzY1Z3LWdla3R1aFE4VGtSaU1EZFFTcEJqcnJ4ajIxb0VGNVF6NWxOMWc5d0g1WkNpTTU5cWdudWpKSDBwSmRKUS0xMTBKVGY4NFpvQnJtLVZiTWRTc3FidVIxMUFEbm82SS1uZUNLdDVhMnpQWVNSQ2F1aV9GSmdyUzNjNjl5SGJueTg?oc=5",
+      "source": "Le Temps",
+      "published": "2026-11-20T20:29:51+00:00"
+    },
+    {
+      "title": "White House ousts cybersecurity chief amid tech failures - Escudo Digital",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSmN3U05DeE1IaU1PZHR4aTBkTllUMjNubExoLUVkUTRnaVZrVVl0ZDRLVlpmZDE1N2dtZFlrZ0lPTlRvWDRIVnRvVzdlcGpiaEZZMjZOdm1RWDJaNks0aWxCbnNDRDBNRHZjMkpfWjlOVGtzRVU3MjVkdEdCRjAwcFp4N0hJVEYxQmZmSm9yaTZFUXZDRmJmd3RkQ3hnQ0hrNkF1WjRBd0lZRzU1?oc=5",
+      "source": "Escudo Digital",
+      "published": "2026-11-20T11:05:25+00:00"
     },
     {
       "title": "Global tech outages expose Cayman’s digital vulnerabilities - Cayman Compass",
@@ -76,10 +70,22 @@
       "published": "2026-11-20T11:03:00+00:00"
     },
     {
+      "title": "Satya Nadella Unpatchable Infrastructure Warning (Nov 2026) - explainx.ai",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNakY5MHBxVkM0eDZmLW5Gc1BqQ0ZscG9nMTBHcXI0QkZpZzY5ckVvd3N1TktMVG5qVlNBOXdLenhQYi1pbW1OY3FIQXpDYVBVbVZLQnB0aVlyQy16OHcyMDQ4bjROMlR5bGNwcG12cHpsQ001amtCMFBrRUtxRWhXcWhhWTJDRG5yc05hTkV1Z2dOdw?oc=5",
+      "source": "explainx.ai",
+      "published": "2026-11-19T00:00:00+00:00"
+    },
+    {
       "title": "Grocery Store Attacks Highlight a Growing Food Safety Concern—Cybersecurity - U.S. Government Accountability Office (.gov)",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOc1VjRWM1N2g1LUR5Q0dFQVNtdG5pUzVEc3lCckZFWkJKYmVUQzFLaFQ2S3J2alM2UHg0UEpKeFZPWHAyS1JzQjY0dWJmUWZMWnhXempPTWF6cElHdTQ5UjYxekluc2I0c3hMRGpIcUJMOHJoV1dzcGJQRzhPS2JRT1ZJd094U0FWMHA5NU0yN28tUHZaOVVmSHNFWTRMZ28?oc=5",
       "source": "U.S. Government Accountability Office (.gov)",
       "published": "2026-11-19T14:01:25+00:00"
+    },
+    {
+      "title": "Is the U.S. Facing a Coordinated Cyberattack? - The Dispatch",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzV2xFcHY5bk9RS1hsTUNvemdHeVBFNGpIWWpsSVBGYUdVclg4WDZ2ZDE2eVNEZDZLaEx5d2E5UFVIZ3p6Q25SWXVWRl9jUWl5VlZxel8zVF9mTGRocWhvaWFiOF9LQUVxTC1tN01ZVjI?oc=5",
+      "source": "The Dispatch",
+      "published": "2026-11-20T06:04:47+00:00"
     },
     {
       "title": "The Day the Screens Go Dark: Organizational Resilience in an Era of Converging Risk - Security Info Watch",
@@ -92,12 +98,6 @@
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQUnMwQVh6UVQ2eDROM3Ffb0h5eTVPZjFZQnpxRFBrSktvSEJrOFkyc3c0NGZCOHJta2U5TkozaHFIZ0JxZDhEbFlUSE1PUGxwQVplZUg1WGZTeml3TVBuUll4QzVIcU52R295QmJVc2NEUnJHdlV6S2tCM1BQdlVVTE4zWWwtVDZ1Q29ibmUwRXRYLWpNMWw2aklsR1Q5RVJfZkl1V1h3RDR1RzRMbWt2MVBXZDJ4TFVpZXRhbUhwUDFmYmRuYl9YZzhTcXlTckdGNlVUS3pyWU1mRFJKdVRiVGNkNXJfUE9uZ2tUUWRNTUtLTVBrYm84X041ck5iZHc4OEF6UFVTTDRvcmtqS2tXOG1fejhpZw?oc=5",
       "source": "KRXI2",
       "published": "2026-11-19T00:21:36+00:00"
-    },
-    {
-      "title": "The Great Cyberattack Mania: Why Everyone Falsely Thinks America Is Under Attack - Emerald Book",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PM1ktTzVpMHRKVVNVX3phcHF5ZWpnYXE3OVJPTE1saGhBZmxSLWtfUHE3LUpXVl9TR0pqNUNBSWFjdlRWY0VXcGJJNTNwTHc2S0E?oc=5",
-      "source": "Emerald Book",
-      "published": "2026-11-18T06:38:50+00:00"
     },
     {
       "title": "JPMorganChase, Mastercard, Visa report cyberattack on third-party service providers - ABC News - Breaking News, Latest News and Videos",
