@@ -1,111 +1,103 @@
 {
-  "updated_at": "2026-11-20T08:52:59-06:00",
-  "window": "Editorial assessment 19 Nov 08:52:59–20 Nov 08:52:59 America/Chicago. Ukrainian Air Force preliminary attack window 19 Nov 18:00–20 Nov 10:30 Kyiv time; Russian MoD overnight claim 19–20 Nov (exact start/end not independently confirmed). Distinct windows; do not add as synchronized totals.",
-  "source_url": "https://www.pravda.com.ua/eng/news/2026/11/20/8063769/",
-  "reporting_side": "Ukrainian Air Force preliminary official claims reported by Ukrainska Pravda/Ukrinform; Russian Defense Ministry claims relayed by Interfax; Reuters and Financial Times report civilian effects citing local authorities; Polish defense officials' airspace claims reported by Reuters.",
+  "updated_at": "2026-11-21T08:51:57-06:00",
+  "window": "Editorial 24h assessment 2026-11-20 08:51:57 to 2026-11-21 08:51:57 America/Chicago; Ukraine Air Force preliminary 20 Nov 18:00–21 Nov 08:00 Kyiv time; Russian MoD 20 Nov 20:00–21 Nov 08:00 Moscow time. Windows differ; no synchronized totals.",
+  "source_url": "https://www.ukrinform.net/amp/rubric-ato/4187055-air-defense-neutralizes-117-of-148-russian-drones-launched-against-ukraine-overnight.html",
+  "reporting_side": "Ukrainian Air Force via Ukrinform and RBC-Ukraine; Russian Defense Ministry via 8am.media/TASS and Voennoye Delo; civilian effects via Kyiv Independent and local-official accounts. All operational counts attributed, not independently verified.",
   "totals": {
-    "drones": 404,
-    "missiles": null,
+    "drones": 148,
+    "missiles": 3,
     "aircraft": null
   },
   "interceptions": {
-    "ukraine_reports_russian_drones_neutralized": 380,
-    "russia_reports_ukrainian_drones_intercepted": 310
+    "ukraine_reports_russian_drones_neutralized": 117,
+    "russia_reports_ukrainian_drones_intercepted": 275
   },
   "reported_impacts": {
-    "ukraine_locations": 23,
-    "ukraine_debris_locations": 10
+    "ukraine_locations": 19,
+    "ukraine_debris_locations": 9
   },
   "historical_comparison": null,
   "locations": [],
-  "notes": "PRELIMINARY / ATTRIBUTED, NOT VERIFIED AIRCRAFT TRACKS. Ukrainian Air Force reports 404 drones launched (123 jet-powered), 84 cruise missiles and an unspecified number of ballistic/anti-ship missiles; total missile launch count unavailable/null. Reports 380 drones and 82 missiles neutralized/suppressed (79 cruise, 3 ballistic/anti-ship), 23 impact locations and 10 debris locations as of 10:30 Kyiv. Russian Defense Ministry claims 310 Ukrainian fixed-wing drones intercepted overnight, independently unverified. Reuters reports eight killed in Ukraine (six Kyiv, two Lviv), with casualties based on Ukrainian officials; Kyiv bridge damage and water/power disruption; regional impact details provisional. Polish defense officials report three airspace violations, including likely missiles and drone; Reuters reports Rzeszow airport air-traffic-controller evacuation. Russian Smolensk governor reports industrial/energy/home damage with no casualties; Kursk governor reports injuries in a potentially differing 24h window, not merged. No independently verified aircraft losses. Earlier Russian record claim 1,336 from 16–17 Nov is excluded. Avoid summing official tallies across mismatched windows.",
+  "notes": "PRELIMINARY ATTRIBUTED COUNTS. Ukraine Air Force reports 148 drones including 87 jet-powered and three ballistic missiles; 117 drones shot down/suppressed as of 08:00 Kyiv; missile interceptions not specified/null. Russian MoD claims 275 drones intercepted in its separate 12h Moscow window, independently unverified. Ukraine Air Force reports impacts at 19 locations and debris at nine. Kryvyi Rih local officials report two dead (child and paramedic) and dozens injured; broader nationwide casualty reporting has different windows and is not aggregated. Kyiv morning missile strike and residential fires reported. Leningrad Oblast governor reports interceptions; Ust-Luga port strike is social-media allegation, unverified, excluded from confirmed impacts. No independently verified aircraft losses. No independently verified airspace closures. Historic 1,336 interception record claim excluded.",
   "sources": [
     {
-      "label": "Ukrainska Pravda / Ukrainian Air Force 20 Nov",
-      "url": "https://www.pravda.com.ua/eng/news/2026/11/20/8063769/",
-      "published": "2026-11-20 11:00 (publisher local time; timezone unspecified)"
+      "label": "Ukrinform / Ukrainian Air Force Nov 21",
+      "url": "https://www.ukrinform.net/amp/rubric-ato/4187055-air-defense-neutralizes-117-of-148-russian-drones-launched-against-ukraine-overnight.html",
+      "published": "2026-11-21 09:17 (publisher local time; timezone not explicitly stated)"
     },
     {
-      "label": "Ukrinform / Ukrainian Air Force 20 Nov",
-      "url": "https://www.ukrinform.net/rubric-ato/4186737-ukraines-air-defenses-down-82-missiles-380-russian-drones-overnight.html",
-      "published": "2026-11-20 12:00 (publisher local time; timezone unspecified)"
+      "label": "RBC-Ukraine / Ukrainian Air Force Nov 21",
+      "url": "https://newsukraine.rbc.ua/news/russia-launches-ballistic-missiles-and-148-1795245192.html",
+      "published": "2026-11-21 09:30 (publisher local time; timezone not explicitly stated)"
     },
     {
-      "label": "Interfax / Russian Defense Ministry 20 Nov",
-      "url": "https://www.interfax.ru/russia/1130333",
-      "published": "2026-11-20 08:56 (Moscow local time as publisher context)"
+      "label": "8am.media / TASS / Russian MoD Nov 21",
+      "url": "https://8am.media/eng/russia-shoots-down-275-ukrainian-drones/",
+      "published": "2026-11-21 (exact original publication time unavailable)"
     },
     {
-      "label": "Reuters / Ukraine regional officials 20 Nov",
-      "url": "https://www.reuters.com/world/europe/fire-broke-out-ukraines-kyiv-after-missile-strike-mayor-says-2026-11-20/",
-      "published": "2026-11-20 (exact original time unavailable)"
+      "label": "Voennoye Delo / Russian MoD Nov 21",
+      "url": "https://voennoedelo.com/en/posts/id22485-russian-air-defenses-destroy-275-ukrainian-drones-overnight",
+      "published": "2026-11-21 10:38 (publisher local time; timezone unspecified)"
     },
     {
-      "label": "Reuters / Polish defense officials 20 Nov",
-      "url": "https://www.reuters.com/business/aerospace-defense/polish-army-investigates-report-unknown-objects-near-ukraine-border-2026-11-20/",
-      "published": "2026-11-20 (exact original time unavailable)"
+      "label": "Kyiv Independent / civilian effects Nov 21",
+      "url": "https://kyivindependent.com/russian-attacks-kill-at-least-2-injure-83-across-ukraine-as-strikes-devastate-kryvyi-rih/",
+      "published": "2026-11-21 10:58 (publisher local time; timezone unspecified)"
     },
     {
-      "label": "Anadolu Agency / Smolensk governor 20 Nov",
-      "url": "https://www.aa.com.tr/ru/%D0%BC%D0%B8%D1%80/%D0%B2-%D0%BC%D0%B8%D0%BD%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D0%BD%D1%8B-%D1%80%D1%84-%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B8%D0%BB%D0%B8-%D0%BE-%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%B2%D0%B0%D1%82%D0%B5-310-%D0%B1%D0%BF%D0%BB%D0%B0-%D0%B7%D0%B0-%D0%BD%D0%BE%D1%87%D1%8C-/4131868",
-      "published": "2026-11-20 (exact original time unavailable)"
+      "label": "NV Ukraine / Leningrad Oblast claims Nov 21",
+      "url": "https://english.nv.ua/nation/leningrad-oblast-attacked-by-drones-on-nov-21-video-50661253.html",
+      "published": "2026-11-21 14:28 (publisher local time; timezone unspecified; may be after assessment cutoff, contextual only)"
     }
   ],
   "assessment": {
-    "assessed_at": "2026-11-20T08:52:59-06:00",
-    "window_start": "2026-11-19T08:52:59-06:00",
-    "window_end": "2026-11-20T08:52:59-06:00",
-    "ukraine_air_force_neutralized_total_targets": 462,
-    "ukraine_air_force_drones_jet_powered_claim": 123,
+    "assessed_at": "2026-11-21T08:51:57-06:00",
+    "window_start": "2026-11-20T08:51:57-06:00",
+    "window_end": "2026-11-21T08:51:57-06:00",
+    "ukraine_air_force_neutralized_total_targets": null,
+    "ukraine_air_force_drones_jet_powered_claim": 87,
+    "ukraine_air_force_missiles_launched_claim": 3,
+    "ukraine_air_force_missiles_intercepted_claim": null,
     "independently_verified_aircraft_losses": null,
     "verified_airspace_status": null,
     "regional_impacts": [
       {
+        "region": "Kryvyi Rih, Dnipropetrovsk Oblast, Ukraine",
+        "summary": "Local authorities report two deaths including a child and paramedic and dozens of injuries following strikes; reported damage to buildings",
+        "status": "civilian effects reported by multiple outlets, casualty figures attributed to regional officials"
+      },
+      {
         "region": "Kyiv, Ukraine",
-        "summary": "Reuters reports damaged Dnipro bridges, water pressure disruptions and power interruptions; six deaths reported by Ukrainian officials",
-        "status": "civilian effects reported by Reuters; casualty count attributed to officials"
+        "summary": "Morning missile strike reported; residential fires in Podilskyi district",
+        "status": "reported by RBC-Ukraine citing officials; preliminary"
       },
       {
-        "region": "Lviv, Ukraine",
-        "summary": "Two reported killed at Sknyliv railway station; energy and railway disruptions in western Ukraine",
-        "status": "Reuters reporting based on Ukrainian officials"
-      },
-      {
-        "region": "Kharkiv and Dnipropetrovsk, Ukraine",
-        "summary": "Injuries and infrastructure impacts reported in overnight barrage; exact attributable totals unavailable",
-        "status": "Reuters reporting; provisional"
-      },
-      {
-        "region": "Smolensk Oblast, Russia",
-        "summary": "Governor reports industrial and energy facilities and private home damaged, no casualties",
-        "status": "Russian regional official claim relayed by Anadolu; not independently corroborated"
-      },
-      {
-        "region": "Southeastern Poland",
-        "summary": "Polish defense officials report three likely Russian objects violated airspace; Reuters reports evacuation of air-traffic controllers at Rzeszow airport",
-        "status": "official Polish claim, independently reported by Reuters; object identities under investigation"
+        "region": "Leningrad Oblast, Russia",
+        "summary": "Governor reports drone interceptions; online reports allege Ust-Luga port strike",
+        "status": "official interception claim and separately unverified online port allegation"
       }
     ],
     "notable_claims": [
       {
-        "claim": "404 drones and 84 cruise missiles launched, plus unspecified ballistic/anti-ship missiles; 380 drones and 82 missiles neutralized/suppressed",
+        "claim": "148 drones (87 jet-powered) and 3 ballistic missiles launched; 117 drones neutralized; impacts at 19 locations",
         "attribution": "Ukrainian Air Force",
-        "verification": "preliminary official claim; total missile launches null; independent verification unavailable"
+        "verification": "preliminary official claim, independent counts unavailable"
       },
       {
-        "claim": "310 Ukrainian fixed-wing drones intercepted overnight",
+        "claim": "275 Ukrainian drones intercepted from 20:00 Nov 20 to 08:00 Nov 21 Moscow time",
         "attribution": "Russian Defense Ministry",
-        "verification": "official claim reported by Interfax; independently unverified"
+        "verification": "official claim, independently unverified"
       },
       {
-        "claim": "Three likely Russian objects violated Polish airspace",
-        "attribution": "Polish defense officials",
-        "verification": "official finding reported by Reuters; precise object identities still under investigation"
+        "claim": "Ust-Luga port hit",
+        "attribution": "online eyewitness/social-media reports relayed by NV Ukraine",
+        "verification": "unverified; excluded from confirmed impact totals"
       },
       {
-        "claim": "1,336 drones intercepted during Nov 16–17",
-        "attribution": "Russian Defense Ministry via AP",
-        "verification": "historical record claim, independently unverified, excluded from current totals"
+        "claim": "1,336 drones intercepted Nov 16–17",
+        "attribution": "Russian Defense Ministry historical claim",
+        "verification": "attributed/unverified; excluded from current totals"
       }
     ]
   }
