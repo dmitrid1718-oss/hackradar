@@ -1,9 +1,37 @@
 {
   "edition": "2026-11-21",
-  "edition_title": "November 21, 2026 · Verified morning follow-up",
+  "edition_title": "November 21, 2026 · FBI NCIC developing story",
   "byline": "UI News Desk",
   "updated_at": "2026-11-21",
   "items": [
+    {
+      "date": "2026-11-21",
+      "edition_date": "2026-11-21",
+      "byline": "UI News Desk",
+      "id": "hack-20261121-fbi-ncic-suspected-intrusion",
+      "title": "FBI Investigates Suspected Intrusion Into Nationwide NCIC Crime Database",
+      "category": "CYBER / LAW ENFORCEMENT INFRASTRUCTURE / DEVELOPING",
+      "url": "https://www.reuters.com/world/us/fbis-criminal-information-database-hacked-cnn-reports-2026-11-21/",
+      "source": "CNN · Reuters · NBC News · November 20–21, 2026",
+      "what_changed": "CNN reported, citing two people briefed on the investigation, that the FBI is investigating an apparent intrusion involving its National Crime Information Center (NCIC), used by law-enforcement agencies nationwide to share criminal-justice records. Reuters and NBC News separately covered the suspected incident.",
+      "status": "Reported suspected breach, under investigation. As of November 21 no publicly verified assessment establishes attacker identity, access method, data theft or modification, or nationwide operational disruption. Reuters reported that the FBI did not respond to a request for comment.",
+      "why_watch": "Watch for direct FBI/CJIS confirmation, extent of any access, database availability and record integrity, agency guidance, and independently documented impacts. Do not combine this incident with other outages into a coordinated 'cyber pandemic' without evidence.",
+      "body": "What changed: CNN reported, citing two people briefed on the investigation, that the FBI is investigating an apparent intrusion involving its National Crime Information Center (NCIC), used by law-enforcement agencies nationwide to share criminal-justice records. Reuters and NBC News separately covered the suspected incident.\n\nStatus: Reported suspected breach, under investigation. As of November 21 no publicly verified assessment establishes attacker identity, access method, data theft or modification, or nationwide operational disruption. Reuters reported that the FBI did not respond to a request for comment.\n\nWhy watch: Watch for direct FBI/CJIS confirmation, extent of any access, database availability and record integrity, agency guidance, and independently documented impacts. Do not combine this incident with other outages into a coordinated 'cyber pandemic' without evidence.",
+      "sources": [
+        {
+          "label": "CNN original reporting",
+          "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/20/the-fbi-was-hacked-again-this-time-the-breach-targeted-its-crime-database/"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/world/us/fbis-criminal-information-database-hacked-cnn-reports-2026-11-21/"
+        },
+        {
+          "label": "NBC News",
+          "url": "https://www.nbclosangeles.com/news/national-international/fbi-investigating-potential-breach-crime-database/3973742/"
+        }
+      ]
+    },
     {
       "date": "2026-11-21",
       "edition_date": "2026-11-21",
